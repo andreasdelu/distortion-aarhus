@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88.3" height="50.172" viewBox="0 0 88.3 50.172">
+	<g transform="translate(2.5 2.5)">
+		<path d="M82.462,2.5H52.179a1.381,1.381,0,0,0-.937.359L46.776,6.984l-4.3-3.974a1.386,1.386,0,0,0-.937-.359H3.824A1.277,1.277,0,0,0,2.5,3.874V17.24l3.24,2.992a6.666,6.666,0,0,1,.252,9.723L2.5,33.5V46.642a.916.916,0,0,0,.95.878h38.7a.992.992,0,0,0,.672-.257l4.412-4.075,4.4,4.064a1.62,1.62,0,0,0,1.1.42H81.968A3.815,3.815,0,0,0,85.8,44.133V6.039A3.7,3.7,0,0,0,81.968,2.5H52.085" transform="translate(-2.5 -2.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5" />
+		<text transform="translate(43.571 30)" fill="#000" font-size="17" font-family="BebasNeuePro-SmEBd, Bebas Neue Pro">
+			<tspan x="-30.541" y="0">
+				BILLETTER
+			</tspan>
+		</text>
+	</g>
+</svg>

@@ -8,35 +8,87 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav id="navmenu">
+    <header id="forside-header">
+        <div id="logo-date">
+            <img id="small-logo" src="images/logo.png" alt="Aarhus Distortion Logo">
+            <p>7. - 11. JUNI 2023</p>
+        </div>
+        <div id="header-icons">
+            <div id="languages">
+                <a id="danish" class="language-selected" href="#">DA</a> / <a id="english" href="#">ENG</a>
+            </div>
+            <a id="ticket" href="#">
+                <img id="ticket-norip" src="images/ticket.svg" alt="ticket icon">
+                <img id="ticket-rip" src="images/ticket_rip.svg" alt="ticket icon">
+            </a>
+            <div id="burger-container">
+                <svg id="burger" xmlns="http://www.w3.org/2000/svg" width="55.5" height="49.672" viewBox="0 0 55.5 49.672">
+                    <g id="burger-g" transform="translate(-183.709 2)">
+                      <line id="Line_89" data-name="Line 89" x1="55" transform="translate(184.209 0.5)" fill="none" stroke="#000" stroke-width="5"/>
+                      <line id="Line_90" data-name="Line 90" x1="55" transform="translate(183.709 22.586)" fill="none" stroke="#000" stroke-width="5"/>
+                      <line id="Line_91" data-name="Line 91" x1="55" transform="translate(184.209 45.172)" fill="none" stroke="#000" stroke-width="5"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+    </header>
+    <!-- <nav id="navmenu">
         <ul>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Menu</a></li>
         </ul>
-    </nav>
-    <img id="burger" src="images/burger.svg" alt="burger menu icon">
+    </nav> -->
+      
     <main>
-        <section id="hero">
-            <img id="logo" src="images/logo.png" alt="Aarhus Distortion Logo">
-            <div class="timer">
-                <h2>STARTER OM:</h2>
-                <div id="countdown">
-                    <div class="countdown-nums" id="countdown-days"></div>
-                    <div class="countdown-nums" id="countdown-hours"></div>
-                    <div class="countdown-nums" id="countdown-mins"></div>
-                    <div class="countdown-nums" id="countdown-secs"></div>
-                    <p class="countdown-text">Dage</p>
-                    <p class="countdown-text">Timer</p>
-                    <p class="countdown-text">Minutter</p>
-                    <p class="countdown-text">Sekunder</p>
-                    <script src="js/countdown.js"></script>
+        <div id="video">
+            <video autoplay muted loop>
+                <source src="images/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <section id="top">
+            <div class="left-section"></div>
+            <div class="right-section">
+                <img id="logo" src="images/logo.png" alt="Aarhus Distortion Logo">
+                <div class="timer">
+                    <h2>STARTER OM:</h2>
+                    <div id="countdown">
+                        <div class="countdown-nums" id="countdown-days"></div>
+                        <div class="countdown-text">D</div>
+                        <div class="countdown-nums tens" id="countdown-hours-tens"></div>
+                        <div class="countdown-nums" id="countdown-hours"></div>
+                        <div class="countdown-text">H</div>
+                        <div class="countdown-nums tens" id="countdown-mins-tens"></div>
+                        <div class="countdown-nums" id="countdown-mins"></div>
+                        <div class="countdown-text">M</div>
+                        <div class="countdown-nums tens" id="countdown-secs-tens"></div>
+                        <div class="countdown-nums" id="countdown-secs"></div>
+                        <div class="countdown-text">S</div>
+                        <script src="js/countdown.js"></script>
+                    </div>
                 </div>
+                <p class="top-tekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium repellat modi doloribus necessitatibus nam minima reprehenderit pariatur, nobis amet ullam, et optio esse possimus quos vero. Nobis, quis nostrum?
+                Enim dolorum voluptatem corrupti minus natus tempore saepe sunt molestiae, exercitationem perferendis assumenda nobis, facilis dolorem mollitia aperiam expedita eius quae quas doloribus! Sint unde ducimus eaque animi dicta. Repellendus.</p>    
             </div>
-            <p class="hero-tekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium repellat modi doloribus necessitatibus nam minima reprehenderit pariatur, nobis amet ullam, et optio esse possimus quos vero. Nobis, quis nostrum?
-            Enim dolorum voluptatem corrupti minus natus tempore saepe sunt molestiae, exercitationem perferendis assumenda nobis, facilis dolorem mollitia aperiam expedita eius quae quas doloribus! Sint unde ducimus eaque animi dicta. Repellendus.</p>
+        </section>
+        <section id="program">
+            <div class="left-section"><h2 class="section-title">PROGRAM<h2 class="section-title-outline">PROGRAM</h2></h2></div>
+            <div class="right-section">
+            </div>
+        </section>
+        <section id="billetter">
+            <div class="left-section"><h2 class="section-title">BILLETTER<h2 class="section-title-outline">BILLETTER</h2></h2></div>
+            <div class="right-section">
+            </div>
+        </section>
+        <section id="kort">
+            <div class="left-section"><h2 class="section-title">KORT<h2 class="section-title-outline">KORT</h2></h2></div>
+            <div class="right-section">
+            </div>
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
