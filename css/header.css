@@ -167,7 +167,7 @@
 
 #navmenu{
     width: 50vw;
-    height: 100vh;
+    height: fit-content;
     position: fixed;
     top: 0px;
     right: -100%;
@@ -175,6 +175,8 @@
     margin: 0;
     padding: 0;
     background-color: var(--bg-clr);
+    height: 100vh;
+    overflow: scroll;
     display: flex;
     align-items: center;
     transition: right 0.3s ease-in-out;
@@ -185,13 +187,17 @@
     padding: 0;
     padding-left: 4rem;
     margin: 0;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #navmenu li{
     padding: 0;
-    margin: 3rem 0;
     width: fit-content;
     position: relative;
+    margin: 20px 0;
 }
 
 #navmenu li a{
@@ -232,22 +238,22 @@
     right: -1.3rem;
 }
 #link-program:hover:after{
-    background-color: rgb(255, 56, 56);
+    background-color: rgb(255, 90, 90);
 }
 #link-billetter:hover:after{
-    background-color: rgb(56, 86, 255);
+    background-color: rgb(82, 108, 255);
 }
 #link-kort:hover:after{
-    background-color: rgb(152, 255, 56);
+    background-color: rgb(176, 255, 102);
 }
 #link-merch:hover:after{
-    background-color: rgb(255, 175, 56);
+    background-color: rgb(253, 190, 96);
 }
 #link-om:hover:after{
-    background-color: rgb(209, 56, 255);
+    background-color: rgb(222, 113, 255);
 }
 #link-frivillig:hover:after{
-    background-color: rgb(56, 242, 255);
+    background-color: rgb(105, 203, 255);
 }
 
 

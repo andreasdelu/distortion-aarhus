@@ -126,11 +126,9 @@ section{
     color: white;
     padding: 1rem;
     font-size: 1.1rem;
-
-    /* box-shadow: 0 0 0 8px white,
-    0 0 0 10px black,
-    0 0 0 12px white; */
 }
+
+/* Countdown timer */
 
 #countdown {
     
@@ -206,4 +204,28 @@ section{
     #navmenu{
         width: 100vw;
     }
+}
+
+/* Artist karrussel */
+
+#artist-karrussel{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.karrussel{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-image: url("../images/artistkarrussel.webp");
+}
+
+/* Knap styling */
+
+.button{
+    display: block;
+    padding: 0.5rem 1rem;
+    outline: 5px solid black;
 }
