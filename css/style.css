@@ -211,7 +211,7 @@ section{
 #artist-karrussel{
     height: 50%;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
 }
 
 .karrussel{
@@ -225,7 +225,51 @@ section{
 /* Knap styling */
 
 .button{
+    width: 13ch;
     display: block;
     padding: 0.5rem 1rem;
     outline: 5px solid black;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* footer styling */
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    margin-top: auto;
+}
+
+.socials{
+    width: 90%;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 0 0em 0;
+}
+
+address{
+    font-style: normal;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 2em;
+}
+
+address h4{
+    font-size: 2rem;
+    font-weight: 300;
 }

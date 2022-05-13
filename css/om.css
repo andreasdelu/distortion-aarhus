@@ -5,5 +5,23 @@
     text-align: center;
     padding: 30px 0px;
     font-size: 4rem; 
+}
 
+.side_skift {
+    display: flex;
+    justify-content: space-around;
+    width: 35%; 
+    margin: 16px;
+}
+
+.underoverskrift {
+    margin: 40px;
+    font-size: 2rem;
+}
+
+.omos_wrapper {
+    padding: 1em; 
+    display: grid; 
+    Grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em; 
 }
