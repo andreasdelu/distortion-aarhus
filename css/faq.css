@@ -1,6 +1,7 @@
 .right-section {
     height: fit-content; 
-    justify-content: flex-start!important; 
+    /* align-items: flex-start; 
+    text-align: start; */
 }
 
 .wrapper_overskrift {
@@ -10,6 +11,11 @@
     width: 100%; 
     padding: 30px 0px;
     margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
 }
 
 .overskrift {
@@ -31,20 +37,36 @@
     margin: 16px;
 }
 
+.under_overskrifter {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
 .faq {
     border-bottom: 2px solid black;
 }
 
+.spgs {
+    max-width: 200px;
+    min-width: 200px;
+}
+
 details {
-    background: #eee;
-    margin-bottom: 2rem;
-    padding: .5rem 1rem;
-  }
-  
-  summary {
+    margin-bottom: 7px;
+}
+
+details > summary {
+    background-color: #fdb;
     cursor: pointer;
+    padding: 20px 20px;
   }
   
-  summary > * {
+  details > summary > * {
     display: inline;
+  }
+  
+  details > div {
+    border: 2px solid #fdb;
+    margin-top: 0;
+    padding: 1rem;
   }
