@@ -1,22 +1,17 @@
 const outlines = document.querySelectorAll('.section-title-outline');
 const karrusselTop = document.querySelector(".karrussel-top")
 const karrusselBot = document.querySelector(".karrussel-bot")
-const ticketAnim = document.getElementById("ticketanim");
-const ctx = ticketAnim.getContext("2d");
 
 const program = document.getElementById('program');
 const billetter = document.getElementById('billetter');
 const kort = document.getElementById('kort');
 const merch = document.getElementById('merch');
 
-const scrollOffset = 400
-
 
 window.addEventListener("scroll", () => {
     
     requestAnimationFrame(outlineScroll)
     requestAnimationFrame(karrusselScroll)
-    requestAnimationFrame(checkScroll);
 
 })
 
@@ -32,54 +27,8 @@ function outlineScroll() {
     outlines[3].style.top = (merch.offsetTop - scrollY+200)/34 + "%";
 }
 
-
-let ticketUrl = "../images/ticketseq/webp/ticketanim"
-
-const frames = 142
-
-function preloadImages() {
-    for (let i = 1; i < frames; i++) {
-        const img = new Image()
-        img.src = ticketUrl + i.toString().padStart(3, "0") + ".webp";
-    }
-}
-
-const ticketImg = new Image()
-ticketImg.src = ticketUrl + "000.webp"
-ticketAnim.width = 500;
-ticketAnim.height = 500;
-ticketImg.onload = () => {
-    ctx.drawImage(ticketImg, 0, 0)
-}
-
-function updateCanvas(i) {
-    ticketImg.src = ticketUrl + i.toString().padStart(3, "0") + ".webp";
-    ticketImg.onload = () => {
-        ctx.drawImage(ticketImg, 0, 0)
-    }
-}
-
-function checkScroll() {
-    if(scrollY + scrollOffset <= billetter.offsetTop){
-        requestAnimationFrame(updateCanvas(0))
-    }
-    if (scrollY + scrollOffset >= billetter.offsetTop) {
-        const diff = Math.floor((scrollY + scrollOffset - billetter.offsetTop)/2.8)
-        if(scrollY + scrollOffset > billetter.offsetTop + billetter.offsetHeight){
-            requestAnimationFrame(updateCanvas(141))
-            return;
-        }
-        if (diff >= 0 && diff <= 142) {
-            requestAnimationFrame(updateCanvas(diff))
-        }
-    }
-}
-
-preloadImages()
-
 requestAnimationFrame(outlineScroll)
 requestAnimationFrame(karrusselScroll)
-requestAnimationFrame(checkScroll);
 
 
 

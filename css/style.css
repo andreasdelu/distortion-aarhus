@@ -73,6 +73,14 @@ section{
     align-items: center;
     justify-content: center;
 }
+
+.first-section{
+    border-radius: 5px 0 0 0;
+}
+.last-section{
+    border-radius: 0 0 0 5px;
+}
+
 .left-section{
     width: 50vw;
     display: flex;
@@ -230,15 +238,11 @@ section{
 }
 
 
-#ticketanim{
-    width: 70%;
+#ticketanim, #kortanim{
+    width: 90%;
+    max-width: 500px;
     aspect-ratio: 1;
     
-}
-
-#kortanim{
-    width: 70%;
-    aspect-ratio: 1;
 }
 
 

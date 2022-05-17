@@ -46,6 +46,46 @@ a {
     margin: 16px;
 }
 
+input[type=text], select, textarea {
+    font-family: var(--bebas-exp);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+  .container {
+    border-radius: 5px;
+    outline: 1px solid black;
+    padding: 20px;
+  }
+
+  #fods {
+    border-radius: 5px #cccccc;
+    padding: 10px; 
+    margin: 5px auto 12px auto; 
+    font-family: var(--bebas-exp);
+  }
+  
+
 @media only screen and (max-width: 1000px) {
     .overskrift { 
         font-size: 3rem;   
