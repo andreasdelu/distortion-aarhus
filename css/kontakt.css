@@ -28,16 +28,16 @@ a {
     color: black; 
 }
 
-.overskrift {
-    color: white; 
-    font-size: 4rem; 
-    text-align: center;  
-}
-
 .logo_element {
     height: 80px; 
     width: 30px; 
     margin: auto 15px; 
+}
+
+.overskrift {
+    color: white; 
+    font-size: 4rem; 
+    text-align: center;  
 }
 
 .side_skift {
@@ -48,40 +48,15 @@ a {
     text-align: center;
 }
 
-.under_overskrifter {
-    font-size: 2rem;
-    margin: 0 16px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-
-}
-
-
-details {
-    margin: 0 16px;
-    margin-bottom: 7px;
-}
-
-details > summary {
-    background-color: #eee;
-    cursor: pointer;
-    padding: 20px 20px;
-  }
-  
-  details > summary > * {
-    display: inline;
-  }
-  
-  details > div {
-    border: 2px solid #eee;
-    margin-top: 0;
-    padding: 1rem;
-  }
-
- .wrapper_faq {
+.hero_img {
     width: 100%;
-    margin-bottom: 30px; 
- }
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+.wrapper_kon {
+    margin: 16px;
+}
 
 
 @media only screen and (max-width: 1000px) {
@@ -115,9 +90,5 @@ details > summary {
 
     .wrapper_overskrift { 
         padding: 12px 0px;
-    }
-
-    .under_overskrifter {
-        font-size: 1.5rem;
     }
 }

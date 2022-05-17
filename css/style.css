@@ -191,20 +191,7 @@ section{
     max-width: 400px;
 }
 
-@media screen and (max-width: 750px) {
-    #video{
-        display: none;
-    }
-    .left-section{
-        display: none;
-    }
-    .right-section{
-        width: 100vw;
-    }
-    #navmenu{
-        width: 100vw;
-    }
-}
+
 
 /* Artist karrussel */
 
@@ -249,6 +236,11 @@ section{
     
 }
 
+#kortanim{
+    width: 70%;
+    aspect-ratio: 1;
+}
+
 
 /* footer styling */
 
@@ -282,4 +274,20 @@ address{
 address h4{
     font-size: 2rem;
     font-weight: 300;
+}
+
+
+@media screen and (max-width: 750px) {
+    #video{
+        display: none;
+    }
+    .left-section{
+        display: none;
+    }
+    .right-section{
+        width: 100vw;
+    }
+    #navmenu{
+        width: 100vw;
+    }
 }

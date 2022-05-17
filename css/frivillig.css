@@ -1,0 +1,74 @@
+.right-section {
+    height: fit-content; 
+}
+
+.wrapper_overskrift {
+    display: flex; 
+    justify-content: space-between;
+    background-color: black; 
+    width: 100%; 
+    padding: 20px 0px;
+    margin-top: 100px;
+}
+
+.faq {
+    width: 13ch; 
+}
+
+.kontakt {
+    width: 13ch; 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+.logo_element {
+    height: 80px; 
+    width: 30px; 
+    margin: auto 15px; 
+}
+
+.overskrift {
+    color: white; 
+    font-size: 4rem; 
+    text-align: center;  
+}
+
+.hero_img {
+    width: 100%;
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+.wrapper_kon {
+    margin: 16px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .overskrift { 
+        font-size: 3rem;   
+    }
+
+    .logo_element {
+        height: 60px; 
+        width: 20px; 
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .overskrift { 
+        font-size: 2rem;   
+    }
+
+    .logo_element {
+        height: 40px; 
+        width: 15px; 
+    }
+
+    .wrapper_overskrift { 
+        padding: 12px 0px;
+    }
+}
