@@ -39,7 +39,7 @@ main{
     height: 100%;
     /*overflow: scroll;
     scroll-snap-type: y mandatory; */
-    --opacity: 0.3;
+    --opacity: 0.4;
     background: linear-gradient(180deg, rgba(255,0,0,var(--opacity)) 0%, rgba(251,255,0,var(--opacity)) 34%, rgba(0,255,14,var(--opacity)) 68%, rgba(0,50,255,var(--opacity)) 100%);
 }
 
@@ -239,7 +239,7 @@ section{
 
 
 #ticketanim, #kortanim{
-    width: 90%;
+    width: 100%;
     max-width: 500px;
     aspect-ratio: 1;
     

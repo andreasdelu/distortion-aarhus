@@ -5,7 +5,7 @@ const mapAnim = document.getElementById("kortanim");
 const mCtx = mapAnim.getContext("2d");
 
 const scrollOffset = 400
-const mapScrollOffset = 280;
+const mapScrollOffset = 350;
 
 
 window.addEventListener("scroll", () => {
@@ -82,7 +82,7 @@ function checkMapScroll() {
         requestAnimationFrame(() => updateMapCanvas(0))
     }
     if (scrollY + mapScrollOffset >= kort.offsetTop) {
-        const diff = Math.floor((scrollY + mapScrollOffset - kort.offsetTop)/2.8)
+        const diff = Math.floor((scrollY + mapScrollOffset - kort.offsetTop)/4)
         if(scrollY + mapScrollOffset > kort.offsetTop + kort.offsetHeight){
             requestAnimationFrame(() => updateMapCanvas(90))
             return;

@@ -95,7 +95,7 @@
 
 .after-close:hover:after{
     display: block;
-    content: 'CLOSE';
+    content: 'LUK';
     position: absolute;
     top: 30px;
     z-index: 999;
