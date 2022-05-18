@@ -83,6 +83,10 @@ details > summary {
     margin-bottom: 30px; 
  }
 
+ .mail {
+     margin-bottom: 30px;
+ }
+
 
 @media only screen and (max-width: 1000px) {
     .overskrift { 
