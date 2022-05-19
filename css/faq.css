@@ -1,5 +1,6 @@
 .right-section {
     height: fit-content; 
+    max-height: none; 
 }
 
 .wrapper_overskrift {
