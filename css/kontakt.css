@@ -1,6 +1,7 @@
 .right-section {
     height: fit-content; 
     max-height: none; 
+    color: var(--text-clr)
 }
 
 .wrapper_overskrift {
@@ -26,7 +27,7 @@
 
 a {
     text-decoration: none;
-    color: black; 
+    color: var(--text-clr); 
 }
 
 .logo_element {
