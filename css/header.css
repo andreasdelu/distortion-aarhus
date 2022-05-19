@@ -88,7 +88,7 @@
 
 .after-close:after{
     display: block;
-    content: 'CLOSE';
+    content: 'LUK';
     position: absolute;
     top: 20px;
     z-index: 999;
@@ -165,10 +165,6 @@
     color: var(--menu-clr);
 }
 
-#languages a:hover{
-    font-weight: 300;
-}
-
 .language-selected{
     font-weight: bold!important;
     pointer-events: none!important;
@@ -217,13 +213,14 @@
     text-decoration: none;
     color: var(--text-clr);
     font-weight: 600;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     outline: 5px solid var(--text-clr);
     background-color: var(--bg-clr);
     transition: width 0.3s;
     width: 100%;
     text-transform: uppercase;
     z-index: 9;
+    box-sizing: border-box;
 }
 
 #navmenu li a:hover{
@@ -236,7 +233,7 @@
     position: absolute;
     content: '';
     width: 0.1rem;
-    height: calc(100% + 0.65rem);
+    height: calc(100% + 0.62rem);
     top: -0.3rem;
     right: -0.1rem;
     z-index: -1;
@@ -247,22 +244,22 @@
     right: -1.3rem;
 }
 #link-program:hover:after{
-    background-color: rgb(255, 90, 90);
+    background-color: var(--red);
 }
 #link-billetter:hover:after{
-    background-color: rgb(82, 108, 255);
+    background-color: var(--blue);
 }
 #link-kort:hover:after{
-    background-color: rgb(176, 255, 102);
+    background-color: var(--green);
 }
 #link-merch:hover:after{
-    background-color: rgb(253, 190, 96);
+    background-color: var(--yellow);
 }
 #link-om:hover:after{
     background-color: rgb(222, 113, 255);
 }
 #link-frivillig:hover:after{
-    background-color: rgb(105, 203, 255);
+    background-color: rgb(255, 198, 105);
 }
 
 
@@ -298,7 +295,7 @@
 
 .toggled{
     transform: rotateZ(-90deg);
-    filter: invert(1);
+    filter: brightness(10);
 }
 
 .toggle-container{
@@ -306,7 +303,7 @@
     height: 90px;
     position: relative;
     transform-origin: center;
-    transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
 }
 .sun{
     width: 30px;

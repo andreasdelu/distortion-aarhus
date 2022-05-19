@@ -9,26 +9,6 @@ const billetter = document.getElementById('billetter');
 const kort = document.getElementById('kort');
 const merch = document.getElementById('merch');
 
-const toggleMode = document.getElementById('mode-toggle');
-const toggleContainer = document.querySelector(".toggle-container");
-
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  toggleContainer.classList.toggle("toggled")
-  document.body.classList.toggle("dark-mode")
-}
-else{
-  sessionStorage.setItem("mode", "light")
-}
-
-if (sessionStorage.getItem("mode") == "dark") {
-  toggleContainer.classList.add("toggled")
-  document.body.classList.add("dark-mode")
-}
-else if (sessionStorage.getItem("mode") == "light"){
-  toggleContainer.classList.remove("toggled")
-  document.body.classList.remove("dark-mode")
-}
-
 
 window.addEventListener("scroll", () => {
     
@@ -53,14 +33,3 @@ function outlineScroll() {
 
 requestAnimationFrame(outlineScroll)
 requestAnimationFrame(karrusselScroll)
-
-toggleMode.addEventListener("click", () => {
-  if (document.body.classList.contains("dark-mode")) {
-    sessionStorage.setItem("mode", "light")
-  }
-  else{
-    sessionStorage.setItem("mode", "dark")
-  }
-  toggleContainer.classList.toggle("toggled")
-  document.body.classList.toggle("dark-mode")
-})

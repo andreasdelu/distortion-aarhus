@@ -92,8 +92,8 @@ section{
 
 .first-section{
     border-radius: 5px 0 0 0;
-    padding-top: 80px!important;
-    justify-content: flex-start;
+    padding-top: 100px!important;
+    justify-content: left;
 }
 .last-section{
     border-radius: 0 0 0 5px;
