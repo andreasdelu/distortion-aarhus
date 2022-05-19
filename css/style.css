@@ -24,7 +24,7 @@
 
 
 .dark-mode{
-    --bg-clr: rgb(24, 23, 26);
+    --bg-clr: #18171a;
     --menu-clr: white;
     --text-clr: white;
     --text-alt: black;
@@ -39,6 +39,7 @@ body{
     padding: 0;
     font-family: var(--bebas-semi);
     font-size: 16px;
+    background-color: var(--bg-clr);
 }
 
 ::-webkit-scrollbar {
@@ -275,7 +276,6 @@ section{
     width: 100%;
     max-width: 500px;
     aspect-ratio: 1;
-    
 }
 
 
@@ -350,5 +350,15 @@ address h4{
     
     .countdown-nums {
         font-size: 3.3rem;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        /* --bg-clr: rgb(24, 23, 26);
+        --menu-clr: white;
+        --text-clr: white;
+        --text-alt: black;
+        --invert: 1; */
     }
 }

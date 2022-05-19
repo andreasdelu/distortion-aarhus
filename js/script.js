@@ -12,9 +12,21 @@ const merch = document.getElementById('merch');
 const toggleMode = document.getElementById('mode-toggle');
 const toggleContainer = document.querySelector(".toggle-container");
 
-if (sessionStorage.getItem("mode") == "dark") {
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   toggleContainer.classList.toggle("toggled")
   document.body.classList.toggle("dark-mode")
+}
+else{
+  sessionStorage.setItem("mode", "light")
+}
+
+if (sessionStorage.getItem("mode") == "dark") {
+  toggleContainer.classList.add("toggled")
+  document.body.classList.add("dark-mode")
+}
+else if (sessionStorage.getItem("mode") == "light"){
+  toggleContainer.classList.remove("toggled")
+  document.body.classList.remove("dark-mode")
 }
 
 
