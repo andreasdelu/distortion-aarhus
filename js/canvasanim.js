@@ -5,7 +5,7 @@ const mapAnim = document.getElementById("kortanim");
 const mCtx = mapAnim.getContext("2d");
 
 
-let ticketUrl = "../images/ticketseq/webp/ticketanim"
+let ticketUrl = "../images/ticketseq/ticketanim"
 let mapUrl = "../images/kortanimseq/kortanim"
 
 const ticketFrames = 142;
@@ -33,6 +33,7 @@ ticketImg.onload = () => {
 function updateTicketCanvas(i) {
     ticketImg.src = ticketUrl + i.toString().padStart(3, "0") + ".webp";
     ticketImg.onload = () => {
+        tCtx.clearRect(0, 0, ticketAnim.width, ticketAnim.height);
         tCtx.drawImage(ticketImg, 0, 0)
     }
 }
@@ -48,6 +49,7 @@ mapImg.onload = () => {
 function updateMapCanvas(i) {
     mapImg.src = mapUrl + i.toString().padStart(2, "0") + ".webp";
     mapImg.onload = () => {
+        mCtx.clearRect(0, 0, mapAnim.width, mapAnim.height);
         mCtx.drawImage(mapImg, 0, 0)
     }
 }
