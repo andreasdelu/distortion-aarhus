@@ -4,5 +4,35 @@
 
 .artist-grid{
     display: grid;
+
+}
+
+.artist{
+    width: 300px;
+    aspect-ratio: 1;
+    position: relative;
+}
+.artist img{
+    width: 100%;
+    height: auto;
+}
+.artist-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
+}
+.artist-overlay h3{
+    color: rgba(69, 137, 255, 0.2);
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-text-stroke: 1px white;
+    filter: drop-shadow(0 0 4px black);
 }
