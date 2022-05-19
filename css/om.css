@@ -1,6 +1,7 @@
 .right-section {
     height: fit-content; 
     max-height: none; 
+    color: var(--text-clr)
 }
 
 .wrapper_overskrift {
