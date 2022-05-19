@@ -8,6 +8,13 @@
     --bg-clr: white;
     --menu-clr: black;
     --text-clr: black;
+    --text-alt: white;
+    --invert: 0;
+
+    --red: rgb(255, 74, 74);
+    --yellow: rgb(253, 234, 89);
+    --green: rgb(31, 216, 109);
+    --blue: rgb(62, 188, 255);
 }
 
 * {
@@ -15,8 +22,16 @@
     margin: 0;
 }
 
+
+.dark-mode{
+    --bg-clr: rgb(24, 23, 26);
+    --menu-clr: white;
+    --text-clr: white;
+    --text-alt: black;
+    --invert: 1;
+}
+
 body{
-    max-width: 100vw;
     width: 100vw;
     overflow-x: hidden;
     height: 100%;
@@ -37,10 +52,8 @@ body{
 
 main{
     height: 100%;
-    /*overflow: scroll;
-    scroll-snap-type: y mandatory; */
     --opacity: 0.4;
-    background: linear-gradient(180deg, rgba(255,0,0,var(--opacity)) 0%, rgba(251,255,0,var(--opacity)) 34%, rgba(0,255,14,var(--opacity)) 68%, rgba(0,50,255,var(--opacity)) 100%);
+    background: linear-gradient(180deg, rgba(255, 74, 74,var(--opacity)) 0%, rgba(253, 234, 89,var(--opacity)) 34%, rgba(31, 216, 109,var(--opacity)) 68%, rgba(62, 188, 255,var(--opacity)) 100%);
 }
 
 #video{
@@ -59,13 +72,14 @@ main{
 
 section{
     display: flex;
-    scroll-snap-align: center;
     position: relative;
     align-items: center;
 }
 
 .right-section{
     height: 100vh;
+    max-height: 750px;
+    min-height: fit-content;
     width: 50vw;
     background-color: var(--bg-clr);
     display: flex;
@@ -76,9 +90,12 @@ section{
 
 .first-section{
     border-radius: 5px 0 0 0;
+    padding-top: 80px!important;
+    justify-content: flex-start;
 }
 .last-section{
     border-radius: 0 0 0 5px;
+    padding-top: 80px!important;
 }
 
 .left-section{
@@ -122,18 +139,7 @@ section{
 #logo{
     width: 300px;
     max-width: 400px;
-    margin: 2vh 20px;
-}
-
-.hero-tekst{
-    box-sizing: border-box;
-    width: 100vw;
-    max-width: 600px;
-    margin: 0;
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    font-size: 1.1rem;
+    margin: 0px 20px 25px 20px;
 }
 
 /* Countdown timer */
@@ -145,7 +151,7 @@ section{
     text-transform: uppercase;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    width: 90%;
+    width: 100%;
     max-width: 400px;
 }
 .countdown-text{
@@ -197,16 +203,31 @@ section{
 .top-tekst{
     width: 90%;
     max-width: 400px;
+    color: var(--text-clr);
 }
 
 
 
 /* Artist karrussel */
 
-#artist-karrussel{
-    height: 60%;
+#artist-karrussel, #merch-karrussel{
+    height: 70vh;
+    max-height: 450px;
     width: 100%;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
+    position: relative;
+    
+}
+
+.karrussel-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    --opacity: 0.18;
+    background: linear-gradient(100deg, rgba(255, 74, 74,var(--opacity)) 0%, rgba(253, 234, 89,var(--opacity)) 34%, rgba(31, 216, 109,var(--opacity)) 68%, rgba(62, 188, 255,var(--opacity)) 100%);
+
 }
 
 .karrussel{
@@ -217,24 +238,36 @@ section{
     background-image: url("../images/artistkarrussel.webp");
 }
 
+/* Merch karrussel */
+
+.karrussel-merch{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-image: url("../images/merchkarrussel.webp");
+}
+.karrussel-merch:first-child{
+    background-position: right;
+}
 /* Knap styling */
 
 .button{
     width: 13ch;
     display: block;
     padding: 0.5rem 1rem;
-    outline: 5px solid black;
+    outline: 4px solid var(--text-clr);
     font-size: 1.7rem;
     text-decoration: none;
-    color: black;
+    color: var(--text-clr);
     font-weight: 600;
     text-align: center;
     margin-top: 2rem;
 }
 
 .button:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--text-clr);
+    color: var(--text-alt);
 }
 
 
@@ -253,9 +286,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    height: 90%;
-    margin-top: auto;
+    justify-content: center;
+    height: 100%;
+    margin-top: 80px;
     margin-bottom: 3rem;
 }
 
@@ -265,6 +298,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 5em 0 0em 0;
+    filter: invert(var(--invert));
 }
 
 address{
@@ -273,6 +307,7 @@ address{
     font-size: 1.3rem;
     font-weight: 200;
     margin-top: 2em;
+    color: var(--text-clr);
 }
 
 address h4{
@@ -282,6 +317,9 @@ address h4{
 
 
 @media screen and (max-width: 750px) {
+    main{
+        background-color: white;
+    }
     #video{
         display: none;
     }
@@ -293,5 +331,24 @@ address h4{
     }
     #navmenu{
         width: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right-section{
+        height: 70vh;
+    }
+    .first-section{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .countdown-text{
+        font-size: 2.2rem;
+    }
+    
+    .countdown-nums {
+        font-size: 3.3rem;
     }
 }

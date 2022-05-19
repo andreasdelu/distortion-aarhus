@@ -1,6 +1,8 @@
 const outlines = document.querySelectorAll('.section-title-outline');
 const karrusselTop = document.querySelector(".karrussel-top")
 const karrusselBot = document.querySelector(".karrussel-bot")
+const karrusselMerchTop = document.querySelector(".karrussel-merch-top")
+const karrusselMerchBot = document.querySelector(".karrussel-merch-bot")
 
 const program = document.getElementById('program');
 const billetter = document.getElementById('billetter');
@@ -18,6 +20,8 @@ window.addEventListener("scroll", () => {
 function karrusselScroll() {
     karrusselTop.style.backgroundPositionX = 100 + scrollY/20 + "%"
     karrusselBot.style.backgroundPositionX = "-" + scrollY/20 + "%"
+    karrusselMerchBot.style.backgroundPositionX = 100 + scrollY/20 + "%"
+    karrusselMerchTop.style.backgroundPositionX = "-" + scrollY/20 + "%"
 }
 
 function outlineScroll() {
@@ -30,22 +34,10 @@ function outlineScroll() {
 requestAnimationFrame(outlineScroll)
 requestAnimationFrame(karrusselScroll)
 
+const toggleMode = document.getElementById('mode-toggle');
+const toggleContainer = document.querySelector(".toggle-container");
 
-
-/* let options = {
-    rootMargin: '0px',
-    threshold: 0.75
-  }
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          let elem = entry.target;
-          elem.play();
-          observer.unobserve(ticketAnim)
-        }
-      });
-}, options)
-
-
-observer.observe(ticketAnim); */
+toggleMode.addEventListener("click", () => {
+  toggleContainer.classList.toggle("toggled")
+  document.body.classList.toggle("dark-mode")
+})

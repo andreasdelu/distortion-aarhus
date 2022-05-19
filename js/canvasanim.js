@@ -4,15 +4,6 @@ const tCtx = ticketAnim.getContext("2d");
 const mapAnim = document.getElementById("kortanim");
 const mCtx = mapAnim.getContext("2d");
 
-const scrollOffset = 400
-const mapScrollOffset = 350;
-
-
-window.addEventListener("scroll", () => {
-    requestAnimationFrame(checkTicketScroll);
-    requestAnimationFrame(checkMapScroll);
-})
-
 
 let ticketUrl = "../images/ticketseq/webp/ticketanim"
 let mapUrl = "../images/kortanimseq/kortanim"
@@ -46,22 +37,6 @@ function updateTicketCanvas(i) {
     }
 }
 
-function checkTicketScroll() {
-    if(scrollY + scrollOffset <= billetter.offsetTop){
-        requestAnimationFrame(() => updateTicketCanvas(0))
-    }
-    if (scrollY + scrollOffset >= billetter.offsetTop) {
-        const diff = Math.floor((scrollY + scrollOffset - billetter.offsetTop)/2.8)
-        if(scrollY + scrollOffset > billetter.offsetTop + billetter.offsetHeight){
-            requestAnimationFrame(() => updateTicketCanvas(141))
-            return;
-        }
-        if (diff >= 0 && diff <= 141) {
-            requestAnimationFrame(() => updateTicketCanvas(diff))
-        }
-    }
-}
-
 const mapImg = new Image()
 mapImg.src = mapUrl + "00.webp"
 mapAnim.width = 500;
@@ -77,23 +52,60 @@ function updateMapCanvas(i) {
     }
 }
 
-function checkMapScroll() {
-    if(scrollY + mapScrollOffset <= kort.offsetTop){
-        requestAnimationFrame(() => updateMapCanvas(0))
-    }
-    if (scrollY + mapScrollOffset >= kort.offsetTop) {
-        const diff = Math.floor((scrollY + mapScrollOffset - kort.offsetTop)/4)
-        if(scrollY + mapScrollOffset > kort.offsetTop + kort.offsetHeight){
-            requestAnimationFrame(() => updateMapCanvas(90))
-            return;
-        }
-        if (diff >= 0 && diff <= 90) {
-            requestAnimationFrame(() => updateMapCanvas(diff))
-        }
-    }
-}
-
 preloadImages()
 
-requestAnimationFrame(checkTicketScroll);
-requestAnimationFrame(checkMapScroll);
+function buildThresholdList(frames) {
+    let thresholds = [];
+    let numSteps = frames * 2;
+  
+    for (let i=1.0; i<=numSteps; i++) {
+      let ratio = i/numSteps;
+      thresholds.push(ratio);
+    }
+  
+    thresholds.push(0);
+    return thresholds;
+  }
+
+
+function canvasCallback(entries, canvas, frames) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            let frame = Math.floor(entry.intersectionRatio * frames - 1)
+            frame = (frame <= 0) ? 0 : frame
+            if (canvas == "ticket") {
+                if (entry.boundingClientRect.top <= 0) {
+                    requestAnimationFrame(() => updateTicketCanvas(frames - 1))
+                    return;
+                }
+                requestAnimationFrame(() => updateTicketCanvas(frame))
+                return;
+            }
+            if (entry.boundingClientRect.top <= 0) {
+                requestAnimationFrame(() => updateMapCanvas(frames - 1))
+                return;
+            }
+            requestAnimationFrame(() => updateMapCanvas(frame))
+            
+        }
+    });
+}
+
+const ticketObserver = new IntersectionObserver((entries) => {
+    canvasCallback(entries, "ticket", ticketFrames)
+}, 
+{
+    rootMargin: '0% 0px -20% 0px', 
+    threshold: buildThresholdList(ticketFrames)
+})
+const mapObserver = new IntersectionObserver((entries) => {
+    canvasCallback(entries, "map", mapFrames)
+},
+{
+    rootMargin: '0% 0px -25% 0px', 
+    threshold: buildThresholdList(mapFrames)
+})
+
+ticketObserver.observe(ticketAnim)
+mapObserver.observe(mapAnim)
+

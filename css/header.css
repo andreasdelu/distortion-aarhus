@@ -6,7 +6,9 @@
     --bg-clr: white;
     --menu-clr: black;
     --text-clr: black;
+    --text-alt: white;
 }
+
 
 
 #header{
@@ -26,7 +28,7 @@
     height: 60px;
     font-size: 1.3rem;
     font-weight: 600;
-    color: white;
+    color: var(--text-clr);
     display: flex;
     align-items: center;
     margin-left: 25px;
@@ -59,6 +61,7 @@
     flex-direction: column;
     align-items: center;
     margin-left: 2rem;
+    filter: invert(var(--invert));
 }
 
 .after-menu:after{
@@ -110,6 +113,7 @@
 
 #ticket img{
     animation: shake 10s 1s infinite;
+    filter: invert(var(--invert));
 }
 
 @keyframes shake {
@@ -167,7 +171,7 @@
 
 #navmenu{
     width: 50vw;
-    height: fit-content;
+    height: 100vh;
     position: fixed;
     top: 0px;
     right: -100%;
@@ -206,10 +210,10 @@
     text-align: center;
     font-size: 2rem;
     text-decoration: none;
-    color: black;
+    color: var(--text-clr);
     font-weight: 600;
     padding: 0.5rem;
-    outline: 5px solid black;
+    outline: 5px solid var(--text-clr);
     background-color: var(--bg-clr);
     transition: width 0.3s;
     width: 100%;
@@ -219,8 +223,8 @@
 
 #navmenu li a:hover{
     width: 130%;
-    color: white;
-    background-color: black;
+    color: var(--text-alt);
+    background-color: var(--text-clr);
 }
 
 #navmenu li a:after{
@@ -276,11 +280,72 @@
     transform: translate(163px, 15px) scaleX(1.1) rotateZ(45deg);
 }
 
+
+/* light/dark mode toggle */
+
+#mode-toggle{
+    width: 90px;
+    height: 30px;
+    overflow: hidden;
+    /* box-shadow: inset 0 -8px 10px -12px rgba(0, 0, 0, 0.317); */
+    position: absolute;
+    top: 125px;
+    right: 9px;
+    cursor: pointer;
+}
+
+.toggled{
+    transform: rotateZ(-90deg);
+    filter: invert(1);
+}
+
+.toggle-container{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    transform-origin: center;
+    /* transform: translate(-33%, 0%); */
+    transition: 0.4s ease-in;
+}
+.sun{
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.moon{
+    width: 22px;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%) rotateZ(90deg);
+}
+
+
 @media screen and (max-width: 750px) {
     #navmenu{
         width: 100vw;
     }
     #logo-date{
-        color: black;
+        color: var(--text-clr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #logo-date p, #languages {
+        display: none;
+    }
+    #header{
+        margin-top: 10px;
+    }
+    #ticket{
+        display: none;
+    }
+    #header-icons{
+        width: fit-content;
+    }
+    #burger{
+        height: 30px;
     }
 }

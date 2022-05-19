@@ -44,6 +44,12 @@
             <li><a id="link-om" href="om">Om Os</a></li>
             <li><a id="link-frivillig" href="frivillig">Bliv Frivillig</a></li>
         </ul>
+        <div id="mode-toggle">
+            <div class="toggle-container">
+                <img class="sun" src="images/sun.svg" alt="sun icon">
+                <img class="moon" src="images/moon.svg" alt="moon icon">
+            </div>
+        </div>
         <script src="js/navmenu.js"></script>
     </nav>
       
@@ -58,7 +64,7 @@
             <div class="right-section first-section">
                 <img id="logo" src="images/logo.png" alt="Aarhus Distortion Logo">
                 <div class="timer">
-                    <h2>STARTER OM:</h2>
+                    <h2>BEGYNDER OM:</h2>
                     <div id="countdown">
                         <div class="countdown-nums" id="countdown-days"></div>
                         <div class="countdown-text">D</div>
@@ -74,8 +80,10 @@
                         <script src="js/countdown.js"></script>
                     </div>
                 </div>
-                <p class="top-tekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium repellat modi doloribus necessitatibus nam minima reprehenderit pariatur, nobis amet ullam, et optio esse possimus quos vero. Nobis, quis nostrum?
-                Enim dolorum voluptatem corrupti minus natus tempore saepe sunt molestiae, exercitationem perferendis assumenda nobis, facilis dolorem mollitia aperiam expedita eius quae quas doloribus! Sint unde ducimus eaque animi dicta. Repellendus.</p>    
+                <p class="top-tekst">
+                    I anledning af Distortions 25års jubilæum, vil vi sprede kærligheden, dansen, musikken og venskaberne helt til smilets by: Aarhus!
+                    Vi håber Aarhus vil tage godt imod festlighederne og lege med når vi indtager de smukke gader.
+                </p>    
             </div>
         </section>
         <section id="program">
@@ -84,6 +92,7 @@
                 <div id="artist-karrussel">
                     <div class="karrussel karrussel-top"></div>
                     <div class="karrussel karrussel-bot"></div>
+                    <div class="karrussel-overlay"></div>
                 </div>
                 <a class="button" href="program">SE PROGRAM</a>
             </div>
@@ -108,6 +117,11 @@
         <section id="merch">
             <div class="left-section"><h2 class="section-title">MERCH<h2 class="section-title-outline">MERCH</h2></h2></div>
             <div class="right-section">
+                <div id="merch-karrussel">
+                    <div class="karrussel-merch karrussel-merch-top"></div>
+                    <div class="karrussel-merch karrussel-merch-bot"></div>
+                    <div class="karrussel-overlay"></div>
+                </div>
                 <a class="button" href="merch">KØB MERCH</a>
             </div>
         </section>
