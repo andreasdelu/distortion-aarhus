@@ -9,6 +9,14 @@ const billetter = document.getElementById('billetter');
 const kort = document.getElementById('kort');
 const merch = document.getElementById('merch');
 
+const toggleMode = document.getElementById('mode-toggle');
+const toggleContainer = document.querySelector(".toggle-container");
+
+if (sessionStorage.getItem("mode") == "dark") {
+  toggleContainer.classList.toggle("toggled")
+  document.body.classList.toggle("dark-mode")
+}
+
 
 window.addEventListener("scroll", () => {
     
@@ -34,10 +42,13 @@ function outlineScroll() {
 requestAnimationFrame(outlineScroll)
 requestAnimationFrame(karrusselScroll)
 
-const toggleMode = document.getElementById('mode-toggle');
-const toggleContainer = document.querySelector(".toggle-container");
-
 toggleMode.addEventListener("click", () => {
+  if (document.body.classList.contains("dark-mode")) {
+    sessionStorage.setItem("mode", "light")
+  }
+  else{
+    sessionStorage.setItem("mode", "dark")
+  }
   toggleContainer.classList.toggle("toggled")
   document.body.classList.toggle("dark-mode")
 })
