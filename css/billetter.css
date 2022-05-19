@@ -1,5 +1,6 @@
 .right-section {
     height: fit-content; 
+    max-height: none; 
 }
 
 .wrapper_overskrift {
@@ -12,8 +13,8 @@
 }
 
 a {
-    text-decoration: none;
     color: black; 
+    text-decoration: none;
 }
 
 .logo_element {
@@ -37,7 +38,7 @@ a {
     display: flex; 
     width: 100%;  
     justify-content: space-between;
-    margin: 20px 0; 
+    margin: 50px 0; 
 }
 
 .banner {
@@ -49,7 +50,7 @@ a {
     background-size: cover; 
     align-self: center;
     background-repeat: no-repeat; 
-    
+    transition: transform .1s;
 }
 
 .billet { 
@@ -58,6 +59,8 @@ a {
     height: auto;
     z-index: 1;
     margin-right: 25px; 
+    transition: transform .1s;
+    cursor: pointer;
 }
 
 .billet-tekst {
@@ -67,13 +70,26 @@ a {
     height:inherit;  
     padding: 2rem 0; 
     max-width: 50%; 
+    transition: transform .1s;
 }
 
 .dag {
     margin-bottom: 12%; 
     font-size: 35px; 
 }
-    
+
+/* Hover over billet billeder  */
+.parent_billetter:hover > .banner {
+    filter: blur(2px) brightness(95%);
+}
+
+.parent_billetter:hover > .billet-tekst {
+    transform: scale(1.05);
+}
+
+.parent_billetter:hover > .billet {
+    transform: scale(1.05);
+}
 
 
 @media only screen and (max-width: 1000px) {
@@ -85,6 +101,8 @@ a {
         height: 60px; 
         width: 20px; 
     }
+
+    
 }
 
 
