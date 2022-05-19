@@ -4,12 +4,14 @@ const navmenu = document.getElementById('navmenu');
 const toggleMode = document.getElementById('mode-toggle');
 const toggleContainer = document.querySelector(".toggle-container");
 
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  toggleContainer.classList.toggle("toggled")
-  document.body.classList.toggle("dark-mode")
-}
-else{
-  sessionStorage.setItem("mode", "light")
+if (sessionStorage.getItem("mode") == null) {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    toggleContainer.classList.toggle("toggled")
+    document.body.classList.toggle("dark-mode")
+  }
+  else{
+    sessionStorage.setItem("mode", "light")
+  }
 }
 
 if (sessionStorage.getItem("mode") == "dark") {
