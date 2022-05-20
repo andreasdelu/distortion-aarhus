@@ -1,20 +1,25 @@
 .right-section{
     max-height: none;
+    height: 100%;
 }
 
 .artist-grid{
-    display: grid;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 25px;
 }
 
 .artist{
-    width: 300px;
+    width: 250px;
     aspect-ratio: 1;
     position: relative;
+    flex-grow: 0.5;
 }
 .artist img{
     width: 100%;
     height: auto;
+    vertical-align: bottom;
 }
 .artist-overlay{
     position: absolute;
@@ -29,10 +34,12 @@
     
 }
 .artist-overlay h3{
-    color: rgba(69, 137, 255, 0.2);
-    font-size: 3.5rem;
+    color: rgba(69, 255, 156, 0.2);
+    font-size: 5.5rem;
     text-transform: uppercase;
     font-weight: 800;
     -webkit-text-stroke: 1px white;
     filter: drop-shadow(0 0 4px black);
+    text-align: center;
+    line-height: 4.5rem;
 }
