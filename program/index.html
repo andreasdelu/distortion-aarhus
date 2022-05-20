@@ -15,7 +15,7 @@
 <body>
     <header id="header">
         <div id="logo-date">
-            <img id="small-logo" src="../images/logo.png" alt="Aarhus Distortion Logo">
+            <a id="small-logo" href="../"><img src="../images/logo.png" alt="Aarhus Distortion Logo"></a>
             <p>7. - 11. JUNI 2023</p>
         </div>
         <div id="header-icons">
@@ -87,8 +87,18 @@
                 </div>
             </div>
         </section>
-        <dialog id="artist-popup" open><h4>LOL</h4></dialog>
-
+        <div id="artist-popup">
+            <div id="modal-bg"></div>
+            <div id="modal">
+                <div id="modal-img"><h2 id="modal-name"></h2></div>
+                <iframe id="modal-embed" src="" width="100%" height="80" frameBorder="0"></iframe>
+                <p id="modal-location"></p>
+                <p id="modal-date"></p>
+                <p id="modal-info"></p>
+                <div id="readmore"><p id="readmore-text">LÆS MERE</p></div>
+            </div>
+        </div>
+        
     </main>
     <template id="artist-temp">
         <div class="artist">

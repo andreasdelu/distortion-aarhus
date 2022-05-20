@@ -126,6 +126,95 @@ h1{
     font-weight: 700;
 }
 
+#artist-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#modal-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.218);
+}
+#modal{
+    width: 100%;
+    max-width: 600px;
+    height: 90%;
+    max-height: 550px;
+    background-color: var(--bg-clr);
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.371);
+    overflow-y: scroll;
+}
+#modal-img{
+    background-image: url("");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position-y: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#modal-name{
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5));
+    -webkit-text-stroke: 2px white;
+}
+
+#modal-location{
+    margin-top: 1rem;
+}
+#modal-date, #modal-location{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--text-clr);
+    font-weight: 800;
+    text-align: center;
+}
+#modal-info{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-clr);
+    padding: 0 25px;
+    margin-top: 25px;
+    height: 100px;
+    overflow: hidden;
+    transition: height 0.3s;
+    letter-spacing: 0.4px;
+}
+#readmore{
+    width: calc(100% - 50px);
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--text-clr);
+    background-color: var(--bg-clr);
+    box-shadow: 0 -20px 30px 10px var(--bg-clr);
+    z-index: 2;
+    position: relative;
+    transition: 0.3s;
+}
+#readmore p{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#readmore p:hover{
+    opacity: 1;
+}
+
 @media screen and (max-width: 1290px) {
     .artist-grid{
         grid-template-columns: repeat(2, 1fr);
