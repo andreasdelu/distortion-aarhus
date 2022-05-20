@@ -46,7 +46,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 330px;
+    max-width: 300px;
     margin-right: 25px;
 }
 #ticket-norip, #burger{
@@ -63,6 +63,7 @@
     align-items: center;
     margin-left: 2rem;
     filter: invert(var(--invert));
+    width: fit-content;
 }
 
 .after-menu:after{
@@ -138,6 +139,7 @@
     height: 100%;
     width: 50px;
     transition: 0.1s;
+    margin: 0 auto;
 }
 
 #ticket:hover > #ticket-rip{

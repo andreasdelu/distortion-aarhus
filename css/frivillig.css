@@ -13,6 +13,12 @@
     margin-top: 100px;
 }
 
+.farve {
+    width: 100%; 
+    background-color: var(--orange); 
+    padding: 2px 0px; 
+}
+
 .faq {
     width: 13ch; 
 }
