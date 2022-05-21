@@ -166,6 +166,15 @@ h1{
     text-align: center;
     font-weight: 700;
 }
+.list-friday{
+    --day-clr: var(--friday-clr);
+}
+.list-saturday{
+    --day-clr: var(--saturday-clr);
+}
+.list-sunday{
+    --day-clr: var(--sunday-clr);
+}
 
 .artist-list{
     width: calc(100% - 50px);
@@ -174,14 +183,26 @@ h1{
 }
 .list-item{
     color: var(--text-clr);
-    font-size: 1.4rem;
-    border-bottom: 2px solid var(--text-clr);
+    font-size: 1.55rem;
+    border-bottom: 1px solid var(--day-clr);
     text-transform: uppercase;
-    padding: 3px 0;
+    padding: 3px 3px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+    border-left: 0 solid var(--day-clr);
+    transition: 0.3s;
 }
+.list-item:hover{
+    /* background-color: var(--day-clr);
+    color: white; */
+    border-left: 1rem solid var(--day-clr);
+}
+.list-item:hover .list-name, .list-item:hover .list-time{
+    /* filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3)); */
+}
+
 .list-name{
     font-weight: 700;
 }
