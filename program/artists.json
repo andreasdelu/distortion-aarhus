@@ -3,6 +3,7 @@
     [
         {
             "name": "Billie Eilish",
+            "country": "US",
             "location": "Aarhus Ø",
             "day": "fredag",
             "time": "18:00",
@@ -22,31 +23,36 @@
         },
         {
             "name": "Eminem",
-            "date": "9-6-2023",
+            "location": "Aarhus Ø",
+            "day": "fredag",
             "time": "20:00",
             "img": "eminem.webp"
         },
         {
             "name": "EMM",
-            "date": "9-6-2023",
+            "location": "Aarhus Ø",
+            "day": "fredag",
             "time": "21:00",
             "img": "emm.webp"
         },
         {
             "name": "Mel Figure",
-            "date": "9-6-2023",
+            "location": "Aarhus Ø",
+            "day": "fredag",
             "time": "22:00",
             "img": "melfigure.webp"
         },
         {
             "name": "Post Malone",
-            "date": "9-6-2023",
+            "location": "Aarhus Ø",
+            "day": "fredag",
             "time": "23:00",
             "img": "postmalone.webp"
         },
         {
             "name": "Travis Scott",
-            "date": "9-6-2023",
+            "location": "Aarhus Ø",
+            "day": "fredag",
             "time": "24:00",
             "img": "travisscott.webp"
         }
@@ -55,43 +61,50 @@
     [
         {
             "name": "Billie Eilish",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "18:00",
             "img": "billieeilish.webp"
         },
         {
             "name": "Camilla Cabello",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "19:00",
             "img": "camillacabello.webp"
         },
         {
             "name": "Eminem",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "20:00",
             "img": "eminem.webp"
         },
         {
             "name": "EMM",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "21:00",
             "img": "emm.webp"
         },
         {
             "name": "Mel Figure",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "22:00",
             "img": "melfigure.webp"
         },
         {
             "name": "Post Malone",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "23:00",
             "img": "postmalone.webp"
         },
         {
             "name": "Travis Scott",
-            "date": "2023-06-09",
+            "location": "Aarhus Å",
+            "day": "lørdag",
             "time": "24:00",
             "img": "travisscott.webp"
         }
@@ -100,43 +113,50 @@
     [
         {
             "name": "Billie Eilish",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "18:00",
             "img": "billieeilish.webp"
         },
         {
             "name": "Camilla Cabello",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "19:00",
             "img": "camillacabello.webp"
         },
         {
             "name": "Eminem",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "20:00",
             "img": "eminem.webp"
         },
         {
             "name": "EMM",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "21:00",
             "img": "emm.webp"
         },
         {
             "name": "Mel Figure",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "22:00",
             "img": "melfigure.webp"
         },
         {
             "name": "Post Malone",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "23:00",
             "img": "postmalone.webp"
         },
         {
             "name": "Travis Scott",
-            "date": "2023-06-09",
+            "location": "Aarhus X",
+            "day": "søndag",
             "time": "24:00",
             "img": "travisscott.webp"
         }
