@@ -33,7 +33,7 @@
 
 #wrapper {
   display: grid;
-  Grid-template-columns: repeat(4, 1fr);
+  Grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   margin: 0px 16px 16px 16px;
   text-align: center;
@@ -44,6 +44,7 @@
   width: 100%;
   display: block;
 }
+
 
 /* Køb nu hover  */
 .container {
@@ -58,46 +59,47 @@
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  bottom: 25px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  width: 100%; 
+} 
 
 .container:hover .middle {
   opacity: 1;
-}
+} 
 
 .text {
-  color: black;
-  font-size: 3vw;
-  padding: 16px 32px;
-}
-
-.container .toj_img {
-  transform: scale(1);
-  transition: all 0.3s;
+  color: white;
+  font-size: 1.2rem;
+  background-color: black;
+  padding: 15px; 
+  text-align: center;
 }
 
 .container:hover .toj_img {
-  transform: scale(1.1);
-  opacity: 0.5;
+  transform: scale(1.05);
+  transition: all 0.4s;
 }
+
+
+
 
 .box1 {
   position: relative;
-  grid-column: span 4;
+  grid-column: span 2;
   text-align: center;
   overflow: hidden;
 }
 
 .span4 {
   text-align: center;
-  font-size: 2vw;
+  font-size: 2rem;
   margin-top: 1em;
   margin-bottom: 1em;
-  grid-column: span 4;
+  grid-column: span 2;
+  font-weight: bold;
 }
 
 .overskrift {
@@ -107,15 +109,9 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  /* background: rgba(0, 0, 0, 0.4); */
   padding-top: 10px;
 }
 
-.underoverskrift {
-  opacity: 0;
-  font-size: 0px;
-  animation: overskrift_2023 2.2s 1s forwards;
-}
 
 .toj_img {
   width: 100%;
@@ -124,5 +120,41 @@
 }
 
 .tx_under {
-  font-size: 1.2vw;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .overskrift { 
+      font-size: 3rem;   
+  }
+
+  .logo_element {
+      height: 60px; 
+      width: 20px; 
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+
+  .underoverskrift {
+      margin: 20px;
+  }  
+
+}
+
+@media only screen and (max-width: 500px) {
+  .overskrift { 
+      font-size: 2rem;   
+  }
+
+  .logo_element {
+      height: 40px; 
+      width: 15px; 
+  }
+
+  .wrapper_overskrift { 
+      padding: 12px 0px;
+  }
+
+
 }
