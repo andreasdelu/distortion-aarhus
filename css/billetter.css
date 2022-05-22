@@ -91,11 +91,11 @@ a {
 }
 
 .parent_billetter:hover > .billet-tekst {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .parent_billetter:hover > .billet {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 
