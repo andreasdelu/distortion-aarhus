@@ -61,7 +61,7 @@ function createListArtist(artist){
     const name = clone.querySelector(".list-name");
     const time = clone.querySelector(".list-time");
 
-    name.innerText = artist.name;
+    name.innerText = artist.name.replace("-", "");
     time.innerText = artist.day + " · " + artist.time;
 
     div.addEventListener("click", () => {

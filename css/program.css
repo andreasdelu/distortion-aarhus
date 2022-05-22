@@ -144,7 +144,7 @@ h1{
 
 .artist-name{
     color: transparent;
-    font-size: 4rem;
+    font-size: 3.8rem;
     text-transform: uppercase;
     font-weight: 800;
     -webkit-text-stroke: 1px white;
@@ -156,7 +156,7 @@ h1{
 
 .artist-time{
     position: absolute;
-    top: 5px;
+    top: 1px;
     color: transparent;
     text-transform: uppercase;
     -webkit-text-stroke: 1px white;
@@ -195,12 +195,7 @@ h1{
     transition: 0.3s;
 }
 .list-item:hover{
-    /* background-color: var(--day-clr);
-    color: white; */
     border-left: 1rem solid var(--day-clr);
-}
-.list-item:hover .list-name, .list-item:hover .list-time{
-    /* filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3)); */
 }
 
 .list-name{
@@ -329,7 +324,7 @@ h1{
         grid-template-columns: repeat(3, 1fr);
     }
     .artist-name{
-        font-size: 4rem;
+        font-size: 3.8rem;
         line-height: 3.5rem;
     }
     #artist-popup{
