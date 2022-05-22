@@ -40,10 +40,12 @@ function createGridArtist(artist){
     const clone = artistTemp.content.cloneNode(true);
     const div = clone.querySelector(".artist");
     const name = clone.querySelector(".artist-name");
+    const country = clone.querySelector(".artist-country");
     const img = clone.querySelector(".artist-pic");
     const time = clone.querySelector(".artist-time");
 
-    name.innerText = artist.name;
+    name.innerHTML = artist.name;
+    country.innerText = artist.country;
     img.src = imgUrl + artist.img;
     img.alt = artist.name;
     time.innerText = artist.time;
@@ -60,9 +62,11 @@ function createListArtist(artist){
     const div = clone.querySelector(".list-item");
     const name = clone.querySelector(".list-name");
     const time = clone.querySelector(".list-time");
+    const country = clone.querySelector(".list-country");
 
-    name.innerText = artist.name.replace("-", "");
-    time.innerText = artist.day + " · " + artist.time;
+    name.innerHTML = artist.name;
+    country.innerText = artist.country;
+    time.innerText = artist.scene + " · " + artist.time;
 
     div.addEventListener("click", () => {
         createModal(artist);
@@ -92,7 +96,7 @@ function createModal(artist) {
     const info = document.getElementById("modal-info");
 
     img.style.backgroundImage = `url(${imgUrl}${artist.img})`
-    name.innerText = artist.name
+    name.innerHTML = artist.name
     embed.src = `https://open.spotify.com/embed/artist/${artist.embed}?utm_source=generator&theme=0`
     date.innerText = artist.day + " · " + artist.time
     location.innerText = artist.location;

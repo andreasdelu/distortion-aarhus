@@ -41,7 +41,7 @@
             "name": "CHEFF Records",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "15:00",
             "img": "cheffrecords.webp",
@@ -53,7 +53,7 @@
             "name": "Kato",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Åen",
             "day": "fredag",
             "time": "16:00",
             "img": "kato.webp",
@@ -65,7 +65,7 @@
             "name": "Medina",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "17:00",
             "img": "medina.webp",
@@ -77,7 +77,7 @@
             "name": "Andreas Odbjerg",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "18:00",
             "img": "andreasodbjerg.webp",
@@ -89,7 +89,7 @@
             "name": "Playboi Carti",
             "country": "US",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Åen",
             "day": "fredag",
             "time": "18:00",
             "img": "playboicarti.webp",
@@ -101,7 +101,7 @@
             "name": "Burhan G",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "18:00",
             "img": "burhang.webp",
@@ -110,10 +110,10 @@
 
         },
         {
-            "name": "Artige-ardit",
+            "name": "Artige<wbr>ardit",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "17:00",
             "img": "artigeardit.webp",
@@ -125,7 +125,7 @@
             "name": "Hjalmer",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Åen",
             "day": "fredag",
             "time": "17:00",
             "img": "hjalmer.webp",
@@ -137,7 +137,7 @@
             "name": "Ricky Rich",
             "country": "SE",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "17:00",
             "img": "rickyrich.webp",
@@ -149,7 +149,7 @@
             "name": "Marwan",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "17:00",
             "img": "marwan.webp",
@@ -161,7 +161,7 @@
             "name": "MoStack",
             "country": "UK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Åen",
             "day": "fredag",
             "time": "17:00",
             "img": "mostack.webp",
@@ -173,7 +173,7 @@
             "name": "Blizzy",
             "country": "NO",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "17:00",
             "img": "blizzy.webp",
@@ -185,7 +185,7 @@
             "name": "RoseeLu",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "17:00",
             "img": "roseelu.webp",
@@ -197,7 +197,7 @@
             "name": "Dree Low",
             "country": "SE",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Åen",
             "day": "fredag",
             "time": "17:00",
             "img": "dreelow.webp",
@@ -209,7 +209,7 @@
             "name": "Emil Lange",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "17:00",
             "img": "emillange.webp",
@@ -218,10 +218,10 @@
 
         },
         {
-            "name": "Patte-sutter",
+            "name": "Patte<wbr>sutter",
             "country": "DK",
             "location": "Aarhus Å",
-            "scene": "",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "17:00",
             "img": "pattesutter.webp",
@@ -449,7 +449,7 @@
 
         },
         {
-            "name": "Barse-lona",
+            "name": "Barselona",
             "country": "DK",
             "location": "Aarhus X",
             "scene": "",
@@ -467,7 +467,7 @@
             "name": "Frank Ocean",
             "country": "US",
             "location": "Aarhus Ø",
-            "scene": "Ryesgade",
+            "scene": "Torvet",
             "day": "fredag",
             "time": "12:00",
             "img": "asaprocky.webp",
@@ -479,7 +479,7 @@
             "name": "Kesi",
             "country": "DK",
             "location": "Aarhus Ø",
-            "scene": "Åen",
+            "scene": "Isbjerget",
             "day": "fredag",
             "time": "13:00",
             "img": "stormzy.webp",
@@ -491,7 +491,7 @@
             "name": "Hans Philip",
             "country": "DK",
             "location": "Aarhus Ø",
-            "scene": "Klostertorv",
+            "scene": "Bassin 7",
             "day": "fredag",
             "time": "14:00",
             "img": "jcole.webp",
@@ -536,7 +536,7 @@
 
         },
         {
-            "name": "The Minds of 99",
+            "name": "The <br> Minds of 99",
             "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
@@ -549,7 +549,7 @@
         },
         {
             "name": "Iswaal",
-            "country": "US",
+            "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -560,7 +560,7 @@
 
         },
         {
-            "name": "Burhan G",
+            "name": "Hugo Helmig",
             "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
@@ -572,8 +572,8 @@
 
         },
         {
-            "name": "Artige-ardit",
-            "country": "DK",
+            "name": "DJ Khaled",
+            "country": "US",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -584,7 +584,7 @@
 
         },
         {
-            "name": "Hjalmer",
+            "name": "Smiley",
             "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
@@ -596,8 +596,8 @@
 
         },
         {
-            "name": "Ricky Rich",
-            "country": "SE",
+            "name": "Pooh Shiesty",
+            "country": "US",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -608,7 +608,7 @@
 
         },
         {
-            "name": "Marwan",
+            "name": "Johnson",
             "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
@@ -620,8 +620,8 @@
 
         },
         {
-            "name": "MoStack",
-            "country": "UK",
+            "name": "Cherrie",
+            "country": "SE",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -632,8 +632,8 @@
 
         },
         {
-            "name": "Blizzy",
-            "country": "NO",
+            "name": "Jamie XX",
+            "country": "UK",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -644,7 +644,7 @@
 
         },
         {
-            "name": "RoseeLu",
+            "name": "Branco",
             "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
@@ -656,8 +656,8 @@
 
         },
         {
-            "name": "Dree Low",
-            "country": "SE",
+            "name": "AJ Tracey",
+            "country": "UK",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -668,8 +668,8 @@
 
         },
         {
-            "name": "Emil Lange",
-            "country": "DK",
+            "name": "Brent Faiyaz",
+            "country": "US",
             "location": "Aarhus Ø",
             "scene": "",
             "day": "fredag",
@@ -680,7 +680,7 @@
 
         },
         {
-            "name": "Patte-sutter",
+            "name": "Rosegold",
             "country": "DK",
             "location": "Aarhus Ø",
             "scene": "",
