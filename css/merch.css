@@ -156,13 +156,5 @@
       padding: 12px 0px;
   }
 
-  .container {
-    grid-column: span 2;
-  }
-
-  .tx_under {
-    grid-row: 2; 
-  }
-
 
 }
