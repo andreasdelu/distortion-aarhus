@@ -1,0 +1,17 @@
+:root{
+    --green-clr: var(--green);
+}
+
+.right-section{
+    max-height: none;
+    height: 100%;
+    padding-bottom: 50px;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 6rem;
+    color: var(--text-clr);
+    text-decoration: underline var(--green);
+}

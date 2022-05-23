@@ -12,7 +12,7 @@
 <body>
     <header id="header">
         <div id="logo-date">
-            <a id="small-logo" href="/"><img src="../images/logo.png" alt="Aarhus Distortion Logo"></a>
+            <a id="small-logo" href="/"><img src="../images/logosmall.webp" alt="Aarhus Distortion Logo"></a>
             <p>7. - 11. JUNI 2023</p>
         </div>
         <div id="header-icons">
@@ -56,13 +56,14 @@
     <main>
         <div id="video">
             <video autoplay muted loop>
+                <source src="images/video.webm" type="video/webm">
                 <source src="images/video.mp4" type="video/mp4">
             </video>
         </div>
         <section id="top">
             <div class="left-section"></div>
             <div class="right-section first-section">
-                <img id="logo" src="images/logo.png" alt="Aarhus Distortion Logo">
+                <img id="logo" src="images/logo.webp" alt="Aarhus Distortion Logo">
                 <div class="timer">
                     <h2>BEGYNDER OM:</h2>
                     <div id="countdown">
@@ -100,9 +101,6 @@
         <section id="billetter">
             <div class="left-section"><h2 class="section-title">BILLETTER<h2 class="section-title-outline">BILLETTER</h2></h2></div>
             <div class="right-section">
-                <!-- <video id="ticketanim" muted>
-                    <source src="images/ticketanim.webm" type="video/webm">
-                </video> -->
                 <canvas id="ticketanim"></canvas>
                 <a class="button" href="billetter">KØB BILLETTER</a>
             </div>

@@ -116,16 +116,6 @@ h1{
     opacity: 0.25;
 }
 
-/* .friday{
-    background-color: var(--friday-clr);
-}
-.saturday{
-    background-color: var(--saturday-clr);
-}
-.sunday{
-    background-color: var(--sunday-clr);
-} */
-
 .friday .artist-overlay:before{
     background-color: var(--friday-clr);
 }
@@ -269,7 +259,6 @@ h1{
     height: 100vh;
     display: none;
     justify-content: center;
-    /* align-items: center; */
 }
 #modal-bg{
     width: 100%;
@@ -412,6 +401,12 @@ h1{
     }
     h1{
         font-size: 5rem;
+    }
+    .list-time{
+        font-size: 1rem;
+    }
+    .list-name{
+        font-size: 1.5rem;
     }
     
 }
