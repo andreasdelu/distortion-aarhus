@@ -8,28 +8,53 @@ const listFriday = document.querySelector('.list-friday');
 const listSaturday = document.querySelector('.list-saturday');
 const listSunday = document.querySelector('.list-sunday');
 
+const progressBar = document.getElementById('artist-progress');
+const loadScreen = document.getElementById('artist-loading');
+const topSection = document.getElementById('top');
+
 async function fetchArtists() {
-    const res = await fetch("../program/artists.json");
-    const artists = await res.json();
-    return artists;
+    
+    try{
+        const res = await fetch("../program/artists.json");
+        const artists = await res.json();
+        progressBar.value = 25;
+        return artists;
+    }
+    catch(err){
+        document.getElementById("progress-error-msg").style.display = "block";
+        console.log(err.message)
+        throw new Error("Could not load artists.json")
+    }
 }
 
 fetchArtists()
 .then(data => populateDays(data))
 
 function populateDays(artists){
-    artists.friday.forEach(artist => {
-        artistsFriday.appendChild(createGridArtist(artist))
-        listFriday.appendChild(createListArtist(artist))
-    });
-    artists.saturday.forEach(artist => {
-        artistsSaturday.appendChild(createGridArtist(artist))
-        listSaturday.appendChild(createListArtist(artist))
-    });
-    artists.sunday.forEach(artist => {
-        artistsSunday.appendChild(createGridArtist(artist))
-        listSunday.appendChild(createListArtist(artist))
-    });
+    /* Scroller siden til top, da den ellers ville scrolle lidt ned under loading, af ukendte årsager */
+    topSection.scrollIntoView(true)
+    setTimeout(() => {
+        artists.friday.forEach(artist => {
+            artistsFriday.appendChild(createGridArtist(artist))
+            listFriday.appendChild(createListArtist(artist))
+        });
+        progressBar.value = 50;
+    }, 100);
+    setTimeout(() => {
+        artists.saturday.forEach(artist => {
+            artistsSaturday.appendChild(createGridArtist(artist))
+            listSaturday.appendChild(createListArtist(artist))
+        });
+        progressBar.value = 75;
+    }, 200);
+    setTimeout(() => {
+        artists.sunday.forEach(artist => {
+            artistsSunday.appendChild(createGridArtist(artist))
+            listSunday.appendChild(createListArtist(artist))
+        });
+        progressBar.value = 100;
+        loadScreen.remove();
+    }, 300);
 
 }
 
