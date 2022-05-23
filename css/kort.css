@@ -10,8 +10,40 @@
     min-height: 100vh;
 }
 
-h1{
-    font-size: 6rem;
-    color: var(--text-clr);
+.underside-titel{
     text-decoration: underline var(--green);
+}
+
+#kort-container{
+    position: relative;
+    width: calc(100% - 50px); 
+    margin: 0 auto;
+}
+
+#kort-outline{
+    display: block;
+    filter: invert(var(--invert));
+    width: 100%; 
+}
+
+#kort-x{
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    width: 45%;
+    height: auto;
+}
+
+#kort-aa{
+    position: absolute;
+    width: 25%;
+    top: 32%;
+    left: 30%;
+}
+
+#kort-oe{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 25%;
 }
