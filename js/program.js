@@ -20,9 +20,8 @@ async function fetchArtists() {
         progressBar.value = 25;
         return artists;
     }
-    catch(err){
+    catch{
         document.getElementById("progress-error-msg").style.display = "block";
-        console.log(err.message)
         throw new Error("Could not load artists.json")
     }
 }
@@ -32,29 +31,26 @@ fetchArtists()
 
 function populateDays(artists){
     /* Scroller siden til top, da den ellers ville scrolle lidt ned under loading, af ukendte årsager */
-    topSection.scrollIntoView(true)
-    setTimeout(() => {
-        artists.friday.forEach(artist => {
-            artistsFriday.appendChild(createGridArtist(artist))
-            listFriday.appendChild(createListArtist(artist))
-        });
-        progressBar.value = 50;
-    }, 100);
-    setTimeout(() => {
-        artists.saturday.forEach(artist => {
-            artistsSaturday.appendChild(createGridArtist(artist))
-            listSaturday.appendChild(createListArtist(artist))
-        });
-        progressBar.value = 75;
-    }, 200);
-    setTimeout(() => {
-        artists.sunday.forEach(artist => {
-            artistsSunday.appendChild(createGridArtist(artist))
-            listSunday.appendChild(createListArtist(artist))
-        });
-        progressBar.value = 100;
-        loadScreen.remove();
-    }, 300);
+    topSection.scrollIntoView(true);
+
+    artists.friday.forEach(artist => {
+        artistsFriday.appendChild(createGridArtist(artist))
+        listFriday.appendChild(createListArtist(artist))
+    });
+    progressBar.value = 50;
+
+    artists.saturday.forEach(artist => {
+        artistsSaturday.appendChild(createGridArtist(artist))
+        listSaturday.appendChild(createListArtist(artist))
+    });
+    progressBar.value = 75;
+
+    artists.sunday.forEach(artist => {
+        artistsSunday.appendChild(createGridArtist(artist))
+        listSunday.appendChild(createListArtist(artist))
+    });
+    progressBar.value = 100;
+    loadScreen.remove();
 
 }
 
