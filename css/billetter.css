@@ -3,6 +3,10 @@
     max-height: none; 
 }
 
+.underside-titel {
+text-decoration: underline var(--blue);
+}
+
 .wrapper_overskrift {
     display: flex; 
     justify-content: space-between;
