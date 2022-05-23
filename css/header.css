@@ -190,7 +190,7 @@
     overflow: scroll;
     display: flex;
     align-items: center;
-    transition: right 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out, background-color 0.3s;
 }
 
 #navmenu ul{
