@@ -69,6 +69,12 @@
         <section id="top">
             <div class="left-section"></div>
             <div class="right-section first-section">
+                <div id="artist-loading">
+                    <h1>PROGRAM</h1>
+                    <label id="progress-label" for="artist-progress">Indlæser artister:</label>
+                    <progress id="artist-progress" value="1" max="100"></progress>
+                    <p id="progress-error-msg" style="display: none;">ERROR: <br> Could not load artists. Reload the page to try again.</p>
+                </div>
                 <h1>PROGRAM</h1>
                 <div id="pref-container">
                     <img id="pref-list" src="../images/list.svg" alt="list icon">
@@ -80,13 +86,13 @@
                     
                 </div>
                 <ul class="artist-list list-friday"></ul>
-                <h2 class="program-dag">LØRDAG · Ø</h2>
+                <h2 class="program-dag">LØRDAG · X</h2>
                 <hr class="sat-underline underline">
                 <div class="artist-grid saturday">
                     
                 </div>
                 <ul class="artist-list list-saturday"></ul>
-                <h2 class="program-dag">SØNDAG · X</h2>
+                <h2 class="program-dag">SØNDAG · Ø</h2>
                 <hr class="sun-underline underline">
                 <div class="artist-grid sunday">
                     
@@ -110,9 +116,10 @@
     </main>
     <template id="artist-temp">
         <div class="artist">
-            <img class="artist-pic" src="" alt="">
+            <img loading="lazy" class="artist-pic" src="" alt="">
             <div class="artist-overlay">
                 <h3 class="artist-name">NAME</h3>
+                <p class="artist-country">DK</p>
                 <p class="artist-time">00:00</p>
             </div>
         </div>
@@ -120,6 +127,7 @@
     <template id="list-temp">
         <li class="list-item">
             <h3 class="list-name">NAME</h3>
+            <p class="list-country">DK</p>
             <p class="list-time">00:00</p>
         </li>
     </template>

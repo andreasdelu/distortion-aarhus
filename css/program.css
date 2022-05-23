@@ -1,7 +1,7 @@
 :root{
     --friday-clr: var(--yellow);
-    --saturday-clr: var(--green);
-    --sunday-clr: var(--blue);
+    --saturday-clr: var(--blue);
+    --sunday-clr: var(--green);
 }
 
 
@@ -9,6 +9,8 @@
     max-height: none;
     height: 100%;
     padding-bottom: 50px;
+    position: relative;
+    min-height: 100vh;
 }
 
 h1{
@@ -38,6 +40,43 @@ h1{
 
 .current-pref{
     opacity: 1!important;
+}
+
+#artist-loading{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-clr);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#artist-progress{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 1rem;
+}
+#artist-progress[value]::-webkit-progress-bar{
+    background-color: var(--bg-clr);
+}
+#artist-progress[value]::-webkit-progress-value{
+    background-color: var(--red);
+    transition: 0.1s;
+}
+#progress-label{
+    font-size: 1.5rem;
+    color: var(--text-clr);
+    font-weight: 500;
+    margin-top: 2rem;
+}
+#progress-error-msg{
+    color: var(--text-clr);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .program-dag{
@@ -141,10 +180,13 @@ h1{
 .artist-overlay:hover > .artist-time{
     color: rgb(255, 255, 255);
 }
+.artist-overlay:hover > .artist-country{
+    color: rgb(255, 255, 255);
+}
 
 .artist-name{
     color: transparent;
-    font-size: 4rem;
+    font-size: 3.7rem;
     text-transform: uppercase;
     font-weight: 800;
     -webkit-text-stroke: 1px white;
@@ -156,15 +198,24 @@ h1{
 
 .artist-time{
     position: absolute;
-    top: 5px;
+    top: 1px;
     color: transparent;
     text-transform: uppercase;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.5px white;
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5));
     font-size: 1.4rem;
     width: 100%;
     text-align: center;
     font-weight: 700;
+}
+.artist-country{
+    position: absolute;
+    bottom: 1px;
+    font-size: 1.4rem;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px white;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5));
 }
 .list-friday{
     --day-clr: var(--friday-clr);
@@ -195,12 +246,7 @@ h1{
     transition: 0.3s;
 }
 .list-item:hover{
-    /* background-color: var(--day-clr);
-    color: white; */
     border-left: 1rem solid var(--day-clr);
-}
-.list-item:hover .list-name, .list-item:hover .list-time{
-    /* filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3)); */
 }
 
 .list-name{
@@ -208,6 +254,11 @@ h1{
 }
 .list-time{
     font-size: 1.2rem;
+}
+.list-country{
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: 5px;
 }
 
 #artist-popup{
@@ -329,7 +380,7 @@ h1{
         grid-template-columns: repeat(3, 1fr);
     }
     .artist-name{
-        font-size: 4rem;
+        font-size: 3.2rem;
         line-height: 3.5rem;
     }
     #artist-popup{
@@ -344,7 +395,7 @@ h1{
     }
     .program-dag{
         margin-top: 25px;
-        font-size: 3rem;
+        font-size: 2.9rem;
     }
     .artist-time{
         font-size: 1.2rem;

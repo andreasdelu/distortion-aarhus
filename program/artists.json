@@ -2,163 +2,694 @@
     "friday": 
     [
         {
-            "name": "Billie Eilish",
+            "name": "A$AP Rocky",
             "country": "US",
-            "location": "Aarhus Ø",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
             "day": "fredag",
-            "time": "18:00",
-            "img": "billieeilish.webp",
-            "embed": "6qqNVTkY8uBg9cP3Jd7DAH",
-            "info": "With the release of her highly anticipated sophomore album 'Happier Than Ever,' the 19-year-old Los Angeles native remains one of the biggest stars to emerge in the 21st century. Since the release of her debut single “ocean eyes” in 2015, Eilish continues to shatter the ceiling of music with her genre-defying sound. Fast forward from her humble breakout, her album WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? debuted at No. 1 on the Billboard 200 in the U.S as well as 17 additional countries around the world upon release in 2019, and was the most streamed album of that year. WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? was written, produced and recorded entirely by Billie Eilish and brother FINNEAS in their childhood home of Los Angeles. Billie Eilish went on to make history as the youngest artist to receive nominations and win in all the major categories at the 62nd GRAMMY® Awards, receiving an award for Best New Artist, Album of the Year, Record of the Year, Song of the Year, and Best Pop Vocal Album. Billie Eilish is also the youngest artist to write and record an official James Bond theme song, 'No Time To Die.' Most recently, Billie Eilish was nominated for four additional awards at the 63rd Annual GRAMMY Awards in 2021, and took home both Record of the Year for 'everything i wanted,' and Best Song Written For Visual Media for 'No Time To Die.' Billie Eilish's latest album 'Happier Than Ever' was written by Billie and her brother FINNEAS, who also produced the album."
-        },
-        {
-            "name": "Camilla Cabello",
-            "location": "Aarhus Ø",
-            "day": "fredag",
-            "time": "19:00",
-            "img": "camillacabello.webp",
-            "embed": "4nDoRrQiYLoBzwC5BhVJzF",
-            "info": "With the release of her highly anticipated sophomore album 'Happier Than Ever,' the 19-year-old Los Angeles native remains one of the biggest stars to emerge in the 21st century. Since the release of her debut single “ocean eyes” in 2015, Eilish continues to shatter the ceiling of music with her genre-defying sound. Fast forward from her humble breakout, her album WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? debuted at No. 1 on the Billboard 200 in the U.S as well as 17 additional countries around the world upon release in 2019, and was the most streamed album of that year. WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? was written, produced and recorded entirely by Billie Eilish and brother FINNEAS in their childhood home of Los Angeles. Billie Eilish went on to make history as the youngest artist to receive nominations and win in all the major categories at the 62nd GRAMMY® Awards, receiving an award for Best New Artist, Album of the Year, Record of the Year, Song of the Year, and Best Pop Vocal Album. Billie Eilish is also the youngest artist to write and record an official James Bond theme song, 'No Time To Die.' Most recently, Billie Eilish was nominated for four additional awards at the 63rd Annual GRAMMY Awards in 2021, and took home both Record of the Year for 'everything i wanted,' and Best Song Written For Visual Media for 'No Time To Die.' Billie Eilish's latest album 'Happier Than Ever' was written by Billie and her brother FINNEAS, who also produced the album."
+            "time": "17:00",
+            "img": "asaprocky.webp",
+            "embed": "13ubrt8QOOCPljQ2FL1Kca",
+            "info": "Championed by fellow rapper Drake and The Fader magazine before he released his first full-length project, self-proclaimed hood outcast A$AP Rocky became one of the biggest breakout stars of the 2010s. When the decade was over, the rapper had a pair of number one albums with Long.Live.A$AP (2013) and At.Long.Last.A$AP (2015), and a Top Ten entry with third LP Testing (2018). These full-lengths were promoted with some of the most popular songs of the era, most notably the Grammy-nominated Top Ten pop hit 'Fuckin´ Problems,' plus seven additional singles that went either platinum or multi-platinum. Supported by A$AP Mob and eager collaborators ranging from Kendrick Lamar and 2 Chainz to Skepta and Skrillex, Rocky himself has assisted with hits headlined by Selena Gomez ('Good for You'), G-Eazy ('No Limit'), and Famous Dex ('Pick It Up')."
 
         },
         {
-            "name": "Eminem",
-            "location": "Aarhus Ø",
+            "name": "Stormzy",
+            "country": "UK",
+            "location": "Aarhus Å",
+            "scene": "Åen",
             "day": "fredag",
-            "time": "20:00",
-            "img": "eminem.webp"
+            "time": "17:00",
+            "img": "stormzy.webp",
+            "embed": "2SrSdSvpminqmStGELCSNd",
+            "info": "A London-based grime MC of Ghanaian heritage, Stormzy made a swift rise in the early 2010s to become one of the U.K.'s most critically acclaimed artists. Climbing out of the underground grime scene with a series of triumphant mixtapes, singles, and freestyles, he made his breakthrough in 2017 with his platinum-certified, chart-topping debut Gang Signs & Prayer, which incorporated gospel and R&B influences. Within five years of the release of his debut EP, he was a Glastonbury festival headliner. His first number one hit single, 'Vossi Bop', preceded his sophomore album, 2019's Heavy Is the Head."
+
         },
         {
-            "name": "EMM",
-            "location": "Aarhus Ø",
+            "name": "J. Cole",
+            "country": "US",
+            "location": "Aarhus Å",
+            "scene": "Klostertorv",
+            "day": "fredag",
+            "time": "18:00",
+            "img": "jcole.webp",
+            "embed": "6l3HvQ5sa6mXTsMTB19rO5",
+            "info": "Cole released his debut studio album, Cole World: The Sideline Story, in 2011. It debuted at number one on the US Billboard 200. His next album, Born Sinner (2013), also topped the Billboard 200. Moving into more conscious themes, 2014 Forest Hills Drive (2014) topped the Billboard 200 and earned Cole a Best Rap Album nomination at the 2015 Grammy Awards. His jazz influenced fourth album, 4 Your Eyez Only (2016), debuted at number one on the Billboard 200. Cole's fifth album, KOD (2018), became his fifth number-one album on the Billboard 200 and featured a then-record six simultaneous top twenty hits on the Billboard Hot 100, tying with the Beatles. His sixth studio album, The Off-Season, which earned him his sixth number-one album, was released on May 14, 2021."
+
+        },
+        {
+            "name": "CHEFF Records",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
+            "day": "fredag",
+            "time": "18:00",
+            "img": "cheffrecords.webp",
+            "embed": "0i7DYzkG8u0ScquFnDUuvT",
+            "info": "CHEFF Records er et dansk pladeselskab, der udgiver materiale indenfor dansk rap, dancehall og hiphop. Selskabet står bag udgivelser med bl.a. KIDD, TopGunn, Klumben, Raske Penge og Sukker Lyn. Efter en længere pause annoncerede de i 2021 deres comeback."
+
+        },
+        {
+            "name": "Kato",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Åen",
+            "day": "fredag",
+            "time": "18:00",
+            "img": "kato.webp",
+            "embed": "1udruffum7CorOphFUMB9A",
+            "info": "KATO is one of the most successful Danish DJs over the last decade with an endless list of #1 placements on album, single and streaming lists. With more than +200,000,000 streams on Spotify, over 200,000 downloads sold and gold certification in the UK with the single “Show You Love” (2017), KATO has proven why international stars like the legendary rapper Snoop Dogg, the British star DJ / producer Sigala as well as the American actress and singer Hailee Steinfeld have all released singles with the Danish hitmaker. 2021 has been spent releasing clubtracks and bangers."
+
+        },
+        {
+            "name": "Medina",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Klostertorv",
+            "day": "fredag",
+            "time": "19:00",
+            "img": "medina.webp",
+            "embed": "7c7ZeiPKWHf2E1rsf1P4VF",
+            "info": "Danish electro-pop singer Medina broke through to Top Ten mainstream success in 2009 with her second album, Velkommen Til Medina, whose lead single, 'Kun for Mig', was far and away the biggest hit of the year in Denmark. Born Andrea Valbak on November 3, 1982, in Aarhus, Denmark, she is the daughter of a Chilean man and a Danish woman. She made her solo album debut in 2007 with Tæt På, which was produced by the Danish production duo Providers (Jeppe Federspiel and Rasmus Stabell) and released in association with the label At:tack Music. Tæt På spawned three different singles, 'Flå', 'Et Øjeblik', and 'Alene', yet none was a breakout hit, nor was the album itself. Her breakout came at last in late 2008, when 'Kun for Mig' was released and began ascending the Danish singles chart with swiftness. The biggest hit of the year in Denmark, 'Kun for Mig' spent a remarkable 17 straight weeks in the Top Five, including six weeks at number one; moreover, it spawned a sequel, 'Kun for Dig,' featuring rapper , that also topped the Danish singles, plus an English-language version, 'You and I,' that was a minor hit internationally."
+
+        },
+        {
+            "name": "Andreas Odbjerg",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
+            "day": "fredag",
+            "time": "19:00",
+            "img": "andreasodbjerg.webp",
+            "embed": "6aHaYKL09sA8L260zXNlVR",
+            "info": "Andreas Odbjerg deltog i de indledende runder af talentshowet X Factor 2009, men kom ikke til liveshowene. Han prøvede igen i showet The Voice i 2012 hvor han fik en samlet andenplads. Derefter fik han en pladekontrakt og begyndte på sangskriverlinjen på Rytmisk Musikkonservatorium. Sammen med Moses Fiellau dannede han duoen Moses: 'Andreas'. De har udgivet 3 EP'er og i 2017 blev deres nummer 'Gazeller' et radiohit. Han startede i 2018 med soloudgivelser. I 2021 fik hans single 'Føler mig selv 100' en placering som nr. 29 på den danske singlehitliste. ligeledes opnåede sangen en topplacering på den danske airplay chart som nummer 3. Nummeret “penge ind, penge ud” fra “Lance Armstrong” var P3’s uundgåelige, ligesom “Gazeller” og “Paris” også var det umiddelbart efter de blev udgivet."
+
+        },
+        {
+            "name": "Playboi Carti",
+            "country": "US",
+            "location": "Aarhus Å",
+            "scene": "Åen",
+            "day": "fredag",
+            "time": "19:00",
+            "img": "playboicarti.webp",
+            "embed": "699OTQXzgjhIYAHMy9RyPD",
+            "info": "Atlanta rapper Playboi Carti debuted with a repetitive and catchy flow like contemporaries Lil Uzi Vert and Yung Thug, gaining recognition in the mid-2010s as an affiliate of A$AP Mob. A steady succession of viral singles helped Carti's first proper album, 2018's Die Lit, debut at number three on the Billboard charts, and he moved into a new phase of his artistry with the riskier and more aggressive Whole Lotta Red in 2020."
+
+        },
+        {
+            "name": "Burhan G",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "21:00",
-            "img": "emm.webp"
+            "img": "burhang.webp",
+            "embed": "14nVYgOiwVBJIEATXIDYC8",
+            "info": "Burhan Genç Koç (født 20. januar 1983), bedre kendt som Burhan G, er en dansk R&B og pop-sanger og sangskriver og producer. Efter de to engelsksprogede album, Playground (2004) og Breakout (2007), brød Burhan G igennem med sit selvbetitlede album fra 2010 med dansksprogede popsange. Albummet har affødt seks hitsingler. Burhan G har haft 13 top 10 singler på den danske hitliste, og modtaget adskillige guld- og platinplader. Burhan G nævner udenlandske forbilleder som Timbaland, Rodney Jerkins, Michael Jackson, Kanye West, Donny Hathaway, Tyrese Gibson, Michael McDonald og Prince."
+
         },
         {
-            "name": "Mel Figure",
-            "location": "Aarhus Ø",
+            "name": "Artige<wbr>ardit",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
+            "day": "fredag",
+            "time": "21:00",
+            "img": "artigeardit.webp",
+            "embed": "6a3WaWgxrVmNIvaiTCI0Kk",
+            "info": "Ardit har efterhånden cementeret sig som en af de mest interessante og talentfulde artister på den danske hip hop scene. Han har på sin vis formået at skabe et unikt univers både musikalsk, men også visuelt, som der skinner klart igennem på den danske musikscene. Senest på sit album 'Held & Lykke Med At Komme Hjem' viser Artigeardit hans enorme talent som rapper og historiefortæller."
+
+        },
+        {
+            "name": "Hjalmer",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Åen",
+            "day": "fredag",
+            "time": "21:00",
+            "img": "hjalmer.webp",
+            "embed": "0thQkzSyTo4l3zbpibZznQ",
+            "info": "Hjalmer Larsen pladedebuterede i 2017 med singlen 'Hvis du går', der udkom den 16. juni 2017 på Universal. Sangen var medtaget på Hjalmer Larsens debut-EP/LP Skabt til at være ung, der udkom senere på året i november 2017 med syv sange. Forinden udgivelsen af mini-albummet havde Hjalmer Larsen optrådt på bl.a. Smukfest i august 2017. Han udgav i 2018 singlen 'Samme fejl' skrevet sammen med sangskriveren og sangeren Basim og medvirkede med sangerinden Medina på singlen 'Folk som os', skrevet af bl.a. Medina og Larsen. Han medvirker endvidere på Kim Larsens posthume album Sange fra første sal på guitar, keyboards og sang. Hjalmer er søn af Kim Larsen og Liselotte Kløvborg Larsen. I 2020 udgav han singlen Hey du."
+
+        },
+        {
+            "name": "Ricky Rich",
+            "country": "SE",
+            "location": "Aarhus Å",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "22:00",
-            "img": "melfigure.webp"
+            "img": "rickyrich.webp",
+            "embed": "1gm1katIowFM22Ldqcw6DK",
+            "info": "Ricky Rich from Sweden grew up with a musical father who taught him how to sing, but music began as a fun thing during a time of boredom after having to give up his dream of becoming a professional soccer player, due to a respiratory illness. 'I joked with my friends that I would become a rapper & started rapping in front of them. The response was unexpected, they thought I was good. One thing led another & I ended up in a studio'. It was not long before his career took off & today music has become one of the most important parts of his life. In 2017, when he released his debut EP, 'Mitt Liv', with Miklo Tusenfalk. The breakthrough came shortly after & together with the prod duo ARAM Mafia, Ricky created history with hits like 'Min Diamant', 'Abonnenten(Hey Babe)' & 'Habibi' which won the rapidly growing fanbase's love. In 2019 the acclaimed debut album 'Shhh' was released & sold double platinum. In 2020 hit singles like 'Bless Me' & 'Ma Chérie' dropped + the mini album 'Highs & Lows'. During 2021 Ricky Rich has so far gone viral on the German market, chartered on numerous top lists, singed a deal in Germany, collaborated with several international acts & released a single with Spotify Studio 100"
+
         },
         {
-            "name": "Post Malone",
-            "location": "Aarhus Ø",
+            "name": "Marwan",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
+            "day": "fredag",
+            "time": "22:00",
+            "img": "marwan.webp",
+            "embed": "485qSJLm5xb3tWRG9N7O4h",
+            "info": "Som 10-årig kom Marwan til Danmark fra Saudi-Arabien, han er opvokset i Aarhus V. Marwan, der tidligere var kendt under navnet SLP (Statsløs Palæstinenser) tilhører det omfattende århusianske crew Pimp-A-Lot, der tæller undergrundsrappere som Jøden og den kvindelige 'Årets Rapper' vinder, Angie. Marwan har rappet siden 2000 og medvirkede blandt andet på Pimp-A-Lot udgivelserne Uden om systemet (2001) og I er selv uden om det (2003). Marwan udgav sit debutalbum P.E.R.K.E.R. i 2007 på Tabu Records, der blev sat i butikkerne den 1. maj. Albummet er produceret af Tabu Records, Lounge Lizzards og Marwans faste producer, Abu Malek. Marwan er også medlem i rapgruppen Full Impact Productions (F.I.P.). Efter tre års stilhed siden albummet 'Marwan', udgav Marwan singlen 'Århus V Veteran' med L.O.C. den 17. februar 2017."
+
+        },
+        {
+            "name": "MoStack",
+            "country": "UK",
+            "location": "Aarhus Å",
+            "scene": "Åen",
+            "day": "fredag",
+            "time": "22:00",
+            "img": "mostack.webp",
+            "embed": "14H15rElxdGClICOZXEYHP",
+            "info": "North London rapper Mostack shifted from making music about the streets he was raised on to focusing on deeper personal issues and broader social themes. Mostack first appeared on the scene in 2014, when he released the single 'No Buddy' through Link Up TV's YouTube channel. The single quickly caught the attention of U.K. rap fans, leading to a tour in support of Stormzy in late 2015. The following year Mostack dropped his debut mixtape, Gangster with Banter, reaffirming his playful yet serious approach. He spent the rest of 2016 and early 2017 touring and building his fan base. In the summer of 2017, he dropped his second mixtape, High Street Kid, which featured guest spots from J Hus, Mist, Jiggz, and Krept. The following year saw MoStack get to work on his debut LP. The record -- titled Stacko -- arrived in the summer of 2019 and featured guest appearances from the likes of Stormzy, J Hus, and Dave."
+
+        },
+        {
+            "name": "Blizzy",
+            "country": "NO",
+            "location": "Aarhus Å",
+            "scene": "Klostertorv",
             "day": "fredag",
             "time": "23:00",
-            "img": "postmalone.webp"
+            "img": "blizzy.webp",
+            "embed": "4tSx9oXscGCVaVXEhH86qp",
+            "info": "Hamza Mohamed, known as Blizzy, born February 19, 1994 in Husby, is a Swedish rapper. He became known through his participation in the hip-hop collective Ghetto Superstars and the acclaimed debut album Väster om väster. Mohamed grew up in Husby in Stockholm and his career in music began early. Already in his teens, he started hanging out in the studio at the leisure center, where he tried out self-written texts. Shortly afterwards, the hip-hop group Krabban was started, where Mohamed rapped with his friend Salah Abdulle ( Dree Low ) and local rapper Keya Turan. During high school, Dree Low met producer Hasti B, who worked a lot with Rinkeby rappers Yasin and Jaffar Byn. Mohamed then had the opportunity to record the song Falla with the former, a song that received half a million listens in one day. At this time, the hip-hop collective Ghetto Superstars (GSS) started, and Mohamed joined as a member. Even after his time in GSS, Mohamed continued with his solo career, and released the 2018 album Selfmade in positive response. In April 2021, Blizzy had over 340,000 listeners a month on Spotify. Blizzy has sold both gold and platinum several times and been nominated for a Grammy. In 2017, Mohamed was on the annual top list of young Swedish artists at Dopest. On October 23, 2020, Blizzy released the single '2vs2' featuring artist Ricky Rich. The single placed on the top 50 list in Sweden directly and was one of Sweden's 50 most streamed songs for 5 weeks. On April 9, 2021, Blizzy and Ricky Rich once again released a song in collaboration with Spotify 100, 'Guitar'."
+
         },
         {
-            "name": "Travis Scott",
-            "location": "Aarhus Ø",
+            "name": "RoseeLu",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
+            "day": "fredag",
+            "time": "23:00",
+            "img": "roseelu.webp",
+            "embed": "0z6AS7aXaXqveKFus4AV9E",
+            "info": "No info..."
+
+        },
+        {
+            "name": "Dree Low",
+            "country": "SE",
+            "location": "Aarhus Å",
+            "scene": "Åen",
+            "day": "fredag",
+            "time": "23:00",
+            "img": "dreelow.webp",
+            "embed": "3tNPDodRNuLdezJnTsYOqy",
+            "info": "Salah Abdi Abdulle (born 17 September 1994), known professionally as Dree Low, is a former Swedish rapper and songwriter of Somali origin. He lives in Husby in western Stockholm. He broke through in 2019 with his albums No hasta mañana and Flawless. In September 2019, Flawless topped the Swedish Albums Chart and his single 'Pippi' topped the Swedish Singles Chart. He has collaborated with a number of Swedish rappers; Adel, Пorsche, Stacks & Glocks 1.Cuz, Einár amongst many. He is childhood friends with footballer Robin Quaison. On the 16th of January 2022, he informed that he will stop producing music and that his current music will be removed from YouTube, Spotify, Apple Music and similar services. It is believed that he found God during his most recent stay in prison, and that therefore, according to Islam, could not continue producing the music that he does as it is seemed violent, demeaning against women and often is on the topic of drugs."
+
+        },
+        {
+            "name": "Emil Lange",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Klostertorv",
+            "day": "fredag",
+            "time": "23:00",
+            "img": "emillange.webp",
+            "embed": "4UxkyClhUPBeJjyGwHvgaV",
+            "info": "Emil Morrild Skou, also known as Emil Lange, is a danish musician. His most popular song is '10 År (feat. Klamfyr)', released in 2019"
+
+        },
+        {
+            "name": "Patte<wbr>sutter",
+            "country": "DK",
+            "location": "Aarhus Å",
+            "scene": "Ryesgade",
             "day": "fredag",
             "time": "24:00",
-            "img": "travisscott.webp"
+            "img": "pattesutter.webp",
+            "embed": "6gBmiKOt38JSrowmeMqawZ",
+            "info": "Pattesutter (også kendt som Store Fede) er en dansk musiker og rapper. Hans borgerlige navn er Jakob Maegaard. Pattesutter fik sit gennembrud med nummeret 'Madonna' i 2016. Han er specielt kendt for sine kontroversielle tekster. Pattesutter startede med selv at producere sin musik og blev kendt gennem musiktjenesten SoundCloud, men er senere blevet opdaget af pladeselskabet Lil Label. Det store gennembrud skete i 2018, da hans single 'Technopiik' blev udnævnt som årets Roskilde-Hit. Sangen var i denne sommer en konstant hymne, der kunne høres på camping områderne til alle landets festivaler. Efterfølgende har han fulgt op med bl.a. 'Hun Ridder På Den', 'Lille Pik' og 'næ'. Pattesutter har optrådt på klubber og gymnasier i hele Danmark, på Roskilde Festival, Smukfest, Zulu Awards, flere jobs i Norge og en udsolgt Vega-koncert."
+
         }
     ],
     "saturday": 
     [
         {
-            "name": "Billie Eilish",
-            "location": "Aarhus Å",
+            "name": "Travis Scott",
+            "country": "US",
+            "location": "Aarhus X",
+            "scene": "Ridehuset",
             "day": "lørdag",
-            "time": "18:00",
-            "img": "billieeilish.webp"
-        },
-        {
-            "name": "Camilla Cabello",
-            "location": "Aarhus Å",
-            "day": "lørdag",
-            "time": "19:00",
-            "img": "camillacabello.webp"
+            "time": "12:00",
+            "img": "travisscott.webp",
+            "embed": "0Y5tJX1MQlPlqiwlOH1tJY",
+            "info": "A Houston-born hip-hop artist and producer affiliated with Kanye West's GOOD Music and TI's Grand Hustle, Travis Scott became known during the early 2010s for his heavily Auto-Tuned half-sung/half-rapped vocal style. Within seven years of his mainstream arrival via Kanye West's Cruel Summer compilation (2012), on which he served as co-producer and featured artist, Scott attained numerous platinum singles as a lead artist, including a streak of four that began with 'Antidote,' a track off his number three hit debut album, Rodeo (2015). He followed with a pair of number one full-lengths, Birds in the Trap Sing McKnight (2016) and Astroworld (2018), all the while assisting in platinum singles headlined by the likes of Rihanna ('Bitch Better Have My Money'), SZA ('Love Galore'), and Drake ('Portland'), and working extensively with Quavo as Huncho Jack. Whether leading or supporting, Scott's presence was unmistakable, almost always colored with an array of ad-lib trills including but not limited to 'It's lit,' 'Yeah, yeah,' and 'Straight up.'' Along with a collaborative 2019 album with his label collective Jackboys, Scott released the back-to-back 2021 singles 'Escape' and 'Mafia.'"
+
         },
         {
             "name": "Eminem",
-            "location": "Aarhus Å",
+            "country": "US",
+            "location": "Aarhus X",
+            "scene": "Tangkrogen",
+            "day": "lørdag",
+            "time": "13:00",
+            "img": "eminem.webp",
+            "embed": "7dGJo4pcD2V6oG8kP0tJRR",
+            "info": "Eminem is one of the best-selling artists in music history, and easily one of rap's biggest crossover successes. He was the first white rapper since the Beastie Boys to garner both sales and critical respect, but his impact has exceeded this confining distinction. On sheer technical skills, Eminem is one of the greatest MCs of his generation: rapid, fluid, dexterous, and unpredictable, capable of pulling off long-form narratives or withering asides. And thanks to his mentor Dr. Dre, he's had music to match; thick, muscular loops evoking the terror and paranoia conjured by Em's lyrics. To be certain, a great deal of the controversy Eminem courted - during the turn of the millennium, there was no greater pop culture bogeyman than Marshall Mathers - came through in how his violent fantasias, often directed at his mother or his wife, intertwined with flights of absurdity that appealed to listeners too young to absorb the psychodramas Eminem explored on his hit albums The Slim Shady LP and The Marshall Mathers LP. With hits 'My Name Is' and 'The Real Slim Shady,' he ruled the airwaves, but it wasn't long before some detractors acknowledged his depth, helped in part by singles like the mournful 'Stan,' written from the perspective of an obsessed fan. Eminem's commercial peak came around the time of his 2002 album The Eminem Show (which went platinum 27 times over) and with his crossover onto the big screen that same year with 8 Mile, a film that earned him acclaim for his performance and an Oscar for the film's anthem, 'Lose Yourself.'' A number of demons have led him to withdraw periodically, but he's always returned with mid-career rejuvenations like 2009's Relapse or 2020's Music to Be Murdered By."
+
+        },
+        {
+            "name": "U$O",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
+            "day": "lørdag",
+            "time": "14:00",
+            "img": "uso.webp",
+            "embed": "3GGuPP6lGhVCYBFsqQfIom",
+            "info": "Tilbage i 1999 slog USO igennem sammen med L.O.C. og Johnson i den legendariske trio B.A.N.G.E.R.S. To år senere album-debuterede han med 'Mr.Mista'. Et album der fik stor opmærksomhed, uden den store promotion. Singlen 'Igår var en vild nat' (feat. Burhan G) blev et radiohit (Ugens Uundgåelige på P3), og skaffede ham en nominering til P3-prisen. Det var første gang en rapper blev nomineret til den pris.  I 2005 vendte USO tilbage med albummet 'Jeg Vil Gerne, Du Vil Gerne, Vi Skal Gerne'. Her fra kom singler som 'Vil Du, Vil Du' (Ugens Uundgåelige på P3) og crunk-tracket 'Ikk’ å'. I 2007 udgav han albummet 'Hold Nu'. Titelnummeret blev Ugens Uundgåelige på P3. Et veloplagt remake af Søs Fengers hit 'Inderst Inde' var blandt pladens andre hits.  I 2010 skrev USO omkvædet til #1 hittet 'Hey Shorty' med Kato og Johnson. Sangen solgte platin og vandt utallige priser. Blandt andet for 'Årets Hit' til Zulu Awards 2011.  I 2011 udgav USO singlerne 'Skru’ Op' og 'Dans Som Michael Jackson'. Samme år skabte USO dansk raphistorie på det internationale hit 'Worldwide Choppers' - som den første og eneste rap-artist der har medvirket på en sang med så store internationale navne (Yelawolf, Twista og Busta Rhymes).  USO slog igen sit navn fast i 2012, da han skrev omkvædet til L.O.C.’s landeplage 'Momentet'. Med sangen kunne USO, som den første rap-artist nogensinde, gå hjem med prisen for 'Årets Danske Hit' til Zulu Awards for andet år i træk."
+
+        },
+        {
+            "name": "Shooter Gang",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Ridehuset",
+            "day": "lørdag",
+            "time": "15:00",
+            "img": "shootergang.webp",
+            "embed": "7HAfa0zXzOgIEUdyxE08AO",
+            "info": "Shooter Gang er en raptrio fra det vestlige Aarhus, Trillegården. Gruppen består af Tan, Belly og Dinero."
+
+        },
+        {
+            "name": "L.O.C",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
+            "day": "lørdag",
+            "time": "16:00",
+            "img": "loc.webp",
+            "embed": "0VUVvNFIyMeIWguwhhImIc",
+            "info": "L.O.C., der i vid udstrækning betragtes som den mest indflydelsesrige rapper nogensinde på den skandinaviske hiphopscene, er steget til det der ligner legendestatus med sin vedvarende, kompromisløse og kunstneriske oprigtighed. Platinhits, utallige priser og rekordsættende er én ting, tidløshed er en anden. L.O.C. er indehaver af den sjældne gave af genialitet, loyalitet, integritet, ydmyghed og mod. Liam O’Connor er født og opvokset i Aarhus. Var som teenager del af grupperne Alzheimer Klinikken og B.A.N.G.E.R.S. Debuterede som solist i 2001 med albummet Dominologi. L.O.C. har lige siden leveret platinhits og radiofavoritter på stribe og troner fast som trækplaster på såvel festivaler som spillesteder. Blandt hans mest succesfulde album er Inkarneret (2003), Cassiopeia (2006), Melankolia/Xxx Couture (2008), Libertiner (2011), Prestige, Paranoia, Persona (2012), Sakrilegium (2014) og Ekkokammer (2019). Siden foråret 2021 har rapperen været aktuel med albummet FUCK L.O.C, som gradvist er bygget op gennem flere drops af sange. På albummet er bl.a. ’Extra’ feat. Jimilian, ’MJ’ feat. Shooter Gang, det festlige reggaeton nummer ’Bedste Lyfe’ og ’Milkshake’. L.O.C. is the most influential rapper ever on the Scandinavian hip hop scene and has risen to legend status with his enduring, uncompromising, and artistic sincerity."
+
+        },
+        {
+            "name": "Dua Lipa",
+            "country": "UK",
+            "location": "Aarhus X",
+            "scene": "Tangkrogen",
+            "day": "lørdag",
+            "time": "17:00",
+            "img": "dualipa.webp",
+            "embed": "6M2wZ9GZgrQXHCFfjv46we",
+            "info": "Global pop superstar Dua Lipa released Future Nostalgia, her #1 UK sophomore album, this year to worldwide acclaim. It is one of the best reviewed albums of 2020 and debuted in the top 5 of the Billboard 200 Album Chart. Upon release, Future Nostalgia was the most streamed album in a day by a British female artist globally in Spotify history and has over 4.5 billion streams to date. Dua is the biggest female artist in the world on Spotify and is currently the third biggest artist overall with nearly 60 million monthly listeners. The album’s certified platinum lead single 'Don’t Start Now' is a worldwide hit with one billion streams on Spotify alone, and a #2 spot on the Billboard Hot 100, a career high for the pop star. The track also broke her personal best record of weeks at #1 at US Top 40 radio. Dua followed the success of “Don’t Start Now” by releasing smash UK single “Physical,” and her US Top 40 #1 “Break My Heart.” Most recently, Future Nostalgia was shortlisted for UK’s prestigious Mercury Prize. Future Nostalgia is the follow up to Dua’s eponymous 2017 debut, which is certified platinum and spawned 6 platinum tracks. She made BRIT Award history in 2018 by becoming the first female artist to pick up five nominations, with two wins for British Breakthrough Act and British Female Solo Artist, and received two Grammy awards for Best New Artist and Best Dance Recording in early 2019."
+
+        },
+        {
+            "name": "Thomas Helmig",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Ridehuset",
+            "day": "lørdag",
+            "time": "18:00",
+            "img": "thomashelmig.webp",
+            "embed": "2ytaRjGwyS3veZwsmr0SPj",
+            "info": "Thomas Helmig is one of Denmark's biggest stars, and his deep love of soul (especially vintage Motown), cemented by a stint in Detroit in the early '80s, has been evident in his music since the beginning. Born in Aarhus in 1964, he played in local bands as a teen before having the chance to be a student in Detroit, where he spent a year and sang with bands around the city. As he'd been performing Motown covers at home, the music wasn't a stretch for him, but it did cement his love of soul and the old Motown style that would remain evident in his own work. His debut album, credited to Thomas Helmig Brothers (the name adopted by his band, Elevatordrengene), appeared in 1985 on the Genlyd label, and was followed by a second a year later, around the same time that Helmig appeared on the 'Afrika' charity single. By 1989 he was releasing material under his own name, with the CD Vejen Vaeaek including an AIDS awareness single. In 1990 he became part owner of Genlyd, the label that had issued his own material, and two years later it was sold to giant BMG. Helmig became part of the giant, and his Rhythm album -- the first that he produced himself -- proved an immediate success. Released in 1994, Stupid Man brought him a Danish Grammy. In 1996 he recorded in the U.S. with producer Timothy Christian Riley, and the result was a more contemporary take on soul and R&B, Groovy Day, followed a year later by a compilation of early material. In 2000 a compilation of material from his first 15 years of recording was issued; 2004 brought El Camino, followed in 2006 by the very successful Helmig Herfra."
+
+        },
+        {
+            "name": "Omar",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
+            "day": "lørdag",
+            "time": "18:00",
+            "img": "omar.webp",
+            "embed": "1GLzVjVa7bLnAcD1At98j3",
+            "info": "Omar er en rapper fra Aarhus med en umiskendelig stemme, hvis sange indkapsler hans had-kærligheds-forhold til opvæksten i et af landets mest omtalte boligbyggerier."
+
+        },
+        {
+            "name": "Tobias Rahim",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Tangkrogen",
+            "day": "lørdag",
+            "time": "18:00",
+            "img": "tobiasrahim.webp",
+            "embed": "1w2fVGZN37TieWhlqS8UwB",
+            "info": "Tobias Rahim er nyere tids største gennembrud på den danske musikscene – og nu følger rekord-hitmageren op på udsolgte koncerter og optræder i Royal Arena d. 1. april 2023. 100 dage! Så længe toppede ’Stor Mand’ hitlisten på Spotify. Og da den historiske rekord endelig blev brudt, var det ingen ringere end Tobias Rahim selv, der overhalede, ja, sig selv. 2021 blev gennembruddet – og tilmed et af de største i nyere tid – for en, på alle måder, særegen kunstner som på sensationel vis, har formået at skabe sit helt eget personlige frirum med plads til tabuer, politiske budskaber, sex, følelser og grænsesøgende, poetisk lyrik og blive mainstream og folkelig på én og samme tid. Ovenpå en række fuldstændig udsolgte koncerter og endnu et kæmpe-hit med #1-singlen, ’Mucki Bar’, annoncerer Tobias Rahim nu fire arenashows, i landets fire største byer, i foråret 2023. Billetterne går i salg onsdag den 11. maj kl. 12:00. Forrige sommer bragede ’Stor Mand’ ind på radiobølgerne. Tobias Rahim og kompagnonen, Andreas Odbjerg, lå #1 på radio i imponerende 11 uger og opnåede intet mindre end 15 uger som #1 på den officielle danske hitliste med mere end 24 millioner streams og dobbelt-Platin. Tobias Rahim har desuden modtaget prestigefyldte publikumspriser som P3 Lytterhittet samt Årets Hit og Årets Nye Navn ved Zulu Awards 2022. Danmark har ganske enkelt forelsket sig hovedkulds i Tobias Rahim og hans farverige, utilregnelige verden."
+
+        },
+        {
+            "name": "Little Simz",
+            "country": "UK",
+            "location": "Aarhus X",
+            "scene": "Ridehuset",
+            "day": "lørdag",
+            "time": "19:00",
+            "img": "littlesimz.webp",
+            "embed": "6eXZu6O7nAUA5z6vLV8NKI",
+            "info": "London based Simbiatu Ajikawo, aka Little Simz had already been slowly and steadily building a reputation as one of the best and brightest talents of her generation until last year’s Sometimes I Might Be Introvert came along and changed the game completely. Hailed as an instant classic, it rocketed Simz from cult hero to international superstar overnight, landing at No. 4 in the UK Official Albums Chart, earning her four BRIT nominations, with nods for Artist of the Year, Mastercard Album of the Year, Hip Hop/Grime/Rap Act and Best New Artist, and making her the first female to sell out three headline shows at the legendary Brixton Academy. With another season of Top Boy coming soon to Netflix (not to mention a brief turn on the Marvel blockbuster “Venom: Let There Be Carnage”) as well as US/EU touring slated for the summer, Little Simz’ star only looks set to rise further and further."
+
+        },
+        {
+            "name": "Soleima",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
+            "day": "lørdag",
+            "time": "19:00",
+            "img": "soleima.webp",
+            "embed": "71le7jtjw9hq389Fnvi6XM",
+            "info": "The Danish musician’s cocktail of pitch-shifted synths, R&B, future bass and an undercurrent of world music is already something quite apart from the pack, but her vocal – simultaneously otherworldly, childlike in its innocence and sweetly sensual – elevates her individualistic style to another level. While her tracks are skewered heavily towards the kind of alternative pop in which easy genre classifications lie just out of reach, Soleima’s own story is similarly unconventional. Raised in Aarhus, a city on the Jutland peninsula, Soleima grew up in a family home soundtracked by classic soul and R&B, notably Aretha Franklin, Stevie Wonder and Otis Redding. So far, so normal? Pretty much. Yet that’s only a snippet of the tale. Soleima’s mother took her to an African dance camp which operated as a cultural exchange between Denmark and Sukumaland in Tanzania, and she soon became enamoured with their music – especially with their collection of traditional African drums such as the sikulu. As a young adult, she moved out to Sukumaland for two extended spells, and even organized a grant to allow some of their members to live and teach in Denmark. She subsequently earned a bachelor’s degree in Anthropology, did field work in Nepal and started to make a documentary about migration in Senegal. Soleima continues to spread her wings and craft her unique sound with avant-garde productions and the exploration of societal issues and the meaning of what it is to be human."
+
+        },
+        {
+            "name": "Bino Rideaux",
+            "country": "US",
+            "location": "Aarhus X",
+            "scene": "Tangkrogen",
+            "day": "lørdag",
+            "time": "19:00",
+            "img": "binorideaux.webp",
+            "embed": "3pcerTbRFAPvWWtAfySFWB",
+            "info": "Los Angeles-based rapper Bino Rideaux delivers confident rhymes about the daily struggles of street life. He received attention through numerous collaborations with his close associate Nipsey Hussle, including 2017 mixtape No Pressure, and has also worked with rappers like Casey Veggies, G Perico, and Blxst. While his earlier material was often brash and volatile, his sound has grown smoother and more Auto-Tune-heavy with releases like 2019's Sorry 4 tha Wait and 2020's Outside, his first proper full-length."
+
+        },
+        {
+            "name": "Popcaan",
+            "country": "JA",
+            "location": "Aarhus X",
+            "scene": "Ridehuset",
             "day": "lørdag",
             "time": "20:00",
-            "img": "eminem.webp"
+            "img": "popcaan.webp",
+            "embed": "62DmErcU7dqZbJaDqwsqzR",
+            "info": "Genre-bending Jamaican dancehall singer Popcaan rose to international success in the early 2010s thanks to singles like 'Only Man She Want' and 'Party Shot.' First as a prominent member of Vybz Kartel's posse and later through work with Dre Skull's Mixpak label as well as Drake's  OVO Sound roster, the versatile and prolific artist transcended genres through his own singles and on tracks like Jamie xx's 2015 smash 'I Know There's Gonna Be (Good Times)' and Gorillaz's 2017 'Saturnz Barz,' all leading up to the release of his 2018 sophomore album, Forever. After the 2020 Fixtape mixtape, he focused on churning out singles including 2022's 'Skeleton Cartier.'"
+
         },
         {
-            "name": "EMM",
-            "location": "Aarhus Å",
+            "name": "Jireel",
+            "country": "SE",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
             "day": "lørdag",
-            "time": "21:00",
-            "img": "emm.webp"
+            "time": "20:00",
+            "img": "jireel.webp",
+            "embed": "2EWsHDexsSInArfFkhA2i6",
+            "info": "Jireel is a 21 year old rapper/singer/songwriter from Stockholm, Sweden. He released his first single in 2016 and has since accumulated over 250 million streams on Spotify. His debut EP 'Jettad' included the hit singles 'Cateleya' and 'Snap', both of which went platinum only a few months after their respective releases. In 2018 Jireel won 'Artist Of The Year' award at the prestigious Swedish P3 Guld and ''Best New Act' at Grammis, the Swedish Grammy awards. Following the line of success, Jireel followed suit with the studio album '18' eventually winning a grammy for the single 'Alla Mina' ft. K27 in 2019, as well as his second 'Best Hiphop'-award."
+
         },
         {
-            "name": "Mel Figure",
-            "location": "Aarhus Å",
+            "name": "Lamin",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Tangkrogen",
+            "day": "lørdag",
+            "time": "20:00",
+            "img": "lamin.webp",
+            "embed": "4ZwOlDVAGXQo66ykbLQ8dP",
+            "info": "Lamin aka Lams er en af rapscenens nyeste, og mest innovative navne. Den 26-årige rapper har trods sin relativt korte tilstedeværelse i spotlightet, vist sig, at være en unik artist med en særlig kreativ udfoldelse, i et figurativt tekstunivers. Det kom særligt til udtryk på sidste års album udgivelse ‘Hva ved de om Lams’, der bestemt ikke fulgte de normative regler for, hvordan dansk hip-hop anno 2021 skulle lyde. Albummet blev gæstet af vennerne Artigeardit, Sivas, Karl William, Benny Jamz og barndomsvennen, 5star. Lams sluttede 2021 af med sit udsolgte Lille VEGA show, samt EP’en ‘Ny Agenda’, der udkom som et fællesprojekt mellem Lamin og Artigeardit."
+
+        },
+        {
+            "name": "Kidd",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Ridehuset",
+            "day": "lørdag",
+            "time": "21:30",
+            "img": "kidd.webp",
+            "embed": "7Ap8xCd7d0xon5XnkLvn4i",
+            "info": "Nicholas Westwood Kidd (født 31. marts 1989 i Dundee, Skotland), bedre kendt under kunstnernavnet Kidd eller Heimdals Sidste Vogter, er en dansk rapper. Han står bag undergrundshits som 'Kysset med Jamel' og 'Gøre sin ting', samt hittet 'Ik lavet penge'. De første udgivelser fra Kidd blev udgivet via YouTube og opnåede betydelig gennemslagskraft og Kidd blev hurtig anset for en del af den nye generation af danske rappere."
+
+        },
+        {
+            "name": "Noah Carter",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
             "day": "lørdag",
             "time": "22:00",
-            "img": "melfigure.webp"
+            "img": "noahcarter.webp",
+            "embed": "2dfY7zXIP61MKHtD175hFp",
+            "info": "Noah Christian Kim Carter (født ca. 1993) er en dansk rapper, der er tilknyttet pladeselskabet Fortyfive. Han er opvokset på Nørrebro i København. Inden berømmelsen startede han gruppen B.O.C. (Bombs Over Copenhagen) med sine barndomsvenner Oliver Chambuso (Kesi), Kian Rosenberg Larsson (Gilli), Nicklas Werenskjold og Benjamin Small (Benny Jamz). I 2011 modtog Noah Carter en treårig fængselsstraf. I de tre år han sad i fængsel blev han nævnt i flere andre danske rapperes tekst heriblandt BOC og Ukendt Kunstners Hans Phillip, hvor de i deres sange sagde 'Fri Noah Carter'. Blandt andet på hittet 'd.a.u.d.a' af Sivas og Gilli, rapper Gilli 2 minutter og 28 sekunder inde i sangen 'Vi råber fri Noah Carter / Hold ud alle brødre bag tremmer!'' og på Ukendt Kunstners 'Betonjunglen' hvor frasen 'Fri Noah Carter' indgår som en del af omkvædet. Han udgav sin første sang 'Do You', på platformen Soundcloud den 20. september 2016. Carter spillede sin første koncert den 19. oktober 2016. Han udgav også sit første album den 30. maj 2017. Han har siden udgivet singlen 'Search' og den 16. april 2018 udgav han albummet 2nd Demo, der blev godt modtaget hos Soundvenue."
+
         },
         {
-            "name": "Post Malone",
-            "location": "Aarhus Å",
+            "name": "Erica Jane",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Tangkrogen",
+            "day": "lørdag",
+            "time": "22:00",
+            "img": "ericajane.webp",
+            "embed": "1L4HGLMFRrJsAnug5M7slL",
+            "info": "Ericka released her first EP “Favorite Lie” in 2015. The lead single “Favorite Lie” is a pop-hit that is in rotation on national Danish radio, and featured in a commercial for HBO NORDIC. Ericka Jane is a young half danish female artist, her mother originates from the Philippines. She was first discovered when she entered the Danish X-factor at the age of 15, but the real hype began when she, at the age of only 16 years old, published a cover via Youtube, with the song ”Marvin’s Room” (Drake). She has an edgy pop sound, and she is inspired by artist such as Rihanna, Banks, and Beyoncé. Ericka is doing well on national radio and has defined her as a new rising star."
+
+        },
+        {
+            "name": "Barselona",
+            "country": "DK",
+            "location": "Aarhus X",
+            "scene": "Godsbanen",
             "day": "lørdag",
             "time": "23:00",
-            "img": "postmalone.webp"
-        },
-        {
-            "name": "Travis Scott",
-            "location": "Aarhus Å",
-            "day": "lørdag",
-            "time": "24:00",
-            "img": "travisscott.webp"
+            "img": "barselona.webp",
+            "embed": "2wdsck730u8ZhDA7eVHw7m",
+            "info": "Barselona blev dannet i 2016 af Rud Aslak og Rasmus Theodor. Fælles for dem var en ambition om at bane en ny vej i grænselandet mellem dansksproget pop- og rockmusik, og hurtigt havde de udgivet tre mixtapes på Soundcloud. Siden da har bandet udgivet de to EP’er ’Drengepop’ og ’Sommerkys’, i 2019 udgav bandet to debutalbum i form af ’Legebørn’ og ’Hjertebank’, og i efteråret 2020 udgav Barselona albummet ‘1 Dag Er Vi 1 Minde’. Senest har Barselona udgivet singlen ‘Stå Op Gå Ned’, som de har lavet i samarbejde med rapperen Artigeardit."
+
         }
     ],
     "sunday": 
     [
         {
-            "name": "Billie Eilish",
-            "location": "Aarhus X",
+            "name": "Frank Ocean",
+            "country": "US",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
+            "day": "søndag",
+            "time": "13:00",
+            "img": "frankocean.webp",
+            "embed": "2h93pZq0e7k5yf4dywlkpM",
+            "info": "Visionary American recording artist Frank Ocean is one of the most celebrated and critically acclaimed artists of this era. His heavily lauded breakout mixtape ‘Nostalgia Ultra’ in 2011 set the tone for what would be the Grammy-Award winning record ‘Channel Orange’. After a four-year break, Ocean dropped one of the most anticipated albums of all time ‘Endless’, followed a day later by the seminal and game-changing album ‘Blonde’. Between then and now, Frank Ocean has released songs including ‘Chanel’, ‘Provider’, and ‘In My Room’ to further acclaim, plus launched the independent American luxury company, Homer."
+
+        },
+        {
+            "name": "Kesi",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Isbjerget",
+            "day": "søndag",
+            "time": "13:00",
+            "img": "kesi.webp",
+            "embed": "2d7AMvzFwh5wUTuqQl3BAE",
+            "info": "Kesi startede sammen med Gilli og Benny Jamz den danske bølge af grime i 2011 og har sidenhen udviklet sig til at blive en af landets største pop/urbansangskrivere og -artister.  Over de seneste par år har Kesi sammen med produceren Hennedub skabt en genkendelig lyd, som har ført hits som 'Følelsen', ’Mamacita’,'God dag', 'Kom Over' og 'Su Casa' med sig - numre, der har placeret Kesi i toppen af listerne på Spotify, radio og den officielle single chart i Danmark."
+
+        },
+        {
+            "name": "Hans Philip",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Bassin 7",
+            "day": "søndag",
+            "time": "14:00",
+            "img": "hansphilip.webp",
+            "embed": "6idjJt47PjFydVRrAlNw4C",
+            "info": "Hans Philip Sery Lagui (født 18. oktober 1988 i Hjørring), bedre kendt som Hans Philip er en dansk musiker, der er kendt som den ene del af duoen Ukendt Kunstner og siden som solokunstner."
+
+        },
+        {
+            "name": "Roddy Ricch",
+            "country": "US",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
+            "day": "søndag",
+            "time": "15:00",
+            "img": "roddyricch.webp",
+            "embed": "757aE44tKEUQEqRuT6GnEB",
+            "info": "Rising from the streets of Compton but with a distinct Southern flair, rapper Roddy Ricch lays his introspective rhymes atop melodic trap, resulting in a hybrid form that has captured the ears of both regions. The MC broke through in 2018 with the platinum single 'Die Young' and topped the Billboard 200 the next year with Please Excuse Me for Being AntiSocial. Sophomore album Live Life Fast arrived in December 2021."
+
+        },
+        {
+            "name": "Suspekt",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Isbjerget",
+            "day": "søndag",
+            "time": "16:00",
+            "img": "suspekt.webp",
+            "embed": "74HomvqoUecDcUPRespyqg",
+            "info": "One of Denmark's leading hip-hop and rap outfits, Suspekt came together in the mid-'90s, eventually naming themselves and working on a debut -- as well as starting their label, Tabu Records. Suspekt counts the three members; Orgi-E and Bai-D, both on vocals/rap and the award winning and Grammy nominated producer Rune Rask."
+
+        },
+        {
+            "name": "Nik & Jay",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Bassin 7",
+            "day": "søndag",
+            "time": "17:00",
+            "img": "nikjay.webp",
+            "embed": "71k6SmcYKiIPq8M2RxK2Jr",
+            "info": "Hip-hop duo Nik & Jay from Værløse are Denmark's primary rap music proponents. Though latecomers to the European hip-hop table, Denmark's rap scene boasted huge audiences by the year 2002, when Nik & Jay arrived on the scene with their self-titled debut record. The sharply dressed bad boys preferred old-school themes laden with superficial party content. Nik & Jay focused on money, women, and the good life, rather than gangster identity or political messages. The album's hit single 'Hot' won the duo the title of Best Newcomer at the Danish Music Awards in 2003. A live in-concert DVD was released shortly thereafter, entitled Det vi Gor. The group's high sales and national recognition whipped up interest and buzz for their sophomore effort, which was released in 2004. The album spent an entire year in the Danish Top 40 charts, an unprecedented success, considering the nation's only-burgeoning interest in the hip-hop genre. Nik & Jay's steady trickle of radio singles, including 'Pige' (2003), 'Pop-Pop' (2004), 'Strip' (2005), and 'Boing' (2006) kept their profile high and concerts well attended. In 2007 Nik & Jay released their third original project, entitled Fresh-Fri-Fly. Though backed by Capitol and EMI Denmark, the album was released on the duo's very own Nexus Music."
+
+        },
+        {
+            "name": "Minds of 99",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
             "day": "søndag",
             "time": "18:00",
-            "img": "billieeilish.webp"
+            "img": "minds99.webp",
+            "embed": "6GTwMrB4u3hwcUyc9sU1UL",
+            "info": "The Minds of 99 er et prisbelønnet dansksproget post-punk rockband fra 2012. De har spillet på Orange Scene på Roskilde Festival (2015 og 2018) og haft udsolgte koncerter på de største arenaer i Danmark, Ceres Arena (Aarhus, 2019), Royal Arena (København, 2019), Parken (København, 2021)) og BOXEN, (Herning, 2022)."
+
         },
         {
-            "name": "Camilla Cabello",
-            "location": "Aarhus X",
+            "name": "Iswaal",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Isbjerget",
+            "day": "søndag",
+            "time": "18:00",
+            "img": "iswaal.webp",
+            "embed": "2oMBiV88KZpqPeoZlWPZLW",
+            "info": "Det seks mand store crew er blevet frontløbere for en ny hiphopgeneration fra Aarhus ved at bringe noget festligt tilbage til genren, der ellers bliver hårdere og hårdere."
+
+        },
+        {
+            "name": "Hugo Helmig",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Bassin 7",
             "day": "søndag",
             "time": "19:00",
-            "img": "camillacabello.webp"
+            "img": "hugohelmig.webp",
+            "embed": "27eEve8Mu7Zv8DGDIz4peE",
+            "info": "The Danish born artist and songwriter Hugo Helmig releases the powerful and brutally honest mini album ‘LULU vol 1’ with six songs addressing a turbulent few years. The songs are all very personal and deal with topics such as heartbreak and anxiety, and they show a more mature and melancholic side of the Danish artist than we’ve heard on the critically acclaimed debut album ‘Juvenile’ from 2019. Hugo Helmig released his debut single ‘Please Don’t Lie’ a few weeks prior to 19th birthday: and suddenly everything took off. The infectious song went on to be the most played song on Danish radio in 2017, earning Hugo his first platinum certification, and has to-date been streamed more than 30 million times. As ‘Please Don’t Lie’ started to climb the German Airplay Charts, it was clear there was a huge demand for the young songwriter outside of his home country. The song peaked at number 3 and spread to other European countries. The international follow up single ‘Wild’ went on to do the same, spending an astonishing five weeks at the number one spot in Denmark and peaked at number 3 in Germany."
+
         },
         {
-            "name": "Eminem",
-            "location": "Aarhus X",
+            "name": "DJ Khaled",
+            "country": "US",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
             "day": "søndag",
             "time": "20:00",
-            "img": "eminem.webp"
+            "img": "djkhaled.webp",
+            "embed": "0QHgL1lAIqAw0HtD7YldmP",
+            "info": "No overnight success, DJ Khaled toiled as a disc jockey for years before he became an immensely successful, larger-than-life figure in rap music. Since the latter half of the 2000s, surrounded by a cast of high-profile associates, Khaled has factored into triumphant crossover singles that have seemed like events. These include the Top Ten pop hits 'I'm on One' (2011), 'I'm the One' (2017), 'Wild Thoughts' (2017), 'No Brainer' (2018), and 'Popstar' (2020), which count Drake, Justin Bieber, Chance the Rapper, and Rihanna among the eager featured artists. Khaled's first eight albums, from 2006 through 2015, peaked within the Top 20 of the Billboard 200, while his ninth and tenth, Major Key (2016) and Grateful (2017), crowned the Billboard 200. Father of Asahd (2019) made Khaled a Grammy winner when 'Higher,' a collaboration with  and , was awarded Best Rap/Sung Performance. Khaled has responded to the feat by topping the Billboard 200 again with Khaled Khaled (2021). Cynics have noted that Khaled rarely produces or writes material and have wondered if he does more than yell, self-promote, and flaunt. Meanwhile, his base has had too good a time to care, charmed by his fun-loving spirit, ebullient interjections, and/or the well-placed talent that has flanked him."
+
         },
         {
-            "name": "EMM",
-            "location": "Aarhus X",
+            "name": "Smiley",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Isbjerget",
+            "day": "søndag",
+            "time": "20:00",
+            "img": "smiley.webp",
+            "embed": "0VAbWUQfLnhk5rggicyL8f",
+            "info": "SMILEY er en Århusiansk kunstner. Også kendt som DON fra rap trioen DONxLEExBARBER. SMILEY som artist fokuserer på solo projekter. 'Jeg har en vision med mit musik. Jeg kan ikke sættes i bås. Mit ønske er at folket lytter til min musik, min poesi og allervigtigst mine budskab.'"
+
+        },
+        {
+            "name": "Pooh Shiesty",
+            "country": "US",
+            "location": "Aarhus Ø",
+            "scene": "Bassin 7",
+            "day": "søndag",
+            "time": "20:00",
+            "img": "poohshiesty.webp",
+            "embed": "5F1aAS1duwlzExnPs3l2Xe",
+            "info": "Memphis rapper Pooh Shiesty snakes through airy beats with a venomous bite and slick melodies. On his certified platinum debut mixtape, the chart-topping SHIESTY SEASON, Pooh captivated with his undeniably catchy, southern flows. The highly anticipated project topped Apple Music’s pre-add chart for 2 weeks straight and later debuted at #1 on Billboard’s Top Rap Albums while peaking at #3 on the Billboard 200. He also simultaneously held 3 spots on the Hot 100 with the 2x platinum earworm “Back In Blood” leading the way and peaking at #13. The official visual topped YouTube’s “Top Music Videos” earning over 245M views.  As he continued to top several charts including Billboard’s “Emerging Artists” and “Artist 100” charts and the #1 spot on Rolling Stone’s “Breakthrough 25,” Pooh went on to make his TV debut on The Tonight Show Starring Jimmy Fallon with a performance of “Back In Blood” and earn his first award show nomination for Best New Artist at the 2021 BET Awards, later followed by multiple nominations at the 2021 BET Hip-Hop Awards (Best New Hip-Hop Artist, Song of the Year, Best Collaboration) and the 2022 Billboard Music Awards (Top New Artist). He was also seen on the cover of XXL’s 2021 Freshman Class Issue and crowned as “Rookie Of The Year” by RapCaviar."
+
+        },
+        {
+            "name": "Johnson",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
             "day": "søndag",
             "time": "21:00",
-            "img": "emm.webp"
+            "img": "johnson.webp",
+            "embed": "4w1fUgGXRGXhhnTAxjtxfS",
+            "info": "Marc Kwabena Johnson er en dansk-ghanesisk rapper, kendt som Johnson. Han er tidligere kendt som NiggerenISlæden. Han var medlem af den hedengangne gruppe B.A.N.G.E.R.S. sammen med U$O, L.O.C. og DJ Rescue. Sammen udgav de en EP, der blev kaldt V.I.P. EP'en, og udkom i et meget lille oplag med fire tracks"
+
         },
         {
-            "name": "Mel Figure",
-            "location": "Aarhus X",
+            "name": "Cherrie",
+            "country": "SE",
+            "location": "Aarhus Ø",
+            "scene": "Isbjerget",
+            "day": "søndag",
+            "time": "21:00",
+            "img": "cherrie.webp",
+            "embed": "59E9dYtwLTUAGuAppwFKAW",
+            "info": "The somali-swedish RnB-Queen. Cherrie debuted with the song “Intro” released in 2014 and followed up with the acclaimed hit “Tabanja”, nominated for “Video of the Year” and Cherrie for “New Artist of the Year” at the Swedish Grammy Awards 2016. In April 2016, she released her debut album “Sherihan” and won amongst other prizes “Hiphop & RnB of the Year” at the Swedish Grammy awards, P3 Gold, Manifestgalan 2017.  On the song “Aldrig Igen (må sådär)”, Cherrie made a noticeable collaboration with @Stormzy, a collaboration that led her to support Stormzy & Lethal Bizzle on the European Merky tour in the spring of 2017. During the summer, Cherrie was one of the talkers for ”Sommar i P1” a legendary swedish radioshow as well as releasing her Documentary ”Ut ur mörkret” on swedish national tv.  Cherrie was handpicked to 30 Days in LA and 30 Days in Chicago, with talents from all over the world. During her month in the states, she adorned billboards around Los Angeles and opened for Jhené Aiko in front of a sold-out Avalon. In Chicago, she made a prestigious appearance when she performed the same night as Daniel Caesar & SiR.  In autumn 2017, Cherrie released the song “163 för evigt” featuring Z.E, which became a viral success picked up by radio in Britain and Canada, for example. In just a week, the video received a million views on Youtube and then @Kehlani featured the remix. With new album “Araweelo” being the soundtrack for the summer of 2018, 2019 lies at Cherries feet."
+
+        },
+        {
+            "name": "Jamie XX",
+            "country": "UK",
+            "location": "Aarhus Ø",
+            "scene": "Bassin 7",
+            "day": "søndag",
+            "time": "21:00",
+            "img": "jamiexx.webp",
+            "embed": "7A0awCXkE1FtSU8B0qwOJQ",
+            "info": "A forward-thinking beatmaker and producer, Jamie xx helped shape the sound of the late 2000s and beyond with his Mercury Music Prize-winning group 'the xx' and on his own. The subtle blend of indie, R&B, and dance he crafted with 'the xx' made him a sought-after remixer for artists such as Adele, Florence + the Machine and Gil Scott-Heron, as on 2011's boundary-breaking We're New Here. As a solo artist, Jamie xx tempered the restraint of his other work with his reverence for dance music's power to move bodies and hearts. On singles like 2014's 'Under One Roof Raving' and 2015's full-length In Colour, his artful blend of the kinetic and the atmospheric was equally innovative and evocative. With 2020's hard-edged 'Idontknow' and 2022's festival-ready 'Let's Do It Again' he proved his music was continuing to evolve."
+
+        },
+        {
+            "name": "Branco",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
             "day": "søndag",
             "time": "22:00",
-            "img": "melfigure.webp"
+            "img": "branco.webp",
+            "embed": "1YwMnnHvnG64fJxYSVwmN6",
+            "info": "”Ingen lyder større end Branco”. Sådan lyder det fra både anmeldere og fans siden Branco åbnede 2021 med sit andet soloalbum, Baba Business 2. En albumudgivelse der kom ganske få måneder efter, at Branco stod på scenen til DMA og takkede for modtagelsen af hele tre DMA-statuetter for årets solist, årets album og årets streaminghit. Baba Business 2 markerede Branco som én af Danmarks største artister, da samtlige 20 sange strøg direkte ind på Spotify’s danske top50 inklusive førstepladsen. Nu er Branco klar med sit jubilæumsalbum, der gæstes af prominente danske og internationale artister."
+
         },
         {
-            "name": "Post Malone",
-            "location": "Aarhus X",
+            "name": "AJ Tracey",
+            "country": "UK",
+            "location": "Aarhus Ø",
+            "scene": "Isbjerget",
             "day": "søndag",
-            "time": "23:00",
-            "img": "postmalone.webp"
+            "time": "22:00",
+            "img": "ajtracey.webp",
+            "embed": "4Xi6LSfFqv26XgP9NKN26U",
+            "info": "AJ took the UK scene by storm in 2016, picking up two MOBO nominations and a whole host of industry accolades within months of his self-released debut EP, including selection as one to watch by MTV, Vevo and the BBC Sound Poll. 2017 saw him exceed those expectations, performing at nearly 150 shows worldwide, crashing into the UK album chart at #13 with no label backing, and rounding off the year with a huge 29-date European tour. He’s already appeared on tracks with A$AP Rocky, Missy Elliot and more. To top it off, he’s built a close, unique relationship with his childhood football team Tottenham Hotspur, starring as the face of the club’s 2017/18 kit launch with Nike and writing the official campaign song."
+
         },
         {
-            "name": "Travis Scott",
-            "location": "Aarhus X",
+            "name": "Brent Faiyaz",
+            "country": "US",
+            "location": "Aarhus Ø",
+            "scene": "Bassin 7",
             "day": "søndag",
-            "time": "24:00",
-            "img": "travisscott.webp"
+            "time": "22:00",
+            "img": "brentfaiyaz.webp",
+            "embed": "3tlXnStJ1fFhdScmQeLpuG",
+            "info": "International style icon & enigmatic R&B sensation, Brent Faiyaz solidifies himself as an artist for any era. Nearly two-years since his “Lost EP” Faiyaz re-emerges from his hiatus with a fine-tuned grasp on his craft. The unapologetic 10-track “Fuck The World” Seamlessly weaves from rude sex and champagne-soaked nights, to sensitive ideas about legacy, world issues, and the price of fame."
+
+        },
+        {
+            "name": "Rosegold",
+            "country": "DK",
+            "location": "Aarhus Ø",
+            "scene": "Torvet",
+            "day": "søndag",
+            "time": "23:30",
+            "img": "rosegold.webp",
+            "embed": "3TUFXaknTbUzM1SPutAt3f",
+            "info": "rosegold er en britisk-dansk duo bestående af brødrene Joshua (17) og Raiden (21) Rose. De laver nattemørk, sydende cool og dansabel hip-hop/R&B med en international lyd. Brødrene voksede op i et strengt kristent hjem i Sydlondon. Kun kristen musik var tilladt i deres hjem. Det gav dem en anderledes forståelse af, hvad musik var, hvilket tydeligt kan høres gennem deres egen musik. Der er mange referencer til deres opvækst, og musikken skabes på et meget melodisk grundlag, hvilket man sjældent hører i denne type musik. rosegold’s lyd er bedst kendt som et mix mellem britisk grime og R&B/hip-hop fra USA."
+
         }
     ]
 }
