@@ -4,6 +4,10 @@
   color: var(--text-clr)
 }
 
+.underside-titel {
+  text-decoration: underline var(--yellow);
+}
+
 #wrapper {
   display: grid;
   Grid-template-columns: repeat(2, 1fr);

@@ -4,6 +4,10 @@
     color: var(--text-clr)
 }
 
+.underside-titel {
+    text-decoration: underline var(--orange);
+  }
+
 .wrapper_overskrift {
     display: flex; 
     justify-content: space-between;
