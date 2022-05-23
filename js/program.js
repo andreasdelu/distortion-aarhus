@@ -139,6 +139,7 @@ const listBtn = document.getElementById('pref-list');
 const arrayBtn = document.getElementById('pref-array');
 
 listBtn.addEventListener("click", () => {
+    if(listBtn.classList.contains("current-pref")) return;
     arrayBtn.classList.toggle("current-pref")
     listBtn.classList.toggle("current-pref")
     artistsFriday.style.display = "none"
@@ -149,6 +150,7 @@ listBtn.addEventListener("click", () => {
     listSunday.style.display = "block"
 })
 arrayBtn.addEventListener("click", () => {
+    if(arrayBtn.classList.contains("current-pref")) return;
     arrayBtn.classList.toggle("current-pref")
     listBtn.classList.toggle("current-pref")
     artistsFriday.style.display = "grid"

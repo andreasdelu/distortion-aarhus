@@ -52,6 +52,12 @@ body{
     background: var(--menu-clr);
 }
 
+.underside-titel{
+    margin-top: 100px;
+    font-size: 6rem;
+    color: var(--text-clr);
+}
+
 
 main{
     height: 100%;
