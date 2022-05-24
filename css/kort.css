@@ -279,10 +279,8 @@
     font-size: 1rem;
     font-weight: 300;
     color: var(--text-clr);
-    padding: 0 25px;
+    padding: 0 25px 25px 25px;
     margin-top: 25px;
-    height: 100px;
-    overflow: hidden;
     transition: height 0.3s;
     letter-spacing: 0.4px;
 }
