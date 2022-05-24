@@ -5,8 +5,8 @@ const mapAnim = document.getElementById("kortanim");
 const mCtx = mapAnim.getContext("2d");
 
 
-let ticketUrl = "../images/ticketseq/ticketanim"
-let mapUrl = "../images/kortanimseq/kortanim"
+let ticketUrl = "images/ticketseq/ticketanim"
+let mapUrl = "images/kortanimseq/kortanim"
 
 const ticketFrames = 142;
 const mapFrames = 91;
