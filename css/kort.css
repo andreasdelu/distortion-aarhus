@@ -209,7 +209,7 @@
 #modal{
     width: 90%;
     max-width: 600px;
-    height: 90%;
+    height: fit-content;
     max-height: 550px;
     background-color: var(--bg-clr);
     transition: background-color 0.3s;
@@ -226,17 +226,18 @@
     width: 100%;
     height: 200px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 10px -3px rgba(0, 0, 0, 0.328);
 }
 #modal-img{
     height: 90%;
     width: 30%;
-    margin-left: 2rem;
+    margin: 0 1rem;
 }
 #modal-name-location{
-    margin-left: 2rem;
+    width: fit-content;
+    margin-right: 1rem;
 }
 #modal-name{
     font-size: 4rem;
@@ -244,10 +245,8 @@
     text-transform: uppercase;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.06));
     -webkit-text-stroke: 2px white;
-    text-align: left;
-    width: 60%;
+    text-align: right;
     white-space: nowrap;
-    
 }
 
 #modal-location{
@@ -281,7 +280,6 @@
     color: var(--text-clr);
     padding: 0 25px 25px 25px;
     margin-top: 25px;
-    transition: height 0.3s;
     letter-spacing: 0.4px;
 }
 #modal-close{
@@ -298,4 +296,71 @@
     font-size: 1.2rem;
     outline-width: 3px;
     margin: 0 auto;
+    position: relative;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1120px) {
+    #modal-name{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #modal-name{
+        font-size: 3.2rem;
+    }
+    #modal-img{
+        margin: 0 1rem;
+    }
+    #modal-name-location{
+        margin-right: 1rem;
+    }
+    #modal-top{
+        height: 150px;
+    }
+}
+@media screen and (max-width: 900px) {
+    #modal-name{
+        font-size: 2.9rem;
+    }
+    #modal-location{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #modal-name{
+        font-size: 2.5rem;
+    }
+    #modal-location{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 750px) {
+    #modal-name{
+        font-size: 3.6rem;
+    }
+    #modal-location{
+        font-size: 1.5rem;
+    }
+    #kort-popup{
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    #modal-name{
+        font-size: 3rem;
+    }
+    #modal-location{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    #modal-name{
+        font-size: 2.5rem;
+    }
+    #modal-location{
+        font-size: 1.1rem;
+    }
 }
