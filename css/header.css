@@ -21,8 +21,18 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-
+    margin-top: 5px;
+}
+#header::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: calc(100% + 15px);
+    background-color: var(--bg-clr);
+    z-index: -1;
+    right: 0;
+    top: -15px;
+    opacity: 0.4;
 }
 #logo-date{
     height: 60px;
@@ -333,6 +343,9 @@
     }
     #logo-date{
         color: var(--text-clr);
+    }
+    #header::after{
+        width: 100%;
     }
 }
 
