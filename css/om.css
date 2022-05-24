@@ -93,10 +93,13 @@ a {
 }
 
 
-@media only screen and (max-width: 1000px) {
-    .overskrift { 
-        font-size: 3rem;   
+@media only screen and (max-width: 1060px) {
+
+    .underside-titel { 
+        font-size: 5rem;   
     }
+}
+@media only screen and (max-width: 1000px) {
 
     .logo_element {
         height: 60px; 
@@ -135,10 +138,22 @@ a {
     }  
 
 }
+@media only screen and (max-width: 900px) {
+
+    .underside-titel { 
+        font-size: 4.3rem;   
+    }
+}
+@media only screen and (max-width: 750px) {
+
+    .underside-titel { 
+        font-size: 5rem;   
+    }
+}
 
 @media only screen and (max-width: 500px) {
-    .overskrift { 
-        font-size: 2rem;   
+    .underside-titel { 
+        font-size: 3.9rem;   
     }
 
     .logo_element {
