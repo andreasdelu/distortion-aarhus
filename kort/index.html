@@ -77,7 +77,7 @@
                         <svg id="kort-oe" class="kort-area" data-area="oe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344.22 392.14">
                             <defs>
                                 <style>
-                                    .oe-bot{fill:#1ea856;}.oe-top{fill:var(--green);}.oe-text{fill:#fff}.oe-line{transform: translateY(9%);}
+                                    .oe-bot{fill:#1ea856;}.oe-top{fill:var(--green);}.oe-text{fill:#fff}.oe-line{transform: scale(1.2) translate(-8%, -1%) ;}
                                 </style>
                             </defs>
                             <g data-name="Lag 2">
@@ -147,10 +147,23 @@
                         <img src="../images/kort/outlinex.svg" alt="Aarhus X outline">
                         <div id="x-locations" class="map-locations"></div>
                     </div>
-                    <div id="kort-popup">
-                        
+                </div>
+            </div>
+            <div id="kort-popup">
+                <div id="modal-bg"></div>
+                <div id="modal">
+                    <div id="modal-top"> 
+                        <img id="modal-img" src="../images/kort/klostertorv.svg" alt="">
+                        <div id="modal-name-location">
+                            <h2 id="modal-name">KLOSTERTORV</h2>
+                            <p id="modal-location">Klostertorvet, 8000 Aarhus C</p> 
+                        </div>
                     </div>
-                    
+                    <a id="modal-link" href="">Find vej</a>
+                    <p id="modal-date">Fredag</p>
+                    <p id="modal-info"></p>
+                    <a href="../program/" class="button">SE PROGRAM</a>
+                    <img id="modal-close" src="../images/close.svg" alt="close button">
                 </div>
             </div>
         </section>

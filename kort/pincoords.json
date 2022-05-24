@@ -1,0 +1,89 @@
+{
+    "oe": [
+      {
+          "name": "isbjerget",
+          "color": "green",
+          "location": "Mariane Thomsens Gade 43",
+          "info": "",
+          "date": "søndag",
+          "top": "30%",
+          "left": "78%"
+      },
+      { 
+          "name": "bassin-7", 
+          "color": "green", 
+          "location": "Havnebadet, Bassin 7", 
+          "info": "",
+          "date": "søndag",
+          "top": "45%", 
+          "left": "63%" 
+      },
+      { 
+          "name": "torvet", 
+          "color": "green", 
+          "location": "Hveensgade 1", 
+          "info": "",
+          "date": "søndag",
+          "top": "43%", 
+          "left": "30%" 
+      }
+    ],
+    "aa": [
+      {
+          "name": "klostertorv",
+          "color": "yellow",
+          "location": "Klostertorvet",
+          "info": "",
+          "date": "fredag",
+          "top": "20%",
+          "left": "43%"
+      },
+      { 
+          "name": "åen", 
+          "color": "yellow", 
+          "location": "Åboulevarden", 
+          "info": "",
+          "date": "fredag",
+          "top": "43%", 
+          "left": "55%"
+      },
+      {
+          "name": "ryesgade",
+          "color": "yellow",
+          "location": "Ryesgade",
+          "info": "",
+          "date": "fredag",
+          "top": "71%",
+          "left": "39%"
+      }
+    ],
+    "x": [
+      { 
+          "name": "godsbanen", 
+          "color": "blue", 
+          "location": "Skovgårdsgade 3", 
+          "info": "",
+          "date": "lørdag",
+          "top": "16%", 
+          "left": "29%" 
+      },
+      { 
+          "name": "ridehuset", 
+          "color": "blue", 
+          "location": "Vester Allé 1", 
+          "info": "",
+          "date": "lørdag",
+          "top": "22%", 
+          "left": "47%" 
+      },
+      {
+          "name": "tangkrogen",
+          "color": "blue",
+          "location": "Marselisborg Havnevej 1",
+          "info": "",
+          "date": "lørdag",
+          "top": "74%",
+          "left": "67%"
+      }
+    ]
+}
