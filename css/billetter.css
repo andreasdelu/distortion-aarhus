@@ -99,6 +99,9 @@ a {
     margin-top: -93px;
     z-index: 2;
 }
+.button{
+    background-color: var(--bg-clr);
+}
 
 .pris {
     display:none; 

@@ -128,11 +128,11 @@ function createPin(location) {
   pin.src = "../images/kort/loca.svg";
   pin.classList.add("location-pin");
   const p = document.createElement("p");
-  p.innerText = location.name.toUpperCase();
+  p.innerText = location.name.replace("aa", "å").toUpperCase();
   p.classList.add("location-name");
   div.style.top = location.top;
   div.style.left = location.left;
-  div.dataset.name = location.name;
+  div.dataset.name = location.name.replace("aa", "å");
   div.appendChild(p);
   div.appendChild(pin);
   div.addEventListener("click", function(){createModal(location)})
@@ -154,7 +154,7 @@ function createModal(obj) {
     const info = document.getElementById('modal-info');
 
     banner.style.backgroundColor = `var(--${obj.color})`
-    name.innerText = obj.name;
+    name.innerText = obj.name.replace("aa", "å");
     img.src = `../images/kort/${obj.name}.svg`
     location.innerText = obj.location;
     link.href = mapsLink + obj.location;
