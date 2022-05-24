@@ -49,6 +49,7 @@ a {
     width: 100%;  
     justify-content: space-between;
     margin: 50px 0; 
+    z-index: 1;
 }
 
 .banner {
@@ -64,15 +65,19 @@ a {
     filter: brightness(50%);
 }
 
+
+
 .billet { 
     display: block;
-    width: 140px;
+    width: 200px;
     height: auto;
     z-index: 1;
     margin-right: 25px; 
     transition: transform .1s;
     cursor: pointer;
 }
+
+
 
 .billet-tekst {
     margin-left: 25px;
@@ -84,22 +89,28 @@ a {
     transition: transform .2s;
 }
 
+.info_bill {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
 .dag {
-    margin-bottom: 12%; 
+    margin-bottom: 20%; 
     font-size: 35px; 
 }
 
 .koeb {
-    margin-left: 1vw;
-    border-style: solid;
-    padding: 4px 8px; 
-    font-weight: bold;
+    margin-top: -93px;
+    z-index: 2;
+    background-color: white;
 }
 
-.Koeb_container {
-    display: flex; 
+.pris {
+    display:none; 
+    font-size: 2rem; 
+    margin-bottom: 18%; 
+    text-align: center;
 }
-
 
 
 /* Hover over billet billeder  */
@@ -115,57 +126,123 @@ a {
     transform: scale(1.04);
 }
 
+@media only screen and (max-width: 1350px) {
 
-@media only screen and (max-width: 1000px) {
-    .overskrift { 
-        font-size: 3rem;   
-    }
-
-    .logo_element {
-        height: 60px; 
-        width: 20px; 
+    .dag {
+        margin-bottom: 20%; 
     }
 
     .billet {
-        width: 150px; 
+        width: 180px; 
+        margin-right: 1.5%;
+        margin-top: 4%;  
     }
+
+    .info_bill {
+        margin-bottom: 20%;
+    }   
+
+
 }
 
-@media only screen and (max-width: 810px) {
 
-.billet {
-    width: 130px; 
-    margin-top: 10px; 
+@media only screen and (max-width: 1189px) {
+    .billet {
+        width: 160px; 
+        margin-right: 2%; 
+        margin-top: 3.5%; 
+    }
+
+    .dag {
+        margin-bottom: 10%; 
+    }
+
+    .info_bill {
+        margin-bottom: 15%;
+    }
+
+
 }
+
+@media only screen and (max-width: 1111px) {
+
+    .billet {
+        width: 150px;
+        margin-top: 6%;
+    }
+
+    .info_bill {
+        margin-bottom: 27%;
+    }   
+  
+}
+
+@media only screen and (max-width: 1057px) {
+
+}
+
+@media only screen and (max-width: 887px) {
+    .billet {
+        width: 140px; 
+        margin-top: 8%; 
+    }
+
+    .info_bill {
+        margin-bottom: 20%;
+    }
+
 }
 
     
-@media only screen and (max-width: 713px) {
+@media only screen and (max-width: 750px) {
 
     .billet {
-        width: 140px; 
-        margin-top: 2px;  
+        width: 180px; 
+        margin-top: 1%;  
+    }
+
+    .dag {
+        margin-bottom: 12%; 
+    }
+
+    .info_bill {
+        margin-bottom: 8%;
     }
 
 }
 
 
-@media only screen and (max-width: 500px) {
-    .overskrift { 
-        font-size: 2rem;   
-    }
-
-    .logo_element {
-        height: 40px; 
-        width: 15px; 
-    }
-
-    .wrapper_overskrift { 
-        padding: 12px 0px;
-    }
-
+@media only screen and (max-width: 595px) {
+ 
     .billet {
-        width: 120px; 
-        margin-top: 15px; 
+        width: 140px; 
+        margin-top: 7%;  
     }
+
+    .info_bill {
+        margin-bottom: 20%;
+    }   
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .billet {
+        display: none; 
+    }
+
+    .billet-tekst {
+        margin-left: none; 
+        max-width: 90%; 
+    }
+
+    .info_bill {
+        margin-bottom: 10%;
+    }   
+
+    .pris {
+        display:block; 
+    }
+    
+
+
 }
