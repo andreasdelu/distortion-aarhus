@@ -293,13 +293,17 @@
     cursor: pointer;
 }
 
-.button{
+#modal .button{
     font-size: 1.2rem;
     outline-width: 3px;
     margin: 0 auto;
     position: relative;
     display: block;
     margin-bottom: 2rem;
+}
+
+footer{
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1120px) {

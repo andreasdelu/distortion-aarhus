@@ -348,6 +348,10 @@
     opacity: 1;
 }
 
+footer{
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1290px) {
     .artist-grid{
         grid-template-columns: repeat(2, 1fr);

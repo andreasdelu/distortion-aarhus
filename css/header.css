@@ -357,10 +357,11 @@
         margin-top: 10px;
     }
     #ticket{
-        display: none;
+        display: flex;
     }
     #header-icons{
         width: fit-content;
+        max-width: 220px;
     }
     #burger{
         height: 30px;
