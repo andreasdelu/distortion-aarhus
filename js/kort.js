@@ -138,20 +138,48 @@ const xLocations = document.getElementById('x-locations');
 
 let pinCoords = {
     oe: [
-        {top: "30%", left: "78%"},
-        {top: "45%", left: "63%"},
-        {top: "20%", left: "30%"}
+        {name: "isbjerget", top: "30%", left: "78%"},
+        {name: "bassin-7", top: "45%", left: "63%"},
+        {name: "torvet", top: "43%", left: "30%"}
+    ],
+    aa: [
+        {name: "klostertorv", top: "20%", left: "43%"},
+        {name: "åen", top: "43%", left: "55%"},
+        {name: "ryesgade", top: "71%", left: "39%"}
+    ],
+    x: [
+        {name: "godsbanen", top: "16%", left: "29%"},
+        {name: "ridehuset", top: "22%", left: "47%"},
+        {name: "tangkrogen", top: "74%", left: "67%"}
     ]
 }
 
 pinCoords.oe.forEach(location => {
-    const img = document.createElement("img");
-    img.src = "../images/kort/loca.svg";
-    img.classList.add("location-pin");
-    img.style.top = location.top;
-    img.style.left = location.left;
-    img.style.animationDelay = Math.random() + "s"
-
-    oeLocations.appendChild(img);
+    oeLocations.appendChild(createPin(location));
 })
+pinCoords.aa.forEach(location => {
+    aaLocations.appendChild(createPin(location));
+})
+pinCoords.x.forEach(location => {
+    xLocations.appendChild(createPin(location));
+})
+
+function createPin(location) {
+    const div = document.createElement("div");
+    div.classList.add("pin-container");
+    const pin = document.createElement("img");
+    pin.src = "../images/kort/loca.svg";
+    pin.classList.add("location-pin");
+    const p = document.createElement("p");
+    p.innerText = location.name.toUpperCase();
+    p.classList.add("location-name");
+    div.style.top = location.top;
+    div.style.left = location.left;
+    div.dataset.name = location.name;
+    div.appendChild(p);
+    div.appendChild(pin);
+    return div;
+}
+
+
 
