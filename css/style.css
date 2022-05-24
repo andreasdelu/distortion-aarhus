@@ -282,7 +282,7 @@ section{
 
 
 #ticketanim, #kortanim{
-    width: 100%;
+    width: 80%;
     max-width: 500px;
     aspect-ratio: 1;
 }
@@ -344,6 +344,14 @@ address h4{
     font-weight: 300;
 }
 
+@media screen and (max-width: 900px) {
+    .citat h3 {
+        font-size: 2.5rem;
+    }
+    .citat h4 {
+        font-size: 1.2rem;
+    }
+}
 
 @media screen and (max-width: 750px) {
     main{
@@ -361,14 +369,35 @@ address h4{
     #navmenu{
         width: 100vw;
     }
+    .citat h3 {
+        font-size: 3rem; 
+    }
+    .citat h4 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .citat h3 {
+        font-size: 2.8rem;
+    }
+    .citat h4 {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .right-section{
-        height: 70vh;
+        height: fit-content;
+        padding-bottom: 3rem;
     }
     .first-section{
         height: 90vh;
+    }
+    .citat h3 {
+        font-size: 2.5rem;
+    }
+    .citat h4 {
+        font-size: 1.2rem;
     }
 }
 
@@ -379,15 +408,5 @@ address h4{
     
     .countdown-nums {
         font-size: 3.3rem;
-    }
-}
-
-@media (prefers-color-scheme: dark){
-    body{
-        /* --bg-clr: rgb(24, 23, 26);
-        --menu-clr: white;
-        --text-clr: white;
-        --text-alt: black;
-        --invert: 1; */
     }
 }

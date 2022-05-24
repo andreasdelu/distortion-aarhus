@@ -1,0 +1,89 @@
+{
+    "oe": [
+      {
+          "name": "isbjerget",
+          "color": "green",
+          "location": "Mariane Thomsens Gade 43",
+          "info": "Isbjerget er det arkitektoniske mesterværk i hjertet af Ø-delen af Aarhus. Folk fra nær og fjern kommer for at ligge øjne på de imponerende byggerier. D. 11.6.23 forvandles pladsen for disse byggerier til endnu et enormt festfyrværkeri, hvor bl.a. Kesi, Suspekt og ISWAAL kommer og sparker liv i festen. ",
+          "date": "søndag",
+          "top": "30%",
+          "left": "78%"
+      },
+      { 
+          "name": "bassin-7", 
+          "color": "green", 
+          "location": "Havnebadet, Bassin 7", 
+          "info": "Bassin 7 er det nye mødested for hele Aarhus. Her smelter kulturliv, byliv, ø-liv og havneliv sammen og skaber en eksotisk Ø-promenade med et væld af aktiviteter. D. 11.6.23 forvandles Ø-promenaden til endnu en bragende fest, hvor bl.a. Nik & Jay, Hans Philip og Hugo Helmig kommer og trækker festen endnu et niveau op. ",
+          "date": "søndag",
+          "top": "45%", 
+          "left": "63%" 
+      },
+      { 
+          "name": "torvet", 
+          "color": "green", 
+          "location": "Hveensgade 1", 
+          "info": "Torvet er Aarhus Ø's bud på et kulturelt samsurium af både våde og tørre varer - og det skuffer ikke. Folk samles hver dag i massevis for at prøve de forskellige mad- og drikke boder. D. 11.6.23 forvandles Torvet til en heksekedel af fest og farver, hvor bl.a. Johnson, Minds of 99 og Branco kommer og bidrager til en kæmpe fest. ",
+          "date": "søndag",
+          "top": "43%", 
+          "left": "30%" 
+      }
+    ],
+    "aa": [
+      {
+          "name": "klostertorv",
+          "color": "yellow",
+          "location": "Klostertorvet",
+          "info": "Klostertorv er en af mange pladser i centrum af Aarhus' bankende hjerte, som bidrager til den evigt hyggelige bymidte. D. 9.6.23 forvandles det charmerende torv til en kæmpe fest, hvor musikalske sværvægtere som bl.a. J. Cole, Medina og Burhan G kommer og bidrager til en storslået aften. ",
+          "date": "fredag",
+          "top": "20%",
+          "left": "43%"
+      },
+      { 
+          "name": "åen", 
+          "color": "yellow", 
+          "location": "Åboulevarden", 
+          "info": "Åen er Aarhus' storslåede kendetegn og hele kongeriget er efterhånden familiær med den centrale gade, som beriger Aarhus' kulturliv med nogle af byens bedste caféer, natklubber og spisesteder. D. 9.6.23 bliver åen centrum for et brag af en fest, hvor alle glade festivalgængere kan opleve musikalske oplevelser som bl.a. Stormzy, Hjalmer og Kato.",
+          "date": "fredag",
+          "top": "43%", 
+          "left": "55%"
+      },
+      {
+          "name": "ryesgade",
+          "color": "yellow",
+          "location": "Ryesgade",
+          "info": "Ryesgade er blandt de mest kommercielle gågader i det Aarhusianske kulturliv, hvor shopping og hygge er i højsædet. D. 9.6.23 forvandles den hyggelige gågade til en gadefest udover det sædvanlige. Til at bidrage til den store fest kommer exceptionelle kunstnere som bl.a. A$AP Rocky, Artigeardit og Marwan. ",
+          "date": "fredag",
+          "top": "71%",
+          "left": "39%"
+      }
+    ],
+    "x": [
+      { 
+          "name": "godsbanen", 
+          "color": "blue", 
+          "location": "Skovgårdsgade 3", 
+          "info": "Godsbanen danner rammerne for et af de mest mangfoldige og mulighedsrige rum i hele Aarhus i form af kulturproduktionscenteret. D. 10.6.23 forvandles det sprudlende brokvarter til en fest, som de færreste ønsker at gå glip af. Musikalske navne som bl.a. U$O, L.O.C og Omar kommer og bidrager til en uforglemmelig fest. ",
+          "date": "lørdag",
+          "top": "16%", 
+          "left": "29%" 
+      },
+      { 
+          "name": "ridehuset", 
+          "color": "blue", 
+          "location": "Vester Allé 1", 
+          "info": "Ridehuset er en fredet bygning i Aarhus, som bidrager heftigt til det Aarhusianske kulturliv og har huset alle former for sociale arrangementer i årenes løb. D. 10.6.23 forvandles bygningen til et fest-imperium uden sammenligning, hvor bl.a. Shooter Gang, Thomas Helmig og Travis Scott kommer og optræder.",
+          "date": "lørdag",
+          "top": "22%", 
+          "left": "47%" 
+      },
+      {
+          "name": "tangkrogen",
+          "color": "blue",
+          "location": "Marselisborg Havnevej 1",
+          "info": "Tangkrogen er et af Aarhus' mange naturskønne områder med både vand, strand og skov, hvor man tilmed kan nyde synet af Aarhus havn i det fjerne. D. 10.6.23 forvandles denne naturskønhed til en festlig skønhed, som vil overgå alle dine forventninger. Kunstnere som Eminem, Tobias Rahim og Lamin kommer og optræder. ",
+          "date": "lørdag",
+          "top": "74%",
+          "left": "67%"
+      }
+    ]
+}
