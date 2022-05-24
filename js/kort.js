@@ -95,10 +95,12 @@ const oeLocations = document.getElementById("oe-locations");
 const aaLocations = document.getElementById("aa-locations");
 const xLocations = document.getElementById("x-locations");
 
+let pinCoords;
+
 async function getPins() {
     const res = await fetch("../kort/pincoords.json");
     const data = await res.json();
-
+    pinCoords = await data;
     return data;
 }
 
@@ -131,12 +133,9 @@ function createPin(location) {
   div.style.top = location.top;
   div.style.left = location.left;
   div.dataset.name = location.name;
-  div.dataset.color = location.color;
-  div.dataset.location = location.location;
-  div.dataset.date = location.date;
   div.appendChild(p);
   div.appendChild(pin);
-  div.addEventListener("click", function(){createModal(this)})
+  div.addEventListener("click", function(){createModal(location)})
   return div;
 }
 
@@ -144,8 +143,8 @@ const mapsLink = "https://www.google.com/maps/search/?api=1&query=";
 
 const modal = document.getElementById("kort-popup");
 
-function createModal(data) {
-    data = data.dataset;
+function createModal(obj) {
+
     const banner = document.getElementById("modal-top");
     const name = document.getElementById('modal-name');
     const img = document.getElementById("modal-img");
@@ -154,12 +153,13 @@ function createModal(data) {
     const date = document.getElementById('modal-date');
     const info = document.getElementById('modal-info');
 
-    banner.style.backgroundColor = `var(--${data.color})`
-    name.innerText = data.name;
-    img.src = `../images/kort/${data.name}.svg`
-    location.innerText = data.location;
-    link.href = mapsLink + data.location;
-    date.innerText = data.date;
+    banner.style.backgroundColor = `var(--${obj.color})`
+    name.innerText = obj.name;
+    img.src = `../images/kort/${obj.name}.svg`
+    location.innerText = obj.location;
+    link.href = mapsLink + obj.location;
+    date.innerText = obj.date;
+    info.innerText = obj.info;
 
     modal.style.display = "flex"
 

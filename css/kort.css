@@ -239,7 +239,7 @@
     margin-left: 2rem;
 }
 #modal-name{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: white;
     text-transform: uppercase;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.06));
@@ -252,7 +252,7 @@
 
 #modal-location{
     margin-top: 0rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.06));
     text-align: left;
     font-weight: 800;
