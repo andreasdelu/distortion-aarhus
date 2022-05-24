@@ -89,6 +89,19 @@ a {
     font-size: 35px; 
 }
 
+.koeb {
+    margin-left: 1vw;
+    border-style: solid;
+    padding: 4px 8px; 
+    font-weight: bold;
+}
+
+.Koeb_container {
+    display: flex; 
+}
+
+
+
 /* Hover over billet billeder  */
 .parent_billetter:hover > .banner {
     filter: blur(4px) brightness(40%);
