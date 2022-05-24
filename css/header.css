@@ -33,6 +33,7 @@
     right: 0;
     top: -15px;
     opacity: 0.4;
+    transition: background-color 0.3s;
 }
 #logo-date{
     height: 60px;
