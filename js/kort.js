@@ -131,3 +131,27 @@ function zoomOut() {
     )
     
 }
+
+const oeLocations = document.getElementById('oe-locations');
+const aaLocations = document.getElementById('aa-locations');
+const xLocations = document.getElementById('x-locations');
+
+let pinCoords = {
+    oe: [
+        {top: "30%", left: "78%"},
+        {top: "45%", left: "63%"},
+        {top: "20%", left: "30%"}
+    ]
+}
+
+pinCoords.oe.forEach(location => {
+    const img = document.createElement("img");
+    img.src = "../images/kort/loca.svg";
+    img.classList.add("location-pin");
+    img.style.top = location.top;
+    img.style.left = location.left;
+    img.style.animationDelay = Math.random() + "s"
+
+    oeLocations.appendChild(img);
+})
+

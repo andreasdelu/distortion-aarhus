@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.65 100.02"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px;}</style></defs><g id="Lag_2" data-name="Lag 2"><g id="Lag_1-2" data-name="Lag 1"><path id="Icon_material-location-on" data-name="Icon material-location-on" class="cls-1" d="M35.33,2.5A32.8,32.8,0,0,0,2.5,35.28v0c0,24.61,32.83,61,32.83,61s32.82-36.35,32.82-61A32.8,32.8,0,0,0,35.38,2.5Zm0,44.55A11.73,11.73,0,1,1,47.05,35.33,11.73,11.73,0,0,1,35.33,47.05Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.65 100.02">
+	<defs>
+		<style>
+			.cls-1{fill:#ff4a4a;stroke:#ff4a4a;stroke-miterlimit:10;stroke-width:5px;}
+		</style>
+	</defs>
+	<g id="Lag_2" data-name="Lag 2">
+		<g id="Lag_1-2" data-name="Lag 1">
+			<path id="Icon_material-location-on" data-name="Icon material-location-on" class="cls-1" d="M35.33,2.5A32.8,32.8,0,0,0,2.5,35.28v0c0,24.61,32.83,61,32.83,61s32.82-36.35,32.82-61A32.8,32.8,0,0,0,35.38,2.5Zm0,44.55A11.73,11.73,0,1,1,47.05,35.33,11.73,11.73,0,0,1,35.33,47.05Z" />
+		</g>
+	</g>
+</svg>

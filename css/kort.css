@@ -66,10 +66,12 @@
 }
 #kort-x path{
     transform: translateY(10%);
+}
+.x-top-group, .aa-top-group, .oe-top-group{
     transition: 0.2s;
 }
-#kort-x:hover .x-top{
-    transform: translateY(2%);
+#kort-x:hover .x-top-group{
+    transform: translateY(-8%);
 }
 
 #kort-aa{
@@ -79,10 +81,9 @@
 }
 #kort-aa path{
     transform: translateY(9%);
-    transition: 0.2s;
 }
-#kort-aa:hover .aa-top{
-    transform: translateY(2%);
+#kort-aa:hover .aa-top-group{
+    transform: translateY(-8%);
 }
 
 #kort-oe{
@@ -92,10 +93,9 @@
 }
 #kort-oe path{
     transform: translateY(9%);
-    transition: 0.2s;
 }
-#kort-oe:hover .oe-top{
-    transform: translateY(2%);
+#kort-oe:hover .oe-top-group{
+    transform: translateY(-8%);
 }
 
 .area-map{
@@ -121,4 +121,30 @@
     position: absolute;
     top: 25px;
     left: 25px;
+    z-index: 8;
+}
+
+.map-locations{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.location-pin{
+    width: 8%;
+    position: absolute;
+    animation: pinAnim 1.8s ease infinite forwards;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.location-pin:hover{
+    opacity: 1;
+    filter: drop-shadow(0 0 2px var(--red));
+}
+
+@keyframes pinAnim {
+    from{ transform: translateY(0); }
+    50%{ transform: translateY(-8%); }
 }
