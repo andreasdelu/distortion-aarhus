@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAAA | Supportsite</title>
+    <link rel="stylesheet" href="https://use.typekit.net/cnx5ftk.css">
+    <link rel="stylesheet" href="support.css">
+    <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon">
+    <script>
+        if (!sessionStorage.getItem("isLoggedIn")) {
+            location = "login.html"
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="../images/logosmall.webp" alt="">
+        <h1>Supportsite</h1>
+        <div id="download">
+            <a href="../images/designguide/designguide.pdf" download>Download designguide</a>
+            <a href="../images/designguide/tov_sweetspot.pdf" download>Download ToV-guide og sweetspot</a>
+        </div>
+        <div id="platform">
+            <button class="selected" id="instagram">Instagram</button>
+            <button id="tiktok">TikTok</button>
+            <button id="youtube">YouTube</button>
+            <button id="kalender">Kalender</button>
+        </div>
+    </header>
+    <main id="support">
+
+        <section id="instagram-section">
+            <h1>Instagram</h1>
+        </section>
+        <section id="tiktok-section" style="display: none;">
+            <h1>TikTok</h1>
+        </section>
+        <section id="youtube-section" style="display: none;">
+            <h1>YouTube</h1>
+        </section>
+    </main>
+    <script src="support.js"></script>
+</body>
+</html>
+

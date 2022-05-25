@@ -70,9 +70,12 @@
             <div class="left-section"></div>
             <div class="right-section">
 
+                <!-- Titel på siden  -->
                 <h1 class="underside-titel">FRIVILLIG</h1>
 
+                <!-- Container som indeholder alt indhold på siden  -->
                 <div class="wrapper_kon">
+                    <!-- Hero billede øverst --> 
                     <img class="hero_img" src="../images/frivillig.webp" alt="frivillig arbejdere">
                     <!-- broedtekst -->
                     <p>Kunne du tænke dig at være frivillig til Danmarks største gadefest så har
@@ -83,7 +86,7 @@
 
                     <p><b>Du tilmelder dig ved at udfylde formularen herunder:</b></p> <br>
 
-                    <!-- Formular  -->
+                    <!-- Formular med kundens oplysninger -->
                     <div class="container">
                         <form>
                             <label for="fnavn">Fornavn</label>
@@ -105,6 +108,7 @@
                             <input type="date" id="fods" name="fods"> <br>
 
                             <p>Ønsker</p>
+                            <!-- Radio buttons  -->
                             <input type="radio" id="4-6" name="onsker" value="4-6">
                             <label for="4-6">Jeg ønsker at være frivillig i 4-6 timer</label><br>
 
@@ -114,16 +118,16 @@
                             <input type="radio" id="16-18" name="onsker" value="16-18">
                             <label for="16-18">Jeg ønsker at være frivillig i 16-18 timer</label> <br> <br>
 
-
+                            <!-- Textfelt/udfyldningsfelt -->
                             <label for="subject">Om dig</label>
                             <textarea id="subject" name="subject" placeholder="Skriv lidt om dig selv..."
                                 style="height:200px"></textarea>
 
+                            <!-- Uploading af billede fra kunden -->
                             <label for="profilepic">Upload et billede af dig selv:</label><br>
                             <input type="file" name="profilepic" id="profilepic" accept=".jpg, .jpeg, .png"> <br> <br>
 
-
-
+                            <!-- Submit knap -->
                             <input type="submit" value="Send">
                         </form>
                     </div>

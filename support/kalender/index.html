@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAAA | Content Kalender</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        if (!sessionStorage.getItem("isLoggedIn")) {
+            location = "../login.html"
+        }
+    </script>
+</head>
+<body>
+    <a id="back" href="../">Tilbage</a>
+    <div style="display: none;" id="desc-background"></div>
+    <h1>Content Kalender</h1>
+    <div id="calender">
+        <div class="calender-header">
+            <div id="month-back" class="month-arrow"> &#60; </div>
+            <p class="month-year"></p>
+            <div id="month-next" class="month-arrow"> &#62; </div>
+        </div>
+        <div class="calender-grid">
+        </div>
+        <div id="description">
+            <h2>Planlagt content:</h2>
+            <p id="desc-close">Luk</p>
+        </div>
+    </div>
+    <template id="desc-temp">
+        <div class="desc-container">
+            <div class="desc-column-left">
+                <div class="desc-date desc-item"><b>Dato:</b> </div>
+                <div class="desc-time desc-item"><b>Tidspunkt:</b> </div>
+                <div class="desc-info desc-item"><b>Om post:</b> </div>
+                <div class="desc-name desc-item"><b>Beskrivelse:</b> </div>
+                <div class="desc-hashtags desc-item"><b>Hashtags:</b> </div>
+                <div class="desc-platform desc-item"><b>Platform:</b> </div>
+                <div class="desc-type desc-item"><b>Type:</b> </div>
+                <div class="desc-creator desc-item"><b>Produceret af:</b> </div>
+            </div>
+            <div class="desc-column-right">
+                <div class="desc-content desc-item"> </div>
+            </div>
+        </div>
+    </template>
+    <script src="script.js"></script>
+    <!-- Lavet af Andreas Deleuran Holm Nielsen :) -->
+</body>
+</html>
