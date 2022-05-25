@@ -1,93 +1,68 @@
 .right-section {
-    height: fit-content; 
-    max-height: none; 
+    height: fit-content;
+    max-height: none;
     color: var(--text-clr)
 }
 
+/* Titel på siden  */
 .underside-titel {
     text-decoration: underline var(--purple);
-  }
-
-.wrapper_overskrift {
-    display: flex; 
-    justify-content: space-between;
-    background-color: black; 
-    width: 100%; 
-    padding: 20px 0px;
-    margin-top: 100px;
 }
 
-.farve {
-    width: 100%; 
-    background-color: var(--purple); 
-    padding: 2px 0px; 
-}
-
-.om_distortion {
-    width: 13ch; 
-}
-
-.faq {
-    width: 13ch; 
-}
-
+/* Styling af links til undersider */
+.om_distortion,
+.faq,
 .kontakt {
-    width: 13ch; 
+    width: 13ch;
 }
-
-.overskrift {
-    color: white; 
-    font-size: 4rem; 
-    text-align: center;  
-}
-
-.logo_element {
-    height: 80px; 
-    width: 30px; 
-    margin: auto 15px; 
-}
-
 
 .side_skift {
     display: flex;
     justify-content: space-around;
-    width: 45%; 
+    width: 45%;
     margin: 16px;
     text-align: center;
 }
 
+/* Styling af links  */
 a {
     text-decoration: none;
     color: var(--text-clr);
 }
 
+/* Styling af underoverskrift */
 .underoverskrift {
     margin: 40px;
     font-size: 2.5rem;
 }
 
+/* Container med alt artikel indhold */
 .omos_wrapper {
-    padding: 1em; 
-    display: grid; 
+    padding: 1em;
+    display: grid;
     Grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
-    align-items: center; 
+    align-items: center;
 }
 
+/* Titler på artikel elementer */
 .titel {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
+/* Brødtekst i artikel  */
 .broed_tekst {
     font-size: 1rem;
 }
 
+/* Billede styling i artiklen  */
 .om_billeder {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
+/* Billede til distortion ved responsivitet  */
 .idag {
     display: none; 
 }
@@ -95,73 +70,63 @@ a {
 
 @media only screen and (max-width: 1060px) {
 
-    .underside-titel { 
-        font-size: 5rem;   
-    }
-}
-@media only screen and (max-width: 1000px) {
-
-    .logo_element {
-        height: 60px; 
-        width: 20px; 
-    } 
-
-    .wrapper_overskrift {
-        padding: 10px 0px;
+    .underside-titel {
+        font-size: 5rem;
     }
 }
 
 @media only screen and (max-width: 1150px) {
-    .omos_wrapper{
-        display: table-row; 
+
+    .omos_wrapper {
+        display: table-row;
     }
 
     .titel {
-        margin-top: 20px; 
-    }
-
-    .dis_idag {
-        display: none; 
+        margin-top: 20px;
     }
 
     .idag {
-        display: flex; 
+        display: block; 
+    }
+
+    .dis_idag {
+        display: none;
     }
 
     .om_billeder {
-        margin-top: 10px; 
+        margin-top: 10px;
     }
 
     .underoverskrift {
         margin: 20px;
         font-size: 2rem;
-    }  
-
-}
-@media only screen and (max-width: 900px) {
-
-    .underside-titel { 
-        font-size: 4.3rem;   
     }
 }
+
+@media only screen and (max-width: 900px) {
+
+    .underside-titel {
+        font-size: 4.3rem;
+    }
+}
+
 @media only screen and (max-width: 750px) {
 
-    .underside-titel { 
-        font-size: 5rem;   
+    .underside-titel {
+        font-size: 5rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .underside-titel { 
-        font-size: 3.9rem;   
-    }
 
-    .logo_element {
-        height: 40px; 
-        width: 15px; 
+    .underside-titel {
+        font-size: 3.9rem;
     }
+}
 
-    .wrapper_overskrift { 
-        padding: 12px 0px;
+@media only screen and (max-width: 500px) {
+
+    .underside-titel {
+        font-size: 3.4rem;
     }
 }

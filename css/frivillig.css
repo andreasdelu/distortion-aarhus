@@ -1,64 +1,36 @@
 .right-section {
-    height: fit-content; 
-    max-height: none; 
+    height: fit-content;
+    max-height: none;
     color: var(--text-clr)
 }
 
+/* Titel på siden: "Frivillig" */
 .underside-titel {
     text-decoration: underline var(--orange);
-  }
-
-.wrapper_overskrift {
-    display: flex; 
-    justify-content: space-between;
-    background-color: black; 
-    width: 100%; 
-    padding: 20px 0px;
-    margin-top: 100px;
 }
 
-.farve {
-    width: 100%; 
-    background-color: var(--orange); 
-    padding: 2px 0px; 
-}
-
-.faq {
-    width: 13ch; 
-}
-
-.kontakt {
-    width: 13ch; 
-}
-
+/* Styling af links  */
 a {
     text-decoration: none;
-    color: black; 
+    color: black;
 }
 
-.logo_element {
-    height: 80px; 
-    width: 30px; 
-    margin: auto 15px; 
-}
-
-.overskrift {
-    color: white; 
-    font-size: 4rem; 
-    text-align: center;  
-}
-
+/* Styling af hero billede */
 .hero_img {
     width: 100%;
-    height: auto; 
+    height: auto;
     margin-bottom: 15px;
 }
 
-.wrapper_kon {
+/* container med alt indhold */
+.wrapper_fri {
     margin: 16px;
 }
 
-input[type=text], select, textarea {
+/* opsætning af formular  */
+input[type=text],
+select,
+textarea {
     font-family: var(--bebas-exp);
     width: 100%;
     padding: 12px;
@@ -68,9 +40,9 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: black;
     color: white;
     font-weight: bold;
@@ -78,49 +50,51 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     opacity: 0.8;
-  }
-  
-  .container {
+}
+
+/*   Styling af border rundt om formularen */
+.container {
     border-radius: 5px;
     outline: 1px solid black;
     padding: 20px;
-  }
+}
 
-  #fods {
+/* fødselsdags felt */
+#fods {
     border-radius: 5px #cccccc;
-    padding: 10px; 
-    margin: 5px auto 12px auto; 
+    padding: 10px;
+    margin: 5px auto 12px auto;
     font-family: var(--bebas-exp);
-  }
-  
+}
+
 
 @media only screen and (max-width: 1000px) {
-    .overskrift { 
-        font-size: 3rem;   
+    .overskrift {
+        font-size: 3rem;
     }
 
     .logo_element {
-        height: 60px; 
-        width: 20px; 
+        height: 60px;
+        width: 20px;
     }
 }
 
 
 @media only screen and (max-width: 500px) {
-    .overskrift { 
-        font-size: 2rem;   
+    .overskrift {
+        font-size: 2rem;
     }
 
     .logo_element {
-        height: 40px; 
-        width: 15px; 
+        height: 40px;
+        width: 15px;
     }
 
-    .wrapper_overskrift { 
+    .wrapper_overskrift {
         padding: 12px 0px;
     }
 }
