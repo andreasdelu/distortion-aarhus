@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/cnx5ftk.css");
 
 :root {
-    --lightgrey: #f3f4f7;
-    --blue: #57b6ca;
-    --greyblue: #e4e6ed;
+    --lightgrey: #343434;;
+    --blue: #ffffff;
+    --greyblue: #18171a;
     --darkblue: #1a4860;
     --grey: #727272;
     --hoverblue: #399fb6;
@@ -20,10 +20,12 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16px;
+    background-color: #18171a;
 }
 
 h1{
     text-align: center;
+    color: white;
 }
 
 #calender{
@@ -46,6 +48,7 @@ h1{
 .month-year{
     width: 200px;
     text-align: center;
+    color: white;
 }
 .month-arrow{
     margin: 0 20px;
@@ -58,14 +61,26 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    background-color: var(--greyblue);
     user-select: none;
 }
+
+.month-arrow img{
+    height: 100%;
+    filter: invert(1);
+}
+
+#month-next{
+    transform: rotateZ(180deg);
+}
+
+#month-next:hover{
+    transform: rotateZ(180deg) scale(1.1);
+    transform-origin: center;
+}
+
 .month-arrow:hover{
     transform: scale(1.1);
     transform-origin: center;
-    background-color: var(--blue);
 }
 
 .calender-grid{
@@ -73,7 +88,7 @@ h1{
     width: 100%;
     grid-template-columns: auto auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
-    background-color: white;
+    background-color: #18171a;;
     row-gap: 0.4rem;
     column-gap: 0.4rem;
     padding: 0.4rem 0;
@@ -92,21 +107,22 @@ h1{
     font-weight: 200;
     overflow: hidden;
     position: relative;
+    color: rgb(213, 213, 213);
 }
 .date:hover{
-    background-color: var(--greyblue);
+    background-color: rgb(109, 109, 109);
     transform: scale(1.05);
     transform-origin: center;
 }
 
 .current{
-    outline: 1px solid black ;
+    outline: 2px solid rgb(121, 121, 121) ;
     outline-offset: -1px;
 }
 
 .next-month{
     background-color: var(--lightgrey) !important;
-    opacity: 0.3 !important;
+    opacity: 0.5 !important;
 }
 .next-month:hover{
     background-color: var(--lightgrey);
@@ -146,6 +162,7 @@ h1{
 
 #description h2{
     text-align: center;
+    color: white;
 }
 
 #desc-background{
@@ -172,10 +189,12 @@ h1{
 }
 .desc-column-left{
     width: 40%;
+    color: white;
+    font-weight: 300;
 }
 
 .desc-item{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .desc-item:first-child{
@@ -214,6 +233,7 @@ h1{
 #desc-close:hover{
     background-color: var(--blue);
     transition: 0.1s;
+    color: var(--greyblue);
 }
 
 .dayname{
@@ -232,8 +252,10 @@ h1{
     left: 20px;
     background-color: var(--greyblue);
     padding: 5px 10px;
+    outline: 2px solid white;
 }
 
 #back:hover{
-    background-color: var(--blue);
+    background-color: white;
+    color: var(--greyblue);
 }
