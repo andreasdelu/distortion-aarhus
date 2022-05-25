@@ -1,16 +1,17 @@
-// Set the date we're counting down to
+// Dato vi tæller til
 var countDownDate = new Date("Jun 7, 2023 12:00:00").getTime();
 
-// Update the count down every 1 second
+// opdaterer countdown hvert sekund
 var x = setInterval(function() {
 
-  // Get today's date and time
+  // få dagens dato og tid
   var now = new Date().getTime();
     
-  // Find the distance between now and the count down date
+  // finder forskellen på de to datoer
   var distance = countDownDate - now;
     
-  // Time calculations for days, hours, minutes and seconds
+  // udregning for dage, timer, minutter og sekunder
+  // tierne i sekunder, minutter og timer fås også
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -19,7 +20,7 @@ var x = setInterval(function() {
   var minTens = Math.floor(minutes/10)
   var hourTens = Math.floor(hours/10)
 
-
+  // tilføjer et 0 foran timer, minutter og sekunder hvis de er under 9, for altid at have to cifre
   if (hours <= 9) {
     hours = "0" + hours;
   }
@@ -30,7 +31,7 @@ var x = setInterval(function() {
     seconds = "0" + seconds;
   }
     
-  // Output the result in an element with id="nedtaelling"
+  // outputter resultatet til HTML elementer
   document.getElementById("countdown-days").innerText = days;
   document.getElementById("countdown-hours-tens").innerText = hourTens;
   document.getElementById("countdown-hours").innerText = hours.toString()[1];
@@ -38,9 +39,5 @@ var x = setInterval(function() {
   document.getElementById("countdown-mins").innerText = minutes.toString()[1];
   document.getElementById("countdown-secs-tens").innerText = secTens;
   document.getElementById("countdown-secs").innerText = seconds.toString()[1];
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-  }
+  
 }, 1000);

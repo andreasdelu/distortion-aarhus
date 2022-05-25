@@ -12,8 +12,8 @@ const progressBar = document.getElementById('artist-progress');
 const loadScreen = document.getElementById('artist-loading');
 const topSection = document.getElementById('top');
 
+// fetcher alle artister med tilhørende data fra artists.json
 async function fetchArtists() {
-    
     try{
         const res = await fetch("../program/artists.json");
         const artists = await res.json();
@@ -27,7 +27,9 @@ async function fetchArtists() {
 }
 
 fetchArtists()
-.then(data => populateDays(data))
+.then(artists => populateDays(artists))
+
+//Looper gennem hver dag i artists objektet og appender artister i deres respektive layout (grid eller liste)
 
 function populateDays(artists){
     /* Scroller siden til top, da den ellers ville scrolle lidt ned under loading, af ukendte årsager */
@@ -57,6 +59,8 @@ function populateDays(artists){
 const artistTemp = document.getElementById("artist-temp")
 const listTemp = document.getElementById("list-temp")
 
+// kloner artistTemp elementen og fylder det med dataen fra artist objektet
+
 function createGridArtist(artist){
     const clone = artistTemp.content.cloneNode(true);
     const div = clone.querySelector(".artist");
@@ -78,6 +82,8 @@ function createGridArtist(artist){
     return clone;
 }
 
+// kloner listTemp elementen og fylder det med dataen fra artist objektet
+
 function createListArtist(artist){
     const clone = listTemp.content.cloneNode(true);
     const div = clone.querySelector(".list-item");
@@ -96,6 +102,8 @@ function createListArtist(artist){
     return clone;
 }
 
+// lukker modal
+
 document.getElementById("modal-bg").addEventListener("click", () => {
     modal.style.display = "none"
 })
@@ -103,6 +111,8 @@ document.getElementById("modal-bg").addEventListener("click", () => {
 document.getElementById("modal-close").addEventListener("click", () => {
     modal.style.display = "none"
 })
+
+// laver artist modal popup og fylder den med data
 
 function createModal(artist) {
     document.getElementById("readmore").style.display = "block";
@@ -128,12 +138,16 @@ function createModal(artist) {
 
 document.getElementById("readmore-text").addEventListener("click", readMore)
 
+// viser mere tekst i modal
+
 function readMore() {
     document.getElementById("readmore").style.display = "none";
     document.getElementById("modal-info").style.height = "fit-content";
     document.getElementById("modal-info").style.paddingBottom = "25px";
 
 }
+
+// Knapper der skifter mellem liste og grid
 
 const listBtn = document.getElementById('pref-list');
 const arrayBtn = document.getElementById('pref-array');

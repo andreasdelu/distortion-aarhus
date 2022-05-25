@@ -1,9 +1,15 @@
+// Her sættes variabler for HTML elementerne
+
 const areas = document.querySelectorAll(".kort-area");
 const mainMap = document.getElementById("kort-alt");
 const arrows = document.querySelectorAll(".arrow-back");
 
 let currentMap;
 let currentArea;
+
+// De tre områder på kortet får hver deres eventListener, der får currentMap og currentArea til at have samme værdi som id'et på det element de refererer til i HTML koden
+// curMap er det omrids af bydelen der vises når kortet er zoomet ind, dets display bliver nu sat fra "none" til "flex" for at vise elementet.
+// zoomIn bliver kaldt med elementet som parameter
 
 areas.forEach((area) => {
   area.addEventListener("click", function () {
@@ -14,6 +20,9 @@ areas.forEach((area) => {
     zoomIn(this);
   });
 });
+
+// Hver pil der tager brugeren tilbage til det store kort får også en eventListener der animerer omridset af bydelen fra opacity 1 til 0.
+// Efter en settimeout sættes bydelens display til "none" og zoomOut funktionen kaldes
 
 arrows.forEach((arrow) => {
   arrow.addEventListener("click", function () {
@@ -31,10 +40,13 @@ arrows.forEach((arrow) => {
   });
 });
 
+// zoomIn bruger et HTML elements data-area attribute for at se hvilken del af kortet der skal zoomes ind på, dette findes i et switch statement
+// Værdierne er arbitrære og er fundet gennem trial and error i css
+// Efter zoom ind animationen i switch blokken, fader det farvede område ud og omridset fader ind. 
+
 function zoomIn(area) {
   const dur = 600;
   const curMap = document.getElementById(currentMap);
-  curMap.style.display = "flex;";
   switch (area.dataset.area) {
     case "oe":
       mainMap.animate([{ transform: "translate(-145%, 133%) scale(4.5)" }], {
@@ -77,6 +89,8 @@ function zoomIn(area) {
   }, dur - 100);
 }
 
+// fader det farvede område ind og zoomer kortet ud til startpositionen
+
 function zoomOut() {
   const curArea = document.getElementById(currentArea);
   curArea.animate([{ opacity: "1" }], {
@@ -91,21 +105,26 @@ function zoomOut() {
   });
 }
 
+// KORTNÅL LOGIK vvvvv
+
+// HTML elementer laves til variabler
 const oeLocations = document.getElementById("oe-locations");
 const aaLocations = document.getElementById("aa-locations");
 const xLocations = document.getElementById("x-locations");
 
-let pinCoords;
-
+// fetcher pincoords.json filen der indeholder alt data om de forskellige scener på festivalen
 async function getPins() {
     const res = await fetch("../kort/pincoords.json");
     const data = await res.json();
-    pinCoords = await data;
     return data;
 }
 
+
 getPins()
 .then(data => placePins(data));
+
+// placePins går gennem hvert objekt i pincoords filen og kører createPin funktionen med dataen for hver lokation som parameter
+// Derefter appendes disse til deres respektive HTML element
 
 function placePins(data) 
 {  
@@ -120,29 +139,39 @@ function placePins(data)
     });
 }
 
+// Der bruges createElement til at lave nålen, navnet og containeren for hver lokation
+// containeren har en eventlistener der laver den popup der viser info om området
 
 function createPin(location) {
-  const div = document.createElement("div");
-  div.classList.add("pin-container");
   const pin = document.createElement("img");
   pin.src = "../images/kort/loca.svg";
   pin.classList.add("location-pin");
-  const p = document.createElement("p");
-  p.innerText = location.name.replace("aa", "å").toUpperCase();
-  p.classList.add("location-name");
-  div.style.top = location.top;
-  div.style.left = location.left;
-  div.dataset.name = location.name.replace("aa", "å");
-  div.appendChild(p);
-  div.appendChild(pin);
-  div.addEventListener("click", function(){createModal(location)})
-  return div;
+
+  const pinName = document.createElement("p");
+  pinName.innerText = location.name.replace("aa", "å").toUpperCase();
+  pinName.classList.add("location-name");
+
+  const pinContainer = document.createElement("div");
+  pinContainer.classList.add("pin-container");
+  pinContainer.style.top = location.top;
+  pinContainer.style.left = location.left;
+  pinContainer.dataset.name = location.name.replace("aa", "å");
+
+  pinContainer.appendChild(pinName);
+  pinContainer.appendChild(pin);
+  pinContainer.addEventListener("click", function(){createModal(location)})
+
+  return pinContainer;
 }
 
+// POPUP MODAL LOGIK vvvvv
+
+//link til google maps API
 const mapsLink = "https://www.google.com/maps/search/?api=1&query=";
 
 const modal = document.getElementById("kort-popup");
 
+//Skifter al dataen i modal til dataen fra objektet i parametret
 function createModal(obj) {
 
     const banner = document.getElementById("modal-top");
@@ -164,6 +193,8 @@ function createModal(obj) {
     modal.style.display = "flex"
 
 }
+
+// Fjerner modal når bruger klikker bag ved modal eller på krydset
 
 document.getElementById("modal-bg").addEventListener("click", () => {
     modal.style.display = "none"

@@ -1,9 +1,12 @@
+// NAVBAR LOGIK vvvv
+
 const burger = document.getElementById('burger-container');
 const navmenu = document.getElementById('navmenu');
 
 const toggleMode = document.getElementById('mode-toggle');
 const toggleContainer = document.querySelector(".toggle-container");
 
+//checker om brugeren har en preference for farvetema eller om brugeren tidligere har valgt et farvetema der er gemt i sessionStorage
 if (sessionStorage.getItem("mode") == null) {
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     toggleContainer.classList.toggle("toggled")
@@ -23,6 +26,8 @@ else if (sessionStorage.getItem("mode") == "light"){
   document.body.classList.remove("dark-mode")
 }
 
+//Lytter efter om brugeren klikker på farvetemaknappen og skifter derefter farvetemaet
+
 toggleMode.addEventListener("click", () => {
   if (document.body.classList.contains("dark-mode")) {
     sessionStorage.setItem("mode", "light")
@@ -35,6 +40,8 @@ toggleMode.addEventListener("click", () => {
 })
 
 
+//Viser menuen når brugeren klikker på burgerikonet
+//animerer burgerikonets linjer ved at tilføje eller fjerne classes
 burger.addEventListener("click", () => {
     if (navmenu.style.display == "flex") {
         burger.setAttribute("class", "after-menu");
