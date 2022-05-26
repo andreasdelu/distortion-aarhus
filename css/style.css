@@ -362,19 +362,21 @@ address h4{
     }
 }
 
+
 @media screen and (max-width: 750px) {
-    main{
-        background-color: white;
-    }
-    #video{
-        display: none;
-    }
     .left-section{
         display: none;
     }
     .right-section{
         width: 100vw;
     }
+    main{
+        background-color: white;
+    }
+    #video{
+        display: none;
+    }
+    
     #navmenu{
         width: 100vw;
     }
