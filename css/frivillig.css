@@ -66,7 +66,7 @@ input[type=submit]:hover {
 
 /* fødselsdags felt */
 #fods {
-    border-radius: 5px #cccccc;
+    border-radius: 5px;
     padding: 10px;
     margin: 5px auto 12px auto;
     font-family: var(--bebas-exp);
