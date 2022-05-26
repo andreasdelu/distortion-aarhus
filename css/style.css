@@ -293,7 +293,7 @@ section{
 #ticketanim, #kortanim{
     width: 80%;
     max-width: 500px;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
 }
 
 
