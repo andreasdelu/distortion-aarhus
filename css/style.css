@@ -348,7 +348,7 @@ address{
     color: var(--text-clr);
 }
 
-address h4{
+.footer-titel{
     font-size: 2rem;
     font-weight: 300;
 }
