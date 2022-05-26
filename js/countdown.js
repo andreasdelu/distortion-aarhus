@@ -1,24 +1,24 @@
 // Dato vi tæller til
-var countDownDate = new Date("Jun 7, 2023 12:00:00").getTime();
+let countDownDate = new Date("Jun 7, 2023 12:00:00").getTime();
 
 // opdaterer countdown hvert sekund
-var x = setInterval(function() {
+let x = setInterval(function() {
 
   // få dagens dato og tid
-  var now = new Date().getTime();
+  let now = new Date().getTime();
     
   // finder forskellen på de to datoer
-  var distance = countDownDate - now;
+  let distance = countDownDate - now;
     
   // udregning for dage, timer, minutter og sekunder
   // tierne i sekunder, minutter og timer fås også
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  var secTens = Math.floor(seconds/10)
-  var minTens = Math.floor(minutes/10)
-  var hourTens = Math.floor(hours/10)
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let secTens = Math.floor(seconds/10)
+  let minTens = Math.floor(minutes/10)
+  let hourTens = Math.floor(hours/10)
 
   // tilføjer et 0 foran timer, minutter og sekunder hvis de er under 9, for altid at have to cifre
   if (hours <= 9) {
