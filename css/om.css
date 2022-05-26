@@ -1,3 +1,4 @@
+/* Class tilpasset til underside  */
 .right-section {
     height: fit-content;
     max-height: none;
@@ -16,6 +17,7 @@
     width: 13ch;
 }
 
+/* Styling af links til undersider */
 .side_skift {
     display: flex;
     justify-content: space-around;
@@ -64,7 +66,7 @@ a {
 
 /* Billede til distortion ved responsivitet  */
 .idag {
-    display: none; 
+    display: none;
 }
 
 
@@ -86,7 +88,7 @@ a {
     }
 
     .idag {
-        display: block; 
+        display: block;
     }
 
     .dis_idag {
@@ -124,7 +126,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
 
     .underside-titel {
         font-size: 3.4rem;

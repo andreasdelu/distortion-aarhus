@@ -1,7 +1,9 @@
+/* Farve variabler  */
 :root{
     --green-clr: var(--green);
 }
 
+/* Opsætning af højre side tilpasset til siden  */
 .right-section{
     max-height: none;
     height: 100%;
@@ -11,10 +13,12 @@
     color: var(--text-clr);
 }
 
+/* Titel på siden: "Kort" */
 .underside-titel{
     text-decoration: underline var(--green);
 }
 
+/* Styling af kort generelt */
 .kort-forklaring{
     margin-top: 25px;
     padding: 0 2rem;
