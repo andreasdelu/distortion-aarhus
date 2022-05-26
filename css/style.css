@@ -319,6 +319,12 @@ section{
 
 /* footer styling */
 
+#footer{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
 footer{
     width: 100%;
     display: flex;
