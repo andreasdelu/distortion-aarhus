@@ -1,10 +1,11 @@
+/* Farve variabler  */
 :root{
     --friday-clr: var(--yellow);
     --saturday-clr: var(--blue);
     --sunday-clr: var(--green);
 }
 
-
+/* Class tilpasset til underside  */
 .right-section{
     max-height: none;
     height: 100%;
@@ -13,10 +14,12 @@
     min-height: 100vh;
 }
 
+/* Titel på siden: "Program" */
 .underside-titel{
     text-decoration: underline var(--red);
 }
 
+/* Liste og grid styling  */
 #pref-container{
     filter: invert(var(--invert));
     display: flex;
@@ -39,6 +42,7 @@
     opacity: 1!important;
 }
 
+/* Loading skærm  */
 #artist-loading{
     position: absolute;
     top: 0;
@@ -76,6 +80,7 @@
     margin-top: 5px;
 }
 
+/* Program over de forskellige dage styling */
 .program-dag{
     margin-top: 50px;
     font-size: 3.5rem;
@@ -103,6 +108,7 @@
     border-color: var(--sunday-clr);
 }
 
+/* overlay med tekst over hver artist */
 .artist-overlay:before{
     content: '';
     position: absolute;
@@ -123,6 +129,7 @@
     background-color: var(--sunday-clr);
 }
 
+/* Opsætning af artister med grid */
 .artist-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -204,6 +211,8 @@
     -webkit-text-stroke: 0.5px white;
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5));
 }
+
+/* Opsætning af artister med list */
 .list-friday{
     --day-clr: var(--friday-clr);
 }
@@ -248,6 +257,7 @@
     margin-left: 5px;
 }
 
+/* Popup vindue styling  */
 #artist-popup{
     position: fixed;
     top: 0;

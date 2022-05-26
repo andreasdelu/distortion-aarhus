@@ -1,13 +1,16 @@
+/* Class tilpasset til underside  */
 .right-section {
   height: fit-content;
   max-height: none;
   color: var(--text-clr)
 }
 
+/* Titel på siden: "Merchandise" */
 .underside-titel {
   text-decoration: underline var(--yellow);
 }
 
+/* Container med alt indhold på siden  */
 #wrapper {
   display: grid;
   Grid-template-columns: repeat(2, 1fr);
@@ -17,13 +20,7 @@
   grid-gap: 1em;
 }
 
-.hero {
-  width: 100%;
-  display: block;
-}
-
-
-/* Køb nu hover  */
+/* Container med merch  */
 .merch-container {
   position: relative;
   cursor: pointer;
@@ -32,13 +29,7 @@
   width: 100%;
 }
 
-
-
-.merch-container:hover .toj_img {
-  transform: scale(1.05);
-  transition: all 0.4s;
-}
-
+/* Under overskrifter  */
 .span4 {
   text-align: center;
   font-size: 2rem;
@@ -48,26 +39,22 @@
   font-weight: bold;
 }
 
-.overskrift {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-}
-
-
+/* Billede styling  */
 .toj_img {
- width: 100%;
- cursor: pointer; 
+  width: 100%;
+  cursor: pointer;
 }
 
 .toj_img_container {
-  width: 100%; 
-  position: relative; 
+  width: 100%;
+  position: relative;
   overflow: hidden;
+}
+
+/* Køb nu hover  */
+.merch-container:hover .toj_img {
+  transform: scale(1.05);
+  transition: all 0.4s;
 }
 
 .toj_img_container:hover:after {
@@ -78,29 +65,46 @@
   left: 0;
   width: 100%;
   height: 15%;
-  display: flex; 
+  display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   background-color: black;
   z-index: 3;
-  color: white; 
+  color: white;
 }
 
+/* Pris og info om produktet  */
 .tx_under {
   font-size: 1.4rem;
 }
 
 
+@media only screen and (max-width: 1000px) {
+
+  .underside-titel {
+    font-size: 4.4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .tx_under {
+    font-size: 1rem;
+  }
+
+  .underside-titel {
+    font-size: 3.9rem;
+  }
+}
+
 @media only screen and (max-width: 376px) {
+
   .merch-container {
     grid-column: span 2;
   }
 
-}
-
-@media only screen and (max-width: 500px) {
-    .tx_under {
-    font-size: 1rem;
+  .underside-titel {
+    font-size: 3.6rem;
   }
 }

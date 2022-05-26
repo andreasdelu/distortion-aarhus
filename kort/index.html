@@ -75,6 +75,8 @@
                 <div id="kort-container">
                     <div id="kort-alt">
                         <img id="kort-outline" src="../images/kort/outline.svg" alt="Aarhus kort"/>
+
+                        <!-- Område Ø SVG kode  -->
                         <svg id="kort-oe" class="kort-area" data-area="oe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344.22 392.14">
                             <defs>
                                 <style>
@@ -94,6 +96,8 @@
                                 </g>
                             </g>
                         </svg>
+
+                        <!-- Område Å SVG kode  -->
                         <svg id="kort-aa" class="kort-area" data-area="aa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356.67 440.98">
                             <defs>
                                 <style>
@@ -113,6 +117,8 @@
                                 </g>
                             </g>
                         </svg>
+
+                        <!-- Område X SVG kode  -->
                         <svg id="kort-x" class="kort-area" data-area="x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 667.18 620.75">
                             <defs>
                                 <style>
@@ -131,27 +137,41 @@
                                 </g>
                             </g>
                         </svg>
+
+                        <!-- Undertitel på kortet  -->
                         <h2 id="kort-alt-text">Distortion <br> Aarhus</h2>
                     </div>
+
+                    <!-- Container til omrids af område Ø -->
                     <div id="area-oe" class="area-map" style="display: none;">
                         <img class="arrow-back" src="../images/arrow.svg" alt="arrow back icon">
                         <img src="../images/kort/outlineoe.svg" alt="Aarhus Ø outline">
+                        <!-- Container til nålene på område Ø -->
                         <div id="oe-locations" class="map-locations"></div>
                     </div>
+
+                    <!-- Container til omrids af område Å -->
                     <div id="area-aa" class="area-map" style="display: none;">
                         <img class="arrow-back" src="../images/arrow.svg" alt="arrow back icon">
                         <img src="../images/kort/outlineaa.svg" alt="Aarhus Å outline">
+                        <!-- Container til nålene på område Å -->
                         <div id="aa-locations" class="map-locations"></div>
                     </div>
+
+                    <!-- Container til omrids af område X -->
                     <div id="area-x" class="area-map" style="display: none;">
                         <img class="arrow-back" src="../images/arrow.svg" alt="arrow back icon">
                         <img src="../images/kort/outlinex.svg" alt="Aarhus X outline">
+                        <!-- Container til nålene på område X -->
                         <div id="x-locations" class="map-locations"></div>
                     </div>
                 </div>
             </div>
+
+            <!-- container til popup vindue med information om scener-->
             <div id="kort-popup">
                 <div id="modal-bg"></div>
+                <!-- Selve popup vinduet  -->
                 <div id="modal">
                     <div id="modal-top"> 
                         <img id="modal-img" src="../images/kort/klostertorv.svg" alt="">

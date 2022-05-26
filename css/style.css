@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/njj5nkb.css");
 
+/* Farve variabler  */
 :root{
     --bebas: bebas-neue-pro, sans-serif;
     --bebas-semi: bebas-neue-pro-semiexpanded, sans-serif;
@@ -24,7 +25,7 @@
     margin: 0;
 }
 
-
+/* Ændre farver ved dark mode */
 .dark-mode{
     --bg-clr: #18171a;
     --menu-clr: white;
@@ -33,6 +34,7 @@
     --invert: 1;
 }
 
+/* Body styling  */
 body{
     width: 100vw;
     overflow-x: hidden;
@@ -44,6 +46,7 @@ body{
     background-color: var(--bg-clr);
 }
 
+/* Fjerner scrollbar */
 ::-webkit-scrollbar {
     width: 0;
     background: transparent;
@@ -52,19 +55,21 @@ body{
     background: var(--menu-clr);
 }
 
+/* Titel over de forskellige sider styling  */
 .underside-titel{
     margin-top: 100px;
     font-size: 6rem;
     color: var(--text-clr);
 }
 
-
+/* Main styling  */
 main{
     height: 100%;
     --opacity: 0.4;
     background: linear-gradient(180deg, rgba(255, 74, 74,var(--opacity)) 0%, rgba(253, 234, 89,var(--opacity)) 34%, rgba(31, 216, 109,var(--opacity)) 68%, rgba(62, 188, 255,var(--opacity)) 100%);
 }
 
+/* Video i venstre side af siden styling  */
 #video{
     width: 100%;
     background-image: url("../images/hero.jpeg");
@@ -85,6 +90,7 @@ section{
     align-items: center;
 }
 
+/* Styling af højre side af siden  */
 .right-section{
     height: 100vh;
     max-height: 800px;
@@ -104,9 +110,9 @@ section{
 }
 .last-section{
     border-radius: 0 0 0 5px;
-    /* padding-top: 80px!important; */
 }
 
+/* Styling af venstre side af siden  */
 .left-section{
     width: 50vw;
     display: flex;
@@ -140,11 +146,13 @@ section{
     animation: side 20s infinite;
 }
 
+/* Styling af overskrifter i venstre side  */
 @keyframes side {
     from{transform: scale(1.06) skewY(1deg);}
     50%{transform: scale(1.06) skewY(-1deg);}
 }
 
+/* Styling af stor logo på forsiden  */
 #logo{
     width: 300px;
     max-width: 400px;
@@ -157,7 +165,6 @@ section{
 }
 
 /* Countdown timer */
-
 #countdown {
     
     text-align: center;
@@ -223,7 +230,6 @@ section{
 
 
 /* Artist karrussel */
-
 #artist-karrussel, #merch-karrussel{
     height: 70vh;
     max-height: 450px;
@@ -253,7 +259,6 @@ section{
 }
 
 /* Merch karrussel */
-
 .karrussel-merch{
     width: 100%;
     height: 50%;
@@ -264,8 +269,8 @@ section{
 .karrussel-merch:first-child{
     background-position: right;
 }
-/* Knap styling */
 
+/* Knap styling */
 .button{
     width: 13ch;
     display: block;

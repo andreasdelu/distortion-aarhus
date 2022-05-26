@@ -1,165 +1,143 @@
+/* Class tilpasset til underside  */
 .right-section {
-    height: fit-content; 
-    max-height: none; 
+    height: fit-content;
+    max-height: none;
 }
 
+/* Titel på siden: "Billet" */
 .underside-titel {
-text-decoration: underline var(--blue);
+    text-decoration: underline var(--blue);
 }
 
-.wrapper_overskrift {
-    display: flex; 
-    justify-content: space-between;
-    background-color: black; 
-    width: 100%; 
-    padding: 20px 0px;
-    margin-top: 100px;
-}
-
-.farve {
-    width: 100%; 
-    background-color: var(--blue); 
-    padding: 2px 0px; 
-}
-
+/* Styling af links generelt */
 a {
-    color: black; 
+    color: black;
     text-decoration: none;
 }
 
-.logo_element {
-    height: 80px; 
-    width: 30px; 
-    margin: auto 15px; 
-}
-
-.overskrift {
-    color: white; 
-    font-size: 4rem; 
-    text-align: center;  
-}
-
-.wrapper_billetter {
-    width: 100%; 
-}
-
+/* Container til hvert enkelte billet  */
 .parent_billetter {
     position: relative;
-    display: flex; 
-    width: 100%;  
+    display: flex;
+    width: 100%;
     justify-content: space-between;
-    margin: 50px 0; 
+    margin: 50px 0;
     z-index: 1;
 }
 
+/* Baggrunds img til hver billet */
 .banner {
     width: 100%;
-    height: 90%; 
-    z-index: 0; 
-    position: absolute; 
+    height: 90%;
+    z-index: 0;
+    position: absolute;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     align-self: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     transition: transform .1s;
     filter: brightness(50%);
 }
 
-.billet { 
+/* Styling af billet img  */
+.billet {
     display: block;
     width: 200px;
     height: auto;
     z-index: 1;
-    margin-right: 25px; 
+    margin-right: 25px;
     transition: transform .1s;
     cursor: pointer;
 }
 
+/* Container med alt tekst på hvert element */
 .billet-tekst {
     margin-left: 25px;
-    color: white; 
+    color: white;
     z-index: 1;
-    height:inherit;  
-    padding: 2rem 0; 
-    max-width: 50%; 
+    height: inherit;
+    padding: 2rem 0;
+    max-width: 50%;
     transition: transform .2s;
 }
+
 
 .info_bill {
     margin-bottom: 5px;
     font-size: 1rem;
 }
 
+
 .dag {
-    margin-bottom: 20%; 
-    font-size: 35px; 
+    margin-bottom: 20%;
+    font-size: 35px;
 }
 
+/* Knap til "køb billet" */
 .koeb {
     margin-top: -93px;
     z-index: 2;
 }
-.button{
+
+.button {
     background-color: var(--bg-clr);
 }
 
+/* Pris som vises ved mobil tilstand  */
 .pris {
-    display:none; 
-    font-size: 2rem; 
-    margin-bottom: 18%; 
+    display: none;
+    font-size: 2rem;
+    margin-bottom: 18%;
     text-align: center;
 }
 
-
 /* Hover over billet billeder  */
-.parent_billetter:hover > .banner {
+.parent_billetter:hover>.banner {
     filter: blur(4px) brightness(40%);
 }
 
-.parent_billetter:hover > .billet-tekst {
+.parent_billetter:hover>.billet-tekst {
     transform: scale(1.04);
 }
 
-.parent_billetter:hover > .billet {
+.parent_billetter:hover>.billet {
     transform: scale(1.04);
 }
+
 
 @media only screen and (max-width: 1350px) {
 
     .dag {
-        margin-bottom: 20%; 
+        margin-bottom: 20%;
     }
 
     .billet {
-        width: 180px; 
+        width: 180px;
         margin-right: 1.5%;
-        margin-top: 4%;  
+        margin-top: 4%;
     }
 
     .info_bill {
         margin-bottom: 20%;
-    }   
-
-
+    }
 }
 
 
 @media only screen and (max-width: 1189px) {
+
     .billet {
-        width: 160px; 
-        margin-right: 2%; 
-        margin-top: 3.5%; 
+        width: 160px;
+        margin-right: 2%;
+        margin-top: 3.5%;
     }
 
     .dag {
-        margin-bottom: 10%; 
+        margin-bottom: 10%;
     }
 
     .info_bill {
         margin-bottom: 15%;
     }
-
-
 }
 
 @media only screen and (max-width: 1111px) {
@@ -171,69 +149,74 @@ a {
 
     .info_bill {
         margin-bottom: 27%;
-    }   
-  
+    }
 }
 
 
 @media only screen and (max-width: 887px) {
+
     .billet {
-        width: 140px; 
-        margin-top: 8%; 
+        width: 140px;
+        margin-top: 8%;
     }
 
     .info_bill {
         margin-bottom: 20%;
     }
-
 }
 
-    
+
 @media only screen and (max-width: 750px) {
 
     .billet {
-        width: 180px; 
-        margin-top: 1%;  
+        width: 180px;
+        margin-top: 1%;
     }
 
     .dag {
-        margin-bottom: 12%; 
+        margin-bottom: 12%;
     }
 
     .info_bill {
         margin-bottom: 8%;
     }
-
 }
 
 
 @media only screen and (max-width: 595px) {
- 
+
     .billet {
-        width: 140px; 
-        margin-top: 7%;  
+        width: 140px;
+        margin-top: 7%;
     }
 
     .info_bill {
         margin-bottom: 20%;
-    }   
+    }
 }
 
 @media only screen and (max-width: 400px) {
-    
+
     .billet {
-        display: none; 
+        display: none;
     }
 
     .billet-tekst {
-        max-width: 90%; 
+        max-width: 90%;
     }
 
     .info_bill {
         margin-bottom: 10%;
-    }   
+    }
 
     .pris {
-        display:block; 
+        display: block;
     }
 }
+
+@media only screen and (max-width: 376px) {
+  
+    .underside-titel {
+      font-size: 4.2rem;
+    }
+  }
