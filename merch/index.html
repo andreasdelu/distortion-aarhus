@@ -15,11 +15,14 @@
 </head>
 
 <body>
+  <!-- container til header content -->
   <header id="header">
+    <!-- småt logo og dato container -->
     <div id="logo-date">
       <a id="small-logo" href="../"><img src="../images/logosmall.webp" alt="Aarhus Distortion Logo"></a>
       <p>7. - 11. JUNI 2023</p>
     </div>
+    <!-- container til dark/light mode, sprog, billetknap og burgermenu -->
     <div id="header-icons">
       <div id="languages">
         <a id="danish" class="language-selected" href="#">DA</a> / <a id="english" href="#">ENG</a>
@@ -34,6 +37,7 @@
         <img id="ticket-norip" src="../images/ticket.svg" alt="ticket icon">
         <img id="ticket-rip" src="../images/ticket_rip.svg" alt="ticket icon">
       </a>
+      <!-- Burger ikon i svg format for at kunne animere linjerne -->
       <div class="after-menu" id="burger-container">
         <svg id="burger" xmlns="http://www.w3.org/2000/svg" width="35" height="49.672" viewBox="0 0 55.5 49.672">
           <g id="burger-g" transform="translate(-183.709 2)">
@@ -48,6 +52,7 @@
       </div>
     </div>
   </header>
+  <!-- Menu container, liste med links -->
   <nav id="navmenu" style="display: none;">
     <ul>
       <li><a id="link-program" href="../program/">Program</a></li>

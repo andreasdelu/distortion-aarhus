@@ -9,6 +9,7 @@
     --text-alt: white;
 }
 
+/* Header container styling */
 
 #header{
     position: fixed;
@@ -34,6 +35,9 @@
     opacity: 0.4;
     transition: background-color 0.3s;
 }
+
+/* småt logo og dato container styling */
+
 #logo-date{
     height: 60px;
     font-size: 1.3rem;
@@ -52,6 +56,8 @@
 #small-logo img{
     height: 100%;
 }
+
+/* sprog, dark/lightmode, billet, burger container styling */
 
 #header-icons{
     height: 30px;
@@ -79,6 +85,8 @@
     filter: invert(var(--invert));
     width: fit-content;
 }
+
+/* after element der vises nå brugeren hover over burger ikon */
 
 .after-menu:after{
     display: block;
@@ -133,6 +141,8 @@
     margin: 0 auto;
 }
 
+/* billet ryste animation */
+
 @keyframes shake {
     from{transform: rotateZ(0);}
     1%{transform: rotateZ(3deg);}
@@ -168,6 +178,8 @@
     height: 28px;
 }
 
+/* sprog picker styling */
+
 #languages{
     font-size: 1.3rem;
     color: var(--menu-clr);
@@ -185,6 +197,8 @@
     font-weight: bold!important;
     pointer-events: none!important;
 }
+
+/* Menu styling + link styling */
 
 #navmenu{
     width: 50vw;
@@ -259,6 +273,9 @@
     width: 1.3rem;
     right: -1.3rem;
 }
+
+/* farver på link hover effekt */
+
 #link-program:hover:after{
     background-color: var(--red);
 }
@@ -278,7 +295,7 @@
     background-color: rgb(255, 198, 105);
 }
 
-
+/* linjer i burgerikon styling */
 
 #top-line{transition: 0.3s ease-in-out;}
 #mid-line{transition: 0.3s;}

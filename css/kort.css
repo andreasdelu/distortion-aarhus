@@ -18,12 +18,12 @@
     text-decoration: underline var(--green);
 }
 
-/* Styling af kort generelt */
 .kort-forklaring{
     margin-top: 25px;
     padding: 0 2rem;
 }
 
+/* Styling af kort generelt */
 #kort-container{
     width: calc(100% - 50px); 
     max-width: 600px;
@@ -47,11 +47,15 @@
     font-size: 3rem;
 }
 
+/* outline på kort styling der følger siden farvetema */
+
 #kort-outline{
     display: block;
     filter: invert(var(--invert));
     width: 100%; 
 }
+
+/* farvede områder styling */
 
 .kort-area{
     opacity: 0.8;
@@ -63,6 +67,8 @@
 .kort-area:hover{
     opacity: 1;
 }
+
+/* styling af svg fr områder, absolut placering i container */
 
 #kort-x{
     bottom: 7%;
@@ -104,6 +110,8 @@
     transform: translateY(-8%);
 }
 
+/* styling for område ved zoom ind */
+
 .area-map{
     position: absolute;
     height: 100%;
@@ -129,6 +137,8 @@
     left: 25px;
     z-index: 8;
 }
+
+/* kort nål styling */
 
 .map-locations{
     position: absolute;
@@ -169,6 +179,8 @@
     z-index: 2;
 }
 
+/* after element der giver den røde ring ved nål */
+
 .pin-container::after{
     content: '';
     width: 40%;
@@ -187,6 +199,8 @@
     filter: drop-shadow(0 0 2px var(--red));
 }
 
+/* animationer til nål */
+
 @keyframes pinAnim {
     from{ transform: translateY(0); }
     50%{ transform: translateY(-5%); }
@@ -196,6 +210,8 @@
     from{ transform: translateX(-50%) scale(1.3); }
     50%{ transform: translateX(-50%) scale(1); }
 }
+
+/* popup modal styling */
 
 #kort-popup{
     position: fixed;
