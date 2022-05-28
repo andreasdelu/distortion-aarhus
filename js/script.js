@@ -20,9 +20,9 @@ window.addEventListener("scroll", () => {
 //De to karussellers backgroundPosition opdateres relativt brugerens scroll position på siden
 //Den ene er negativ for at få den til at bevæge sig modsat den anden
 function karrusselScroll() {
-    karrusselTop.style.backgroundPositionX = 100 + scrollY/20 + "%"
+    karrusselTop.style.backgroundPositionX = 20 + scrollY/20 + "%"
     karrusselBot.style.backgroundPositionX = "-" + scrollY/20 + "%"
-    karrusselMerchBot.style.backgroundPositionX = 100 + scrollY/20 + "%"
+    karrusselMerchBot.style.backgroundPositionX = 130 + scrollY/20 + "%"
     karrusselMerchTop.style.backgroundPositionX = "-" + scrollY/20 + "%"
 }
 
