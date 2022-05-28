@@ -184,9 +184,10 @@ function createModal(obj) {
 
     banner.style.backgroundColor = `var(--${obj.color})`
     name.innerText = obj.name.replace("aa", "å");
-    img.src = `../images/kort/${obj.name}.svg`
-    location.innerText = obj.location;
-    link.href = mapsLink + obj.location;
+    img.src = `../images/kort/${obj.name}.svg`;
+    link.onclick = () => {
+      window.open(mapsLink + obj.location)
+    }
     date.innerText = obj.date;
     info.innerText = obj.info;
 
